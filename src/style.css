@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Tajawal", sans-serif;
+}
+
+.lang-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 100;
+}
+.main {
+  background-image: url("./assets/static/2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.english-text {
+  direction: ltr;
+  text-align: left !important;
+}
+
+.card {
+  /* other styles */
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  margin: 0.6rem;
+  padding: 0.5rem 1rem 0.5rem 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-box {
+  border-radius: 0px;
+  padding: 0.2rem 1rem 0.1rem 1rem;
+  z-index: 0;
+}
+
+.login-label {
+  margin-right: -2rem;
+}
+
+.form-head-msg {
+  margin-right: -3rem;
+  margin-top: -1rem;
+  font-size: 1.16rem;
+  font-weight: 500;
+  color: #353535;
+}
+
+a {
+  font-weight: 500;
+  color: #278092;
+}
+
+.form-control {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  background: white;
+}
+
+.post-btn {
+  width: 90%;
+  border: none;
+}
+
+.perview-btn {
+  background-color: #3e93a4;
+  border: none;
+
+  width: 12rem;
+  margin-left: 2rem;
+}
+
+.alert {
+  padding: 0.5rem 0;
+  width: 77%;
+  margin-left: 3.6rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    background-image: url("./assets/static/99.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .card {
+    /* other styles */
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    margin-top: 5rem;
+    padding: 0.5rem 1rem 0.5rem 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+}

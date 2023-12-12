@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg {
+  background-image: url("11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card {
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+
+  padding: 1rem 1rem 0.5rem 0;
+}
+.left {
+  width: 50vw;
+  height: 100vh;
+  background-image: url("4.jpg");
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 1000px) {
+  .main {
+    flex-direction: column;
+  }
+  .left,
+  .right {
+    width: 100vw;
+    height: 50vh;
+  }
+}
+.login-box {
+  border-radius: 0px;
+
+  padding: 1rem;
+  z-index: 0;
+}
+.form-control {
+  width: 85%;
+
+  background: white;
+}
+.alert1 {
+  width: 75%;
+  padding: 0.6rem;
+}
+.post-btn {
+  width: 85%;
+  background-color: #36546e;
+  border: none;
+}
