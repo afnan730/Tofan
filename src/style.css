@@ -30,7 +30,7 @@
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   margin: 0.6rem;
-  padding: 0.5rem 1rem 0.5rem 0;
+  padding: 0.5rem;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
@@ -74,13 +74,12 @@ a {
   border: none;
 
   width: 12rem;
-  margin-left: 2rem;
 }
 
 .alert {
   padding: 0.5rem 0;
-  width: 77%;
-  margin-left: 3.6rem;
+  width: 80%;
+  margin-left: 2rem;
 }
 
 @media only screen and (max-width: 600px) {

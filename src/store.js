@@ -8,49 +8,24 @@ const store = createStore({
     return {
       tweets: [
         {
-          text: "tweets",
+          text: "Massive destruction at the UNRWA school in northern Gaza Strip named 'Palestine' after a ground invasion by the Israeli forces.",
           type: "image",
           src: img1,
         },
         {
-          text: "tweets",
+          text: "Injuries among civilians and children after an Israeli bombardment of a residential block in Rafah, the Gaza Strip.",
+          type: "image",
+          src: img2,
+        },
+        {
+          text: "Protesters in New York block all traffic on 1st Avenue as they demonstrate in front of the UN",
           type: "video",
           src: video1,
         },
         {
           text: "tweets",
-          type: "video",
-          src: video1,
-        },
-        {
-          text: "tweets",
           type: "image",
-          src: img2,
-        },
-        {
-          text: "tweets",
-          type: "image",
-          src: img2,
-        },
-        {
-          text: "tweets",
-          type: "image",
-          src: img2,
-        },
-        {
-          text: "tweets",
-          type: "image",
-          src: img2,
-        },
-        {
-          text: "tweets",
-          type: "image",
-          src: img2,
-        },
-        {
-          text: "tweets",
-          type: "image",
-          src: img2,
+          src: img1,
         },
         {
           text: "tweets",
