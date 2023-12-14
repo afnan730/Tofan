@@ -67,7 +67,7 @@
               />
 
               <label class="form-label" for="barerr_token"
-                >5. Barerr Token:</label
+                >5. Bearer Token:</label
               >
               <input
                 class="form-control"
