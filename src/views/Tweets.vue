@@ -1,14 +1,14 @@
 <template>
-  <div class='container'>
-      <h3 class="m-2 title">{{content.tweetsHeader}}</h3>
+  <div class='container '>
+      <h3 class="my-2 title text-center ">{{content.tweetsHeader}}</h3>
     
     <div class="row ">
       <div v-for="tweet in tweets" :key="tweet" class="card col-6 col-md-3 col-lg-4 " style="width: 18rem;">
-        <img  v-if="tweet.type=='image'" :src="tweet.src" class="card-img-top img-fluid imgs ms-2" alt="..." >
+        <img  v-if="tweet.type=='image'" :src="tweet.src" class="card-img-top img-fluid imgs mx-1" alt="..." >
          <video v-else style="height: 18rem;" controls>
           <source src="../assets/static/video1.mp4" type="video/mp4" class="card-img-top"></video>
         <div class="card-body">
-          <p class="card-text">{{ tweet.text }}
+          <p class="card-text text-start">{{ tweet.text }}
             </p>
         </div>
       </div>

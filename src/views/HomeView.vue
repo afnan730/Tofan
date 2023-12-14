@@ -86,13 +86,46 @@
             </form>
 
              
-
+<!-- 
               <div v-if="error" class="alert alert-danger  mt-2 " role="alert">
               {{ error }}
+            </div> -->
+            <div v-if="checkError" class="modal fade show" tabindex="-1" role="dialog" style="display: block;">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    
+                    <button type="button" class="btn-close" @click="clearError" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body text-danger text-center">
+                  <h5>{{ error }}</h5> 
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" @click="clearError">Close</button>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div v-if="message" class="alert alert-success mt-2" role="alert">
+            <div v-if="success" class="modal fade show" tabindex="-1" role="dialog" style="display: block;">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    
+                    <button type="button" class="btn-close" @click="clearMessage" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body text-success text-center">
+                  <h5>{{ message }}</h5> 
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" @click="clearMessage">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div v-if="message" class="alert alert-success mt-2" role="alert">
               {{ message }}
-            </div>
+            </div> -->
             </div>
           </div>
 
@@ -109,9 +142,11 @@
 <script>
 
 import axios from "axios";
+
 export default {
   data() {
     return {
+      
       // appKey: "vowAi6CPiU46od26plGTiJLEo",
       // appSecret: "j9YsLwp1o21yhFotChUqHokfVQaiTA0X6qTANMWENsTT5BOHZ6",
       // accessToken: "1734262174195843072-9OxZ4dtPAlS0Pi5nU9KO5TTH6SRcr0",
@@ -123,9 +158,9 @@ export default {
       accessToken:"1717260465061900288-MOxE88pAfDcLmEWSdlEWRkGdbAlZno",
       accessSecret:"ELPEPZ5ACeDKm24DJyURfUjrGRdzHSCbrNstAZNlKjVtC",
       bearerToken:"AAAAAAAAAAAAAAAAAAAAAEVXrAEAAAAAZe%2Brr3RBjr%2FijF5oB03dEuR8H9o%3Diibjx6cGGKnLeqKXp3wiuItdxQL7GCy4WJRj3ntcCqGiyWOk2J",
-
       message: null,
       error: null,
+      
     };
   },
   methods: {
@@ -154,12 +189,25 @@ export default {
         console.log(e.response.data)
         this.error = e.response.data
         });
+    },
+    clearError(){
+      this.error=null;
+    },
+    clearMessage(){
+      this.message=null;
     }
   },
   computed: {
     content() {
       return this.$store.getters.Content;
     },
+    checkError(){
+      return this.error;
+    },
+    success(){
+      return this.message;
+    }
+    
     }
 };
 </script>
