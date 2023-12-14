@@ -30,4 +30,3 @@ jobs:
           script: |
             rm -r /home/thetufan/htdocs/www.thetufan.com
             mv /home/thetufan/htdocs/dist /home/thetufan/htdocs/www.thetufan.com
-            rm -r /home/thetufan/htdocs/dist
