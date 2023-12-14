@@ -18,7 +18,7 @@ jobs:
           username: "root"
           port: "22"
           key: ${{ secrets.SSHKEY }}
-          source: "dist/*"
+          source: "dist"
           target: "/home/thetufan/htdocs"
       - name: Move build artifacts to the web-server path
         uses: appleboy/ssh-action@master
