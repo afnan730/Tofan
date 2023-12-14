@@ -10,6 +10,8 @@
   top: 0.5rem;
   right: 0.5rem;
   z-index: 100;
+  background-color: #007bff;
+  border: none;
 }
 .main {
   background-image: url("./assets/static/2.jpg");
@@ -67,10 +69,11 @@ a {
 .post-btn {
   width: 90%;
   border: none;
+  background-color: #007bff;
 }
 
 .perview-btn {
-  background-color: #3e93a4;
+  background-color: #292f35;
   border: none;
 
   width: 12rem;

@@ -1,6 +1,6 @@
 <template>
 <div class='main'>
-   <a class="btn btn-dark lang-btn"  @click=" this.$store.state.englishTest ?this.$store.state.englishTest =false:this.$store.state.englishTest =true">{{content.langButton}}</a>
+   <a class="btn btn-primary lang-btn"  @click=" this.$store.state.englishTest ?this.$store.state.englishTest =false:this.$store.state.englishTest =true">{{content.langButton}}</a>
       <div class="main d-flex align-items-center justify-content-center">
        
         <div>
@@ -9,7 +9,7 @@
               <h3 class="text-center login-label fw-bold mb-4">
                 {{content.header}}
               </h3>
-              <p  class=" text-center form-head-msg">
+              <p  class=" text-center form-head-msg mx-1">
                 {{content.command}}
               </p>
               <p class="text-light-emphasis text-center form-head-msg2" dir="rtl">
@@ -26,7 +26,7 @@
               id="tweet-form"
               @submit.prevent="checkTimeWindow()"
             >
-              <label class="form-label" for="consumer_key">Consumer Key:</label>
+              <label class="form-label" for="consumer_key">1. Consumer Key:</label>
               <input
                 class="form-control"
                 type="text"
@@ -36,7 +36,7 @@
               />
 
               <label class="form-label" for="consumer_secret"
-                >Consumer Secret:</label
+                >2. Consumer Secret:</label
               >
               <input
                 class="form-control"
@@ -46,7 +46,7 @@
                 v-model="appSecret"
               />
 
-              <label class="form-label" for="access_token">Access Token:</label>
+              <label class="form-label" for="access_token">3. Access Token:</label>
               <input
                 class="form-control"
                 type="text"
@@ -56,7 +56,7 @@
               />
 
               <label class="form-label" for="access_token_secret"
-                >Access Token Secret:</label
+                >4. Access Token Secret:</label
               >
               <input
                 class="form-control"
@@ -67,7 +67,7 @@
               />
 
               <label class="form-label" for="barerr_token"
-                >Barerr Token:</label
+                >5. Barerr Token:</label
               >
               <input
                 class="form-control"
@@ -80,7 +80,7 @@
                 يمكنك النشر في التاسعة مساءا
               </p> -->
 
-              <button type="submit" class="btn btn-dark post-btn">
+              <button type="submit" class="btn btn-primary post-btn">
                 {{content.postButton}}
               </button>
             </form>
@@ -153,11 +153,11 @@ export default {
       // accessSecret: "YjlJWVJ8thfht3QXcFfgSA7BzH81nDe4BDGZy4IGJ8mFy",
       // bearerToken:
       //   "AAAAAAAAAAAAAAAAAAAAAMW%2BrQEAAAAATfMxRDWw9%2FVGTzPFRBJ0N6j5rXA%3DhuVXo5VboP09LUjRb5gcParm4VgIT7MgnoGKqYUwVbw0JaSjC6",
-      appKey:"uLaOjZK1u527BQGezR2X0eFYw",
-      appSecret:"Dk4HC9V4aQMugzKHwmMe2IOW0iGXsNPcf7b17ShvCSl9oy6vG9",
-      accessToken:"1717260465061900288-MOxE88pAfDcLmEWSdlEWRkGdbAlZno",
-      accessSecret:"ELPEPZ5ACeDKm24DJyURfUjrGRdzHSCbrNstAZNlKjVtC",
-      bearerToken:"AAAAAAAAAAAAAAAAAAAAAEVXrAEAAAAAZe%2Brr3RBjr%2FijF5oB03dEuR8H9o%3Diibjx6cGGKnLeqKXp3wiuItdxQL7GCy4WJRj3ntcCqGiyWOk2J",
+      appKey:null,
+      appSecret:null,
+      accessToken:null,
+      accessSecret:null,
+      bearerToken:null,
       message: null,
       error: null,
       
