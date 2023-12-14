@@ -8,9 +8,9 @@
 .lang-btn {
   position: absolute;
   top: 0.5rem;
-  right: 0.5rem;
+  right: 0.7rem;
   z-index: 100;
-  background-color: #007bff;
+  background-color: #292f35;
   border: none;
 }
 .main {
@@ -69,7 +69,7 @@ a {
 .post-btn {
   width: 90%;
   border: none;
-  background-color: #007bff;
+  background-color: #318c9c;
 }
 
 .perview-btn {

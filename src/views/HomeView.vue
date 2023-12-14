@@ -26,7 +26,7 @@
               id="tweet-form"
               @submit.prevent="checkTimeWindow()"
             >
-              <label class="form-label" for="consumer_key">1. Consumer Key:</label>
+              <label class="form-label" for="consumer_key">1. Consumer Key</label>
               <input
                 class="form-control"
                 type="text"
@@ -36,7 +36,7 @@
               />
 
               <label class="form-label" for="consumer_secret"
-                >2. Consumer Secret:</label
+                >2. Consumer Secret</label
               >
               <input
                 class="form-control"
@@ -46,7 +46,7 @@
                 v-model="appSecret"
               />
 
-              <label class="form-label" for="access_token">3. Access Token:</label>
+              <label class="form-label" for="access_token">3. Access Token</label>
               <input
                 class="form-control"
                 type="text"
@@ -56,7 +56,7 @@
               />
 
               <label class="form-label" for="access_token_secret"
-                >4. Access Token Secret:</label
+                >4. Access Token Secret</label
               >
               <input
                 class="form-control"
@@ -67,7 +67,7 @@
               />
 
               <label class="form-label" for="barerr_token"
-                >5. Bearer Token:</label
+                >5. Bearer Token</label
               >
               <input
                 class="form-control"
@@ -80,7 +80,7 @@
                 يمكنك النشر في التاسعة مساءا
               </p> -->
 
-              <button type="submit" class="btn btn-primary post-btn">
+              <button type="submit" class="btn btn-dark post-btn">
                 {{content.postButton}}
               </button>
             </form>
