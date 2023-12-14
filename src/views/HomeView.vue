@@ -147,12 +147,7 @@ export default {
   data() {
     return {
       
-      // appKey: "vowAi6CPiU46od26plGTiJLEo",
-      // appSecret: "j9YsLwp1o21yhFotChUqHokfVQaiTA0X6qTANMWENsTT5BOHZ6",
-      // accessToken: "1734262174195843072-9OxZ4dtPAlS0Pi5nU9KO5TTH6SRcr0",
-      // accessSecret: "YjlJWVJ8thfht3QXcFfgSA7BzH81nDe4BDGZy4IGJ8mFy",
-      // bearerToken:
-      //   "AAAAAAAAAAAAAAAAAAAAAMW%2BrQEAAAAATfMxRDWw9%2FVGTzPFRBJ0N6j5rXA%3DhuVXo5VboP09LUjRb5gcParm4VgIT7MgnoGKqYUwVbw0JaSjC6",
+     
       appKey:null,
       appSecret:null,
       accessToken:null,
