@@ -19,4 +19,15 @@ jobs:
           port: "22"
           key: ${{ secrets.SSHKEY }}
           source: "dist/*"
-          target: "/home/thetufan/htdocs/www.thetufan.com"
+          target: "/home/thetufan/htdocs"
+      - name: Move build artifacts to the web-server path
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST_TWO }}
+          USERNAME: ${{ secrets.USERNAME }}
+          PORT: ${{ secrets.PORT }}
+          KEY: ${{ secrets.SSHKEY_TWO }}
+          script: |
+            rm -r /home/thetufan/htdocs/www.thetufan.com
+            mv /home/thetufan/htdocs/dist /home/thetufan/htdocs/www.thetufan.com
+            rm -r /home/thetufan/htdocs/dist
