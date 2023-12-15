@@ -168,7 +168,8 @@ export default {
       //   this.error = "It's not time";
       //   return;
       // }
-      this.submit();
+      // this.submit();
+      this.error="تم تعليق النشر إلى حين موعد الإطلاق. متطلعون لانضمامكم إلى مجموعاتنا على مواقع التواصل الاجتماعي وتفاعلكم معنا"
     },
     submit() {
       axios.post("https://thetufan.com/api/tweet", {
