@@ -14,7 +14,7 @@
               </p>
               <p class="text-light-emphasis text-center form-head-msg2" dir="rtl">
                  <a
-                  href="https://www.youtube.com/watch?v=xFxL7Mvut6g"
+                  href="https://www.youtube.com/watch?v=9VdE7Ce9Rbo"
                   target="_blank"
                   > {{content.clickHere}}</a
                 >
