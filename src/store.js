@@ -73,7 +73,7 @@ const store = createStore({
         langButton: "عربي",
         tweetsHeader: "Tweets that will be posted 🔻",
       },
-      englishTest: false,
+      englishTest: true,
     };
   },
   getters: {

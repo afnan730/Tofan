@@ -1,6 +1,6 @@
 <template>
 <div class='main'>
-   <a class="btn btn-primary lang-btn"  @click=" this.$store.state.englishTest ?this.$store.state.englishTest =false:this.$store.state.englishTest =true">{{content.langButton}}</a>
+   <a class="btn btn-dark lang-btn"  @click=" this.$store.state.englishTest ?this.$store.state.englishTest =false:this.$store.state.englishTest =true">{{content.langButton}}</a>
       <div class="main d-flex align-items-center justify-content-center">
        
         <div>
