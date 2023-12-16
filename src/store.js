@@ -62,6 +62,7 @@ const store = createStore({
         perviewButton: "عرض التغريدات",
         langButton: "English",
         tweetsHeader: "🔻التغريدات التي سيتم نشرها",
+        modalButton: "إغلاق",
       },
       english: {
         header: "Truth Flood🔻",
@@ -72,6 +73,7 @@ const store = createStore({
         perviewButton: "Perview tweets",
         langButton: "عربي",
         tweetsHeader: "Tweets that will be posted 🔻",
+        modalButton: "close",
       },
       englishTest: true,
     };

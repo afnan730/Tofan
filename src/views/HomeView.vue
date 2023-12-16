@@ -101,7 +101,7 @@
                   <h5>{{ error }}</h5> 
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" @click="clearError">Close</button>
+                    <button type="button" class="btn btn-dark" @click="clearError">{{content.modalButton}}</button>
                   </div>
                 </div>
               </div>
@@ -117,7 +117,7 @@
                   <h5>{{ message }}</h5> 
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" @click="clearMessage">Close</button>
+                    <button type="button" class="btn btn-dark" @click="clearMessage">Close</button>
                   </div>
                 </div>
               </div>
