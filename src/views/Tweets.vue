@@ -41,14 +41,6 @@ export default {
     height: 18rem;
 }
 
-/* .background{
-   background-image: url("./assets/static/background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  overflow: hidden;
-  
-} */
 @media only screen and (max-width: 766px) {
   .container {
     padding-left: 20%;
