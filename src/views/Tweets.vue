@@ -40,6 +40,7 @@ export default {
 .imgs{
     height: 18rem;
 }
+
 @media only screen and (max-width: 766px) {
   .container {
     padding-left: 20%;
