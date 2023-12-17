@@ -96,7 +96,6 @@ a {
     background-image: url("./assets/static/98.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 105vh;
   }
 }
 @media only screen and (max-width: 560px) {
@@ -118,9 +117,17 @@ a {
     background: rgba(255, 255, 255, 0.5);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    margin-top: 4rem;
+    margin-top: 3rem;
     padding: 0.5rem 1rem 0.5rem 0;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+}
+@media only screen and (max-height: 850px) {
+  .main {
+    background-image: url("./assets/static/98.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
   }
 }
