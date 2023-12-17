@@ -77,7 +77,7 @@ const store = createStore({
         modalButton: "close",
         note: "After clicking Post tweets, they will be posted on your Twitter account",
       },
-      englishTest: true,
+      arabicTest: true,
     };
   },
   getters: {
@@ -85,7 +85,7 @@ const store = createStore({
       return state.tweets;
     },
     Content(state) {
-      return state.englishTest ? state.arabic : state.english;
+      return state.arabicTest ? state.arabic : state.english;
     },
   },
 });

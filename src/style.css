@@ -125,7 +125,6 @@ a {
 }
 @media only screen and (max-height: 850px) {
   .main {
-    background-image: url("./assets/static/98.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;

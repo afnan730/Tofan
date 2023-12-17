@@ -1,6 +1,6 @@
 <template>
 <div class='main'>
-   <button class="btn btn-dark lang-btn"  @click=" this.$store.state.englishTest ?this.$store.state.englishTest =false:this.$store.state.englishTest =true">{{content.langButton}}</button>
+   <button class="btn btn-dark lang-btn"  @click=" this.$store.state.arabicTest ?this.$store.state.arabicTest =false:this.$store.state.arabicTest =true">{{content.langButton}}</button>
       <div class="main d-flex align-items-center justify-content-center">
        
         <div>
@@ -153,20 +153,27 @@ export default {
   },
   methods: {
     checkTimeWindow() {
+      console.log(this.$store.state.arabicTest);
       // const now = new Date();
       // const currentHour = now.getHours();
 
       // if (currentHour >= 21 || currentHour < 0) {
       //   console.log("Posting is allowed.");
-      //   // this.submit();
+      this.submit();
       // } else {
       //   console.log("The allowed posting hours are 9 PM to 12 AM");
       //    this.error="The allowed posting hours are from 9 PM to 12 AM"
       // }
-       this.error="تم تعليق النشر إلى حين موعد الإطلاق. متطلعون لانضمامكم إلى مجموعاتنا على مواقع التواصل الاجتماعي وتفاعلكم معنا"
+      // if(this.$store.state.arabicTest){
+      //    this.error="تم تعليق النشر إلى حين موعد الإطلاق. متطلعون لانضمامكم إلى مجموعاتنا على مواقع التواصل الاجتماعي وتفاعلكم معنا"
+      // }
+      // else{
+      //    this.error="Posting is temporarily on hold until the launch date. Join our social media for updates and engage with us."
+      // }
+      //  this.error="تم تعليق النشر إلى حين موعد الإطلاق. متطلعون لانضمامكم إلى مجموعاتنا على مواقع التواصل الاجتماعي وتفاعلكم معنا"
     },
     submit() {
-      axios.post("https://thetufan.com/api/tweet", {
+      axios.post("http://localhost:3000/api/tweet", {
         appKey: this.appKey,
         appSecret: this.appSecret,
         accessToken: this.accessToken,
