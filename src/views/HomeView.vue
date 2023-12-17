@@ -1,6 +1,6 @@
 <template>
 <div class='main'>
-   <a class="btn btn-dark lang-btn"  @click=" this.$store.state.englishTest ?this.$store.state.englishTest =false:this.$store.state.englishTest =true">{{content.langButton}}</a>
+   <button class="btn btn-dark lang-btn"  @click=" this.$store.state.englishTest ?this.$store.state.englishTest =false:this.$store.state.englishTest =true">{{content.langButton}}</button>
       <div class="main d-flex align-items-center justify-content-center">
        
         <div>
@@ -21,7 +21,7 @@
                 >              
               </p>            
              <form
-              class="ps-2 pt-1"
+              class="ps-2 "
               id="tweet-form"
               @submit.prevent="checkTimeWindow()"
             >

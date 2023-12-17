@@ -54,12 +54,13 @@
   color: #353535;
 }
 .youtubeLink {
-  margin-top: -0.7rem;
+  margin-top: -1.2rem;
 }
 
 a {
-  font-weight: 500;
   color: #278092;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .form-control {
@@ -83,6 +84,7 @@ a {
 .note {
   width: 80%;
   margin: 0 auto;
+  font-size: 0.9rem;
 }
 
 /* .alert {
