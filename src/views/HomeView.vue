@@ -173,7 +173,7 @@ export default {
       //  this.error="تم تعليق النشر إلى حين موعد الإطلاق. متطلعون لانضمامكم إلى مجموعاتنا على مواقع التواصل الاجتماعي وتفاعلكم معنا"
     },
     submit() {
-      axios.post("http://localhost:3000/api/tweet", {
+      axios.post("https://thetufan.com/api/tweet", {
         appKey: this.appKey,
         appSecret: this.appSecret,
         accessToken: this.accessToken,
