@@ -59,8 +59,7 @@
 
 a {
   color: #278092;
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 0.8rem;
 }
 
 .form-control {
@@ -84,7 +83,7 @@ a {
 .note {
   width: 80%;
   margin: 0 auto;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 /* .alert {
@@ -98,6 +97,7 @@ a {
     background-image: url("./assets/static/98.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 105vh;
   }
 }
 @media only screen and (max-width: 560px) {
@@ -106,7 +106,20 @@ a {
     background: rgba(255, 255, 255, 0.5);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    margin-top: 5rem;
+    margin-top: 3.6rem;
+    padding: 0.5rem 1rem 0.5rem 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media only screen and (max-width: 353px) {
+  .card {
+    /* other styles */
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    margin-top: 4rem;
     padding: 0.5rem 1rem 0.5rem 0;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);

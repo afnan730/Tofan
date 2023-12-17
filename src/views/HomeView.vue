@@ -12,11 +12,11 @@
               <p  class=" text-center form-head-msg ">
                 {{content.command}}
               </p>
-              <p class="text-light-emphasis  youtubeLink" dir="rtl">
+              <p class="text-light-emphasis ms-4  youtubeLink" dir="rtl">
                  <a
                   href="https://www.youtube.com/watch?v=9VdE7Ce9Rbo"
                   target="_blank"
-                  
+                  class="fw-semibold"
                   > {{content.clickHere}}</a
                 >              
               </p>            
