@@ -6,13 +6,13 @@
         <div>
           <div class="card">
             <div class="login-box">
-              <h3 class="text-center login-label fw-bold mb-2">
+              <h3 class="text-center login-label fw-bold mb-2 ">
                 {{content.header}}
               </h3>
-              <p  class=" text-center form-head-msg ">
+              <p  class=" text-center form-head-msg ms-4">
                 {{content.command}}
               </p>
-              <p class="text-light-emphasis ms-4  youtubeLink" dir="rtl">
+              <p class="text-light-emphasis ms-4 youtubeLink" dir="rtl">
                  <a
                   href="https://www.youtube.com/watch?v=9VdE7Ce9Rbo"
                   target="_blank"
