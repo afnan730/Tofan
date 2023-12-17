@@ -49,10 +49,12 @@
 
 .form-head-msg {
   margin-right: -3rem;
-  margin-top: -1rem;
   font-size: 1.16rem;
   font-weight: 500;
   color: #353535;
+}
+.youtubeLink {
+  margin-top: -0.7rem;
 }
 
 a {
@@ -78,12 +80,16 @@ a {
 
   width: 12rem;
 }
+.note {
+  width: 80%;
+  margin: 0 auto;
+}
 
-.alert {
+/* .alert {
   padding: 0.5rem 0;
   width: 80%;
   margin-left: 2rem;
-}
+} */
 
 @media only screen and (max-width: 600px) {
   .main {

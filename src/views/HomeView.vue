@@ -6,16 +6,17 @@
         <div>
           <div class="card">
             <div class="login-box">
-              <h3 class="text-center login-label fw-bold mb-4">
+              <h3 class="text-center login-label fw-bold mb-2">
                 {{content.header}}
               </h3>
-              <p  class=" text-center form-head-msg mx-1">
+              <p  class=" text-center form-head-msg ">
                 {{content.command}}
               </p>
-              <p class="text-light-emphasis text-center form-head-msg2" dir="rtl">
+              <p class="text-light-emphasis text-center youtubeLink" dir="rtl">
                  <a
                   href="https://www.youtube.com/watch?v=9VdE7Ce9Rbo"
                   target="_blank"
+                  
                   > {{content.clickHere}}</a
                 >              
               </p>            
@@ -77,6 +78,9 @@
               <button type="submit" class="btn btn-dark post-btn">
                 {{content.postButton}}
               </button>
+              <div class="note">
+                <p class="mt-1">{{content.note}}</p>
+              </div>
             </form>
 
              
@@ -119,7 +123,7 @@
           </div>
 
           <div class="text-center">
-            <router-link to="/tweets" class="btn btn-dark perview-btn mt-2">{{content.perviewButton}}</router-link>
+            <router-link to="/tweets" class="btn btn-dark perview-btn mt-1">{{content.perviewButton}}</router-link>
             
            
           </div>
@@ -149,16 +153,17 @@ export default {
   },
   methods: {
     checkTimeWindow() {
-      
-      // const d = new Date();
-      // let hour = d.getHours();
-      // console.log(hour);
-      // if (hour != 19) {
-      //   this.error = "It's not time";
-      //   return;
+      // const now = new Date();
+      // const currentHour = now.getHours();
+
+      // if (currentHour >= 21 || currentHour < 0) {
+      //   console.log("Posting is allowed.");
+      //   // this.submit();
+      // } else {
+      //   console.log("The allowed posting hours are 9 PM to 12 AM");
+      //    this.error="The allowed posting hours are from 9 PM to 12 AM"
       // }
-      // this.submit();
-      this.error="تم تعليق النشر إلى حين موعد الإطلاق. متطلعون لانضمامكم إلى مجموعاتنا على مواقع التواصل الاجتماعي وتفاعلكم معنا"
+       this.error="تم تعليق النشر إلى حين موعد الإطلاق. متطلعون لانضمامكم إلى مجموعاتنا على مواقع التواصل الاجتماعي وتفاعلكم معنا"
     },
     submit() {
       axios.post("https://thetufan.com/api/tweet", {

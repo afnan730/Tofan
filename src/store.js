@@ -63,10 +63,11 @@ const store = createStore({
         langButton: "English",
         tweetsHeader: "🔻التغريدات التي سيتم نشرها",
         modalButton: "إغلاق",
+        note: "عند الضغط على نشر التغريدات سيتم نشرها على حسابك في تويتر",
       },
       english: {
         header: "Truth Flood🔻",
-        command: "Enter your API keys",
+        command: "Enter your Twitter API keys",
         howToMsg: "To know how to get your API keys",
         clickHere: "Click here to know how to get your API keys ",
         postButton: "Post tweets",
@@ -74,6 +75,7 @@ const store = createStore({
         langButton: "عربي",
         tweetsHeader: "Tweets that will be posted 🔻",
         modalButton: "close",
+        note: "After clicking Post tweets, they will be posted on your Twitter account",
       },
       englishTest: true,
     };
