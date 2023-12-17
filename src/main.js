@@ -7,7 +7,9 @@ import "./style.css";
 import store from "./store.js";
 
 const app = createApp(App);
+
 app.use(store);
 app.use(router);
+
 app.config.productionTip = false;
 app.mount("#app");

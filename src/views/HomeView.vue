@@ -17,10 +17,8 @@
                   href="https://www.youtube.com/watch?v=9VdE7Ce9Rbo"
                   target="_blank"
                   > {{content.clickHere}}</a
-                >
-                
-              </p>
-              
+                >              
+              </p>            
              <form
               class="ps-2 pt-1"
               id="tweet-form"
@@ -34,7 +32,6 @@
                 name="consumer_key"
                 v-model="appKey"
               />
-
               <label class="form-label" for="consumer_secret"
                 >2. Consumer Secret</label
               >
@@ -45,7 +42,6 @@
                 name="consumer_secret"
                 v-model="appSecret"
               />
-
               <label class="form-label" for="access_token">3. Access Token</label>
               <input
                 class="form-control"
@@ -54,7 +50,6 @@
                 name="access_token"
                 v-model="accessToken"
               />
-
               <label class="form-label" for="access_token_secret"
                 >4. Access Token Secret</label
               >
@@ -65,7 +60,6 @@
                 name="access_token_secret"
                 v-model="accessSecret"
               />
-
               <label class="form-label" for="barerr_token"
                 >5. Bearer Token</label
               >
@@ -92,13 +86,10 @@
             </div> -->
             <div v-if="checkError" class="modal fade show" tabindex="-1" role="dialog" style="display: block;">
               <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    
-                    <button type="button" class="btn-close" @click="clearError" aria-label="Close"></button>
-                  </div>
+                <div class="modal-content"> 
                   <div class="modal-body text-danger text-center">
-                  <h5>{{ error }}</h5> 
+                    <i class="bi bi-info-circle-fill" style="font-size: 2rem;"></i>
+                  <h5 class="mt-2">{{ error }}</h5> 
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-dark" @click="clearError">{{content.modalButton}}</button>
@@ -109,15 +100,13 @@
             <div v-if="success" class="modal fade show" tabindex="-1" role="dialog" style="display: block;">
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                  <div class="modal-header">
-                    
-                    <button type="button" class="btn-close" @click="clearMessage" aria-label="Close"></button>
-                  </div>
+                  
                   <div class="modal-body text-success text-center">
-                  <h5>{{ message }}</h5> 
+                    <i class="bi bi-check-circle-fill " style="font-size: 2rem;"></i>
+                  <h5 class="mt-2">{{ message }}</h5> 
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-dark" @click="clearMessage">Close</button>
+                    <button type="button" class="btn btn-dark" @click="clearMessage">{{content.modalButton}}</button>
                   </div>
                 </div>
               </div>
