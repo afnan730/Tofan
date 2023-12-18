@@ -170,7 +170,7 @@ export default {
        else{
           this.error="Posting is temporarily on hold until the launch date. Join our social media for updates and engage with us."
        }
-        this.error="تم تعليق النشر إلى حين موعد الإطلاق. متطلعون لانضمامكم إلى مجموعاتنا على مواقع التواصل الاجتماعي وتفاعلكم معنا"
+      
     },
     submit() {
       axios.post("https://thetufan.com/api/tweet", {
