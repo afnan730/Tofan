@@ -71,23 +71,21 @@
                 name="barerr_token"
                 v-model="bearerToken"
               />
-              <!-- <p id="tweet-message" class="text-body-secondary pt-2">
-                يمكنك النشر في التاسعة مساءا
-              </p> -->
+             
 
               <button type="submit" class="btn btn-dark post-btn">
                 {{content.postButton}}
               </button>
+              
               <div class="note">
                 <p class="mt-1">{{content.note}}</p>
               </div>
+              <div v-if="isLoading" class="spinner-border" role="status">
+                <span class="sr-only"></span>
+              </div>
             </form>
 
-             
-<!-- 
-              <div v-if="error" class="alert alert-danger  mt-2 " role="alert">
-              {{ error }}
-            </div> -->
+  
             <div v-if="checkError" class="modal fade show" tabindex="-1" role="dialog" style="display: block;">
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content"> 
@@ -95,7 +93,7 @@
                     <i class="bi bi-info-circle-fill" style="font-size: 2rem;"></i>
                   <h5 class="mt-2">{{ error }}</h5> 
                   </div>
-                  <div class="modal-footer">
+                  <div class="text-center mb-3">
                     <button type="button" class="btn btn-dark" @click="clearError">{{content.modalButton}}</button>
                   </div>
                 </div>
@@ -109,7 +107,7 @@
                     <i class="bi bi-check-circle-fill " style="font-size: 2rem;"></i>
                   <h5 class="mt-2">{{ message }}</h5> 
                   </div>
-                  <div class="modal-footer">
+                  <div class=" text-center mb-3">
                     <button type="button" class="btn btn-dark" @click="clearMessage">{{content.modalButton}}</button>
                   </div>
                 </div>
@@ -140,7 +138,6 @@ export default {
   data() {
     return {
       
-     
       appKey:null,
       appSecret:null,
       accessToken:null,
@@ -148,28 +145,29 @@ export default {
       bearerToken:null,
       message: null,
       error: null,
-      
+      isLoading:false,
     };
   },
   methods: {
     checkTimeWindow() {
       console.log(this.$store.state.arabicTest);
+      this.isLoading = true;
       // const now = new Date();
       // const currentHour = now.getHours();
 
       // if (currentHour >= 21 || currentHour < 0) {
       //   console.log("Posting is allowed.");
-      //this.submit();
+      this.submit();
       // } else {
       //   console.log("The allowed posting hours are 9 PM to 12 AM");
       //    this.error="The allowed posting hours are from 9 PM to 12 AM"
       // }
-       if(this.$store.state.arabicTest){
-         this.error="تم تعليق النشر إلى حين موعد الإطلاق. متطلعون لانضمامكم إلى مجموعاتنا على مواقع التواصل الاجتماعي وتفاعلكم معنا"
-      }
-       else{
-          this.error="Posting is temporarily on hold until the launch date. Join our social media for updates and engage with us."
-       }
+      //  if(this.$store.state.arabicTest){
+      //    this.error="تم تعليق النشر إلى حين موعد الإطلاق. متطلعون لانضمامكم إلى مجموعاتنا على مواقع التواصل الاجتماعي وتفاعلكم معنا"
+      // }
+      //  else{
+      //     this.error="Posting is temporarily on hold until the launch date. Join our social media for updates and engage with us."
+      //  }
       
     },
     submit() {
@@ -181,10 +179,22 @@ export default {
         bearerToken: this.bearerToken,
       }).then((resp) => {
         console.log(resp.data)
-        this.message = resp.data;
+        if(this.$store.state.arabicTest){
+        this.message = resp.data.arabic;
+        }else{
+          this.message = resp.data.english;
+        }
+        
       }).catch(e => {
         console.log(e.response.data)
-        this.error = e.response.data
+        if(this.$store.state.arabicTest){
+        this.error = e.response.data.arabic;
+        }else{
+          this.error = e.response.data.english;
+        }
+
+        }).finally(() => {    
+          this.isLoading = false;
         });
     },
     clearError(){
@@ -193,6 +203,16 @@ export default {
     clearMessage(){
       this.message=null;
     }
+  },
+   watch: {
+    error(newValue) {
+      // Update isLoading based on the presence of an error
+      this.isLoading = !!newValue;
+    },
+    message(newValue) {
+      // Update isLoading based on the presence of a message
+      this.isLoading = !!newValue;
+    },
   },
   computed: {
     content() {

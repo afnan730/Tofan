@@ -1,5 +1,6 @@
 <template>
-  <div class='container'>
+<div class="tweets-view">
+  <div class='container '>
     
       <h3 class="my-2 title text-center mt-4">{{content.tweetsHeader}}</h3>
     
@@ -15,6 +16,7 @@
       </div>
       
     </div>
+  </div>
   </div>
 </template>
 
@@ -38,6 +40,7 @@ export default {
 };
 </script>
 <style scoped>
+
 
 .imgs{
     height: 18rem;
