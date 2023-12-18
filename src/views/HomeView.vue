@@ -151,23 +151,23 @@ export default {
   methods: {
     checkTimeWindow() {
       console.log(this.$store.state.arabicTest);
-      this.isLoading = true;
+      //this.isLoading = true;
       // const now = new Date();
       // const currentHour = now.getHours();
 
       // if (currentHour >= 21 || currentHour < 0) {
       //   console.log("Posting is allowed.");
-      this.submit();
+      //this.submit();
       // } else {
       //   console.log("The allowed posting hours are 9 PM to 12 AM");
       //    this.error="The allowed posting hours are from 9 PM to 12 AM"
       // }
-      //  if(this.$store.state.arabicTest){
-      //    this.error="تم تعليق النشر إلى حين موعد الإطلاق. متطلعون لانضمامكم إلى مجموعاتنا على مواقع التواصل الاجتماعي وتفاعلكم معنا"
-      // }
-      //  else{
-      //     this.error="Posting is temporarily on hold until the launch date. Join our social media for updates and engage with us."
-      //  }
+        if(this.$store.state.arabicTest){
+        this.error="تم تعليق النشر إلى حين موعد الإطلاق. متطلعون لانضمامكم إلى مجموعاتنا على مواقع التواصل الاجتماعي وتفاعلكم معنا"
+       }
+        else{
+          this.error="Posting is temporarily on hold until the launch date. Join our social media for updates and engage with us."
+        }
       
     },
     submit() {
