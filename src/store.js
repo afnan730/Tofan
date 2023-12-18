@@ -22,36 +22,7 @@ const store = createStore({
           type: "video",
           src: video1,
         },
-        {
-          text: "Hamas treated their prisoners well. They even exchanged their goodbyes W a contentement's smiles.This is the true tolerant face of Islam.",
-          type: "image",
-          src: img1,
-        },
-        {
-          text: "14 YEAR OLD YAZEN LOST 3 LIMBS FROM ISRAELI BOMBING",
-          type: "image",
-          src: img3,
-        },
-        {
-          text: "Attempt to rescue a young man from under the rubble of a house bombed by the occupation in the Beshara neighborhood in Deir al-Balah, central Gaza Strip, this evening",
-          type: "video",
-          src: video1,
-        },
-        {
-          text: "Hamas treated their prisoners well. They even exchanged their goodbyes W a contentement's smiles.This is the true tolerant face of Islam.",
-          type: "image",
-          src: img1,
-        },
-        {
-          text: "14 YEAR OLD YAZEN LOST 3 LIMBS FROM ISRAELI BOMBING",
-          type: "image",
-          src: img3,
-        },
-        {
-          text: "Attempt to rescue a young man from under the rubble of a house bombed by the occupation in the Beshara neighborhood in Deir al-Balah, central Gaza Strip, this evening",
-          type: "video",
-          src: video1,
-        },
+       
       ],
       arabic: {
         header: "🔻طُـوفَـان الـحَـقِـيـقَـة",
