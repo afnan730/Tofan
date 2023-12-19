@@ -3,6 +3,12 @@ import img1 from "./assets/static/44.jpeg";
 
 import img3 from "./assets/static/66.jpeg";
 import video1 from "./assets/static/video1.mp4";
+import p3 from "./assets/static/p3.jpg";
+import v1 from "./assets/static/v1.mp4";
+import v2 from "./assets/static/v2.mp4";
+import v3 from "./assets/static/v3.mp4";
+import v5 from "./assets/static/v5.mp4";
+import v6 from "./assets/static/v6.mp4";
 const store = createStore({
   state() {
     return {
@@ -22,7 +28,36 @@ const store = createStore({
           type: "video",
           src: video1,
         },
-       
+        {
+          text: "Israeli occupation forces raids last night on the central Gaza Strip caused a massive destruction in residential buildings",
+          type: "video",
+          src: v2,
+        },
+        {
+          text: "The Ministry of Health says Donia Abu Mohsen was supposed to be sent to Egypt tomorrow to get treatment there. However, an Israeli shelling on Nasser Hospital killed her two days ago. #Gaza",
+          type: "video",
+          src: v6,
+        },
+        {
+          text: "Scenes from shelter camps in the south of the #Gaza Strip",
+          type: "video",
+          src: v5,
+        },
+        {
+          text: "#BREAKING| Israeli forces detonate a house in the village of Aqraba in the #WestBank city of #Nablus.",
+          type: "video",
+          src: v1,
+        },
+        {
+          text: "The first moments of the Israeli occupation forces bombing of a house in Rafah last night.",
+          type: "video",
+          src: v3,
+        },
+        {
+          text: "The mass destruction in homes for the Zorob family in Rafah, south of the Gaza Strip, after the Israeli occupation heavily bombed the area last night.",
+          type: "image",
+          src: p3,
+        },
       ],
       arabic: {
         header: "🔻طُـوفَـان الـحَـقِـيـقَـة",
