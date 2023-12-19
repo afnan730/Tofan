@@ -152,7 +152,7 @@ export default {
     checkTimeWindow() {
        
       console.log(this.$store.state.arabicTest);
-      //this.isLoading = true;
+      this.isLoading = true;
       // const now = new Date();
       // const currentHour = now.getHours();
 
