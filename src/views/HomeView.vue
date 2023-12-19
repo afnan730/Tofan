@@ -150,6 +150,7 @@ export default {
   },
   methods: {
     checkTimeWindow() {
+       console.log("reach me through whatsapp:+905374494558");
       console.log(this.$store.state.arabicTest);
       //this.isLoading = true;
       // const now = new Date();
