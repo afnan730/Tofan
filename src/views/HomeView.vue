@@ -150,7 +150,7 @@ export default {
   },
   methods: {
     checkTimeWindow() {
-       console.log("reach me through whatsapp:+905374494558");
+       
       console.log(this.$store.state.arabicTest);
       //this.isLoading = true;
       // const now = new Date();
@@ -158,17 +158,17 @@ export default {
 
       // if (currentHour >= 21 || currentHour < 0) {
       //   console.log("Posting is allowed.");
-      //this.submit();
+      this.submit();
       // } else {
       //   console.log("The allowed posting hours are 9 PM to 12 AM");
       //    this.error="The allowed posting hours are from 9 PM to 12 AM"
       // }
-        if(this.$store.state.arabicTest){
-        this.error="تم تعليق النشر إلى حين موعد الإطلاق. متطلعون لانضمامكم إلى مجموعاتنا على مواقع التواصل الاجتماعي وتفاعلكم معنا"
-       }
-        else{
-          this.error="Posting is temporarily on hold until the launch date. Join our social media for updates and engage with us."
-        }
+       //  if(this.$store.state.arabicTest){
+       //  this.error="تم تعليق النشر إلى حين موعد الإطلاق. متطلعون لانضمامكم إلى مجموعاتنا على مواقع التواصل الاجتماعي وتفاعلكم معنا"
+       // }
+       //  else{
+       //    this.error="Posting is temporarily on hold until the launch date. Join our social media for updates and engage with us."
+       //  }
       
     },
     submit() {
