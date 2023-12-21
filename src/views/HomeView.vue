@@ -13,8 +13,14 @@
                 {{content.command}}
               </p>
               <p class="text-light-emphasis ms-4 youtubeLink" dir="rtl">
-                 <a
+                 <!-- <a
                   href="https://www.youtube.com/watch?v=9VdE7Ce9Rbo"
+                  target="_blank"
+                  class="fw-semibold"
+                  > {{content.clickHere}}</a
+                >   -->
+                 <a
+                  href="https://youtu.be/ljJyZh-u2a4"
                   target="_blank"
                   class="fw-semibold"
                   > {{content.clickHere}}</a
@@ -79,10 +85,15 @@
               
               <div class="note">
                 <p class="mt-1">{{content.note}}</p>
-              </div>
-              <div v-if="isLoading" class="spinner-border" role="status">
+                <div v-if="isLoading" > <p >{{content.LoadingMsg}}</p>
+              <div  class="spinner-border" role="status">
                 <span class="sr-only"></span>
+                
               </div>
+              </div>
+              </div>
+              
+              
             </form>
 
   
@@ -121,7 +132,7 @@
           </div>
 
           <div class="text-center">
-            <router-link to="/tweets" class="btn btn-dark perview-btn mt-1">{{content.perviewButton}}</router-link>
+            <router-link to="/tweets" class="btn btn-dark perview-btn my-1">{{content.perviewButton}}</router-link>
             
            
           </div>

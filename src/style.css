@@ -17,8 +17,7 @@
   background-image: url("./assets/static/000.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-  overflow: hidden;
+  height: 106vh;
 }
 
 .english-text {
@@ -32,6 +31,7 @@
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   margin: 0.6rem;
+  width: 26rem;
   padding: 0.5rem;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -80,8 +80,14 @@ a {
   width: 12rem;
 }
 .note {
-  width: 80%;
+  width: 84%;
   margin: 0 auto;
+  font-size: 0.65rem;
+  font-weight: 500;
+}
+.loading {
+  width: 10rem;
+  /* margin: 0 ; */
   font-size: 0.8rem;
 }
 
@@ -96,6 +102,7 @@ a {
     background-image: url("./assets/static/98.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 130vh;
   }
 }
 @media only screen and (max-width: 560px) {
@@ -104,7 +111,8 @@ a {
     background: rgba(255, 255, 255, 0.5);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    margin-top: 1rem;
+    margin-top: 4rem;
+    width: 22rem;
     padding: 0.5rem 1rem 0.5rem 0;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -117,7 +125,8 @@ a {
     background: rgba(255, 255, 255, 0.5);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    margin-top: 3rem;
+    width: 22rem;
+    margin-top: 5rem;
     padding: 0.5rem 1rem 0.5rem 0;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -127,6 +136,5 @@ a {
   .main {
     background-repeat: no-repeat;
     background-size: cover;
-    height: 120vh;
   }
 }

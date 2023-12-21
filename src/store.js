@@ -70,6 +70,8 @@ const store = createStore({
         tweetsHeader: "🔻التغريدات التي سيتم نشرها",
         modalButton: "إغلاق",
         note: "عند الضغط على نشر التغريدات سيتم نشرها على حسابك في تويتر",
+        LoadingMsg:
+          "يرجى عدم مغادرة الصفحة حتى حتى يتم النشر، قد يستغرق ذلك من دقيقة إلى دقيقتين بسبب حجم الفيدوهات ",
       },
       english: {
         header: "Truth Flood🔻",
@@ -82,6 +84,8 @@ const store = createStore({
         tweetsHeader: "Tweets that will be posted 🔻",
         modalButton: "close",
         note: "After clicking Post tweets, they will be posted on your Twitter account",
+        LoadingMsg:
+          "Please don't leave the page until you see the success message. This may take approximately 1 to 2 minutes due to media size",
       },
       arabicTest: true,
     };
