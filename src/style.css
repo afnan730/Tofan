@@ -102,7 +102,7 @@ a {
     background-image: url("./assets/static/98.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 123vh;
+    height: 122vh;
   }
 }
 @media only screen and (max-width: 560px) {
