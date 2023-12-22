@@ -175,7 +175,7 @@ export default {
       //    this.error="The allowed posting hours are from 9 PM to 12 AM"
       // }
         if(this.$store.state.arabicTest){
-          this.error="تم تعليق النشر  !"
+          this.error="تم توقيف النشر حتى الساعة 9 مساءً. نتطلّع لرؤيتكم"
         }
         else{
            this.error="Posting is temporarily on hold ."
