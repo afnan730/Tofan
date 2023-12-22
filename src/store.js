@@ -29,7 +29,7 @@ const store = createStore({
           src: video1,
         },
         {
-          text: "Attempt to rescue a young man from under the rubble of a house bombed by the occupation in the Beshara neighborhood in Deir al-Balah, central Gaza Strip, this evening",
+          text: "Sahar Caldarone, a released Israeli detainee, said in an interview: 'I told myself many times that I might die here because of Israeli bombs and not because of Hamas.",
           type: "text",
         },
         {
