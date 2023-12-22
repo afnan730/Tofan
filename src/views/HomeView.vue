@@ -178,7 +178,7 @@ export default {
           this.error="تم توقيف النشر حتى الساعة 9 مساءً. نتطلّع لرؤيتكم"
         }
         else{
-           this.error="Posting is temporarily on hold ."
+           this.error="Posting tweets has been suspended until 9 p.m. We look forward to seeing you."
          }
       
     },
