@@ -7,11 +7,13 @@
     <div class="row ms-2">
       <div v-for="tweet in tweets" :key="tweet" class="card col-6 col-md-3 col-lg-4 " style="width: 18rem;">
         <img  v-if="tweet.type=='image'" :src="tweet.src" class="card-img-top img-fluid imgs mx-1" alt="..." >
-         <video v-else style="height: 18rem;" controls>
+        
+         <video v-else-if="tweet.type=='video'" style="height: 18rem;" controls>
           <source :src="tweet.src" type="video/mp4" class="card-img-top"></video>
         <div class="card-body">
-          <p class="card-text text-start">{{ tweet.text }}
+          <p v-if="tweet.type=='image'|| tweet.type=='video'" class="card-text text-start">{{ tweet.text }}
             </p>
+            <p v-else class="textTweet">{{ tweet.text }}</p>
         </div>
       </div>
       

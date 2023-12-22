@@ -29,6 +29,10 @@ const store = createStore({
           src: video1,
         },
         {
+          text: "Attempt to rescue a young man from under the rubble of a house bombed by the occupation in the Beshara neighborhood in Deir al-Balah, central Gaza Strip, this evening",
+          type: "text",
+        },
+        {
           text: "Israeli occupation forces raids last night on the central Gaza Strip caused a massive destruction in residential buildings",
           type: "video",
           src: v2,
