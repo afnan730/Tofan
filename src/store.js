@@ -35,11 +35,11 @@ const store = createStore({
     return {
       tweets: [
         //1
-        // {
-        //   text: "Killed, with 2 shots, only because he stood up against the genocide. However, truth will always be louder no matter what criminals do to silence it.#Chelsea #Christmas #Sterling #Santa #Wilder",
-        //   type: "image",
-        //   src: k1,
-        // },
+        {
+          text: "Killed, with 2 shots, only because he stood up against the genocide. However, truth will always be louder no matter what criminals do to silence it.#Chelsea #Christmas #Sterling #Santa #Wilder",
+          type: "image",
+          src: k1,
+        },
         
       
         
