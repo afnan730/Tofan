@@ -169,17 +169,17 @@ export default {
 
       // if (currentHour >= 21 || currentHour < 0) {
       //   console.log("Posting is allowed.");
-   this.submit();
+   //this.submit();
       // } else {
       //   console.log("The allowed posting hours are 9 PM to 12 AM");
       //    this.error="The allowed posting hours are from 9 PM to 12 AM"
       // }
-        // if(this.$store.state.arabicTest){
-        //   this.error="تم إيقاف النشر حتى الساعة 10 مساءً. نتطلّع لرؤيتكم"
-        // }
-        // else{
-        //    this.error="Posting tweets has been suspended until 10 p.m. We look forward to seeing you."
-        //  }
+        if(this.$store.state.arabicTest){
+          this.error="تم إيقاف النشر حتى الساعة 10 مساءً. نتطلّع لرؤيتكم"
+        }
+        else{
+           this.error="Posting tweets has been suspended until 10 p.m. We look forward to seeing you."
+         }
       
     },
     submit() {
