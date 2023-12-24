@@ -77,7 +77,7 @@ const store = createStore({
         },
 
           {
-          text: "Khaled story, The Soul of My Soul, touches millions of hearts worldwide. People memorize his late granddaughter & his BD &send him their best wishes. He helped correct the global misconception of Islam &show how tolerant & noble it is. #Chelsea #Christmas #Sterling #Santa #Wilder",
+          text: "إن من يمسك مقود المفاوضات والسيطرة الميدانية هو المنتصر، والواقع يخبرنا أن المقاومة متمسكة بشروطها، وتجبر الأطراف على قبولها وعلى رأسها وقف الحرب كليا، ثم تبييض السجون الصهيونية، وإعادة إعمار غزة، في حين يتنازل الصهاينة عن شروطهم تدريجيا. #غزه_تنتصر #Chelsea #Christmas #Liverpool",
           type: "image",
           src: k6,
         },
