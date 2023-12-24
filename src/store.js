@@ -2,58 +2,100 @@ import { createStore } from "vuex";
 
 import img3 from "./assets/static/66.jpeg";
 import video1 from "./assets/static/video1.mp4";
-
 import v1 from "./assets/static/v1.mp4";
 import v2 from "./assets/static/v2.mp4";
 import v3 from "./assets/static/v3.mp4";
 import p1 from "./assets/static/p1.jpeg";
 import p4 from "./assets/static/p3.jpeg";
 import p5 from "./assets/static/44.jpeg";
+
+
+import k1 from "./assets/static/k1.jpeg";
+import k2 from "./assets/static/k2.jpeg";
+import k3 from "./assets/static/k3.jpeg";
+import k4 from "./assets/static/k4.jpeg";
+
+
+
+import vk1 from "./assets/static/vk1.mp4";
+import vk2 from "./assets/static/vk2.mp4";
+import vk3 from "./assets/static/vk3.mp4";
+import vk4 from "./assets/static/vk4.mp4";
+
+
+
+
+
 const store = createStore({
   state() {
     return {
       tweets: [
+        //1
         {
-          text: "She is quiet, yet her eyes speak volumes #Ortega #Christmas #Santa.",
-          type: "video",
-          src: video1,
-        },
-        {
-          text: "البارحة فجّر الاحتلال محيط مسجد فلسطين في غزّة، المسجد ذاته ومحيطه الذي شهد وانطلقت منه مشهد جنازة العيّاش العظيمة، هذا حقد ممتد، والحقد وقود المعارك، ونحن أولى به منهم. إن نسيتم أذى العدوّ هلكتم فتواصوا بالحقد جيلاً فجيلا #غزه_تنتصر# محمد #معتز",
+          text: "Killed, with 2 shots, only because he stood up against the genocide. However, truth will always be louder no matter what criminals do to silence it.#Chelsea #Christmas #Sterling #Santa #Wilder",
           type: "image",
-          src: img3,
+          src: k1,
         },
+        
+      
+        
+        //3
         {
-          text: "Danny Neumann, a former Knesset member, advocates for exterminating every man, woman and child in Gaza.This is the fact of israeli occupation, based on the principle of apartheid. #Ortega #Christmas #Santar",
-          type: "video",
-          src: v2,
+          text: "The major world players have to stop providing immunity to Israeli occupations. This political protection made it an above law entity & allowed it to torture Palestinians, steal their land, kill & displace them for over 75 years. #Chelsea #Christmas #Sterling #Santa #Wilder",
+          type: "image",
+          src: k2,
         },
+        
         // {
         //   text: "You can't achieve peace with an apartheid antity that would do anything to steal your land, torture, murder, destruction, etc. The 2 states solution is the only clear path to peace.#Christmas #Trump New Year",
         //   type: "video",
         //   src: v1,
         // },
+
+        //4
         {
-          text: "The Resistance destroyed not only the occupation's advanced machinery but the mythe of a very strong army in the world.#Ortega #Christmas #Santa",
-          type: "video",
-          src: v3,
+          text: "احفظوا الشركات التي تظهر أسماؤها مطبوعة على مأكولات أو مشروبات بأيدي الجنود الصهاينة أو على طاولات الساسة، وعاقبوها بالمقاطعة. أروهم قوة سلاحنا الذي يستهينوا به. اجعلوا تجاراتهم تنهار عليهم كما جعلوا غزة تنهار على ساكنيها. #غزه_تنتصر #Chelsea #Christmas #Liverpool",
+          type: "image",
+          src: k3,
         },
 
-        {
-          text: "According 2 the Palestinian Central Bureau of Statistics, approved by the UNCA's General Assembly in 2000, more than 6.4 million Palestinian R refugees since 1948 due 2 the forced displacement by Israeli apartheid regime.#Ortega #Christmas #Santa",
+         //8
+         {
+          text: "Khaled story, The Soul of My Soul, touches millions of hearts worldwide. People memorize his late granddaughter & his BD &send him their best wishes. He helped correct the global misconception of Islam &show how tolerant & noble it is. #Chelsea #Christmas #Sterling #Santa #Wilder",
           type: "image",
-          src: p5,
+          src: k4,
         },
+
+          //2
         {
-          text: "With the US elections approaching, people express their disapproval 2 all candidates who adopt a unified pro Israrli position that justified genocide & war crimes. #Ortega #Christmas #Santa",
-          type: "image",
-          src: p1,
+          text:"I'll remain steadfast on my land that I'll defend with the last drop of my blood. She isn't just a little girl but the speakers 4 all Palestinians who'll always remain steadfast protecting their land till the last drop of their blood. #Chelsea #Christmas #Sterling #Santa #Wilder",
+          type: "video",
+          src: vk1,
         },
-        // {
-        //   text: "إن كان لواء غولاني هو أقوى الألوية، فسحبه من المعركة يضعنا أمام احتمالين: إما أنه قوي بالفعل؛ لكن المقاومة أثبتت أنها أقوى منه ميدانيا، وإما أنه أُعطِي مكانة لا يستحقها، وهذا يعني أن بقية الألوية والفرق هشة، وسيتم سحبها قريبا. #النصر_الاتفاق #يوم_الجمعه #محمد #غزه_تستغيث.",
-        //   type: "image",
-        //   src: p4,
-        // },
+        
+        //5
+        {
+          text: "Look out 4 all food/beverage companies that the occupation's soldiers & world politicians appear consuming/holding. Boycot is the answer 2 their arrogance & underestimatation of the mass power. Hit them where it hurts: their pockets. #Chelsea #Christmas #Sterling #Santa #Wilder",
+          type: "video",
+          src: vk2,
+        },
+
+        //6
+        {
+          text: "Gaza's situation's disastrous: lack of infrastructure, healthcare, life necessities & people R killed, injured&kidnapped. Moreover, civilians suffer from pollution due 2 bombing&diseases due 2 lack of water. Urgent ceasefire's a must. #Chelsea #Christmas #Sterling #Santa #Wilder",
+          type: "video",
+          src: vk3,
+        },
+
+        //7
+        {
+          text: "Khaled story, The Soul of My Soul, touches millions of hearts worldwide. People memorize his late granddaughter & his BD &send him their best wishes. He helped correct the global misconception of Islam &show how tolerant & noble it is. #Chelsea #Christmas #Sterling #Santa #Wilder",
+          type: "video",
+          src: vk4,
+        },
+
+       
+        
       ],
       arabic: {
         header: "🔻طُـوفَـان الـحَـقِـيـقَـة",
