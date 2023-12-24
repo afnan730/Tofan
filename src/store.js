@@ -85,7 +85,7 @@ const store = createStore({
 
           //2
         {
-          text:"I'll remain steadfast on my land that I'll defend with the last drop of my blood. She isn't just a little girl but the speakers 4 all Palestinians who'll always remain steadfast protecting their land till the last drop of their blood. #Chelsea #Christmas #Sterling #Santa #Wilder",
+          text:"\"I'll remain steadfast on my land,ready to defend till the last drop of my blood\" She isn't just a little girl;she represents all Palestinians steadfast in protecting their homeland until the very last drop of their blood. #Chelsea #Christmas #Sterling #Santa #Wilde",
           type: "video",
           src: vk1,
         },
