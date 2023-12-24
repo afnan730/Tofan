@@ -14,6 +14,10 @@ import k1 from "./assets/static/k1.jpeg";
 import k2 from "./assets/static/k2.jpeg";
 import k3 from "./assets/static/k3.jpeg";
 import k4 from "./assets/static/k4.jpeg";
+import k5 from "./assets/static/k5.jpeg";
+import k6 from "./assets/static/k6.jpeg";
+
+
 
 
 
@@ -61,10 +65,23 @@ const store = createStore({
 
          //8
          {
-          text: "Khaled story, The Soul of My Soul, touches millions of hearts worldwide. People memorize his late granddaughter & his BD &send him their best wishes. He helped correct the global misconception of Islam &show how tolerant & noble it is. #Chelsea #Christmas #Sterling #Santa #Wilder",
+          text: "تعيد المقاومة تصنيع الأسلحة التي تتساقط على غزة ولا تنفجر، فتضرب بها الصهاينة بعد أن تردها للخدمة بطريقة أفضل مما كانت عليه وهي بأيديهم، فيُقتَلون بأسلحتهم التي قتلوا بها الأبرياء ظلما، مغلفة بعبارة: ذوقوا من نفس الكأس الذي تجرعونه غيركم. #غزه_تنتصر #Chelsea #Christmas #Liverpool",
           type: "image",
           src: k4,
         },
+
+         {
+          text: "Khaled story, The Soul of My Soul, touches millions of hearts worldwide. People memorize his late granddaughter & his BD &send him their best wishes. He helped correct the global misconception of Islam &show how tolerant & noble it is. #Chelsea #Christmas #Sterling #Santa #Wilder",
+          type: "image",
+          src: k5,
+        },
+
+          {
+          text: "Khaled story, The Soul of My Soul, touches millions of hearts worldwide. People memorize his late granddaughter & his BD &send him their best wishes. He helped correct the global misconception of Islam &show how tolerant & noble it is. #Chelsea #Christmas #Sterling #Santa #Wilder",
+          type: "image",
+          src: k6,
+        },
+        
 
           //2
         {
