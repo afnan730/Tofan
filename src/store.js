@@ -64,11 +64,11 @@ const store = createStore({
         },
 
          //8
-         {
-          text: "تعيد المقاومة تصنيع الأسلحة التي تتساقط على غزة ولا تنفجر، فتضرب بها الصهاينة بعد أن تردها للخدمة بطريقة أفضل مما كانت عليه وهي بأيديهم، فيُقتَلون بأسلحتهم التي قتلوا بها الأبرياء ظلما، مغلفة بعبارة: ذوقوا من نفس الكأس الذي تجرعونه غيركم. #غزه_تنتصر #Chelsea #Christmas #Liverpool",
-          type: "image",
-          src: k4,
-        },
+        //  {
+        //   text: "تعيد المقاومة تصنيع الأسلحة التي تتساقط على غزة ولا تنفجر، فتضرب بها الصهاينة بعد أن تردها للخدمة بطريقة أفضل مما كانت عليه وهي بأيديهم، فيُقتَلون بأسلحتهم التي قتلوا بها الأبرياء ظلما، مغلفة بعبارة: ذوقوا من نفس الكأس الذي تجرعونه غيركم. #غزه_تنتصر #Chelsea #Christmas #Liverpool",
+        //   type: "image",
+        //   src: k4,
+        // },
 
          {
           text: "Resistance recycle bombs debris and turned them into weapons used in their defense against the occupation's soldiers. Resistance is giving them a taste of their own medicine. #Chelsea #Christmas #Sterling #Santa #Wilder",
