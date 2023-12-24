@@ -71,7 +71,7 @@ const store = createStore({
         },
 
          {
-          text: "Khaled story, The Soul of My Soul, touches millions of hearts worldwide. People memorize his late granddaughter & his BD &send him their best wishes. He helped correct the global misconception of Islam &show how tolerant & noble it is. #Chelsea #Christmas #Sterling #Santa #Wilder",
+          text: "Resistance recycle bombs debris and turned them into weapons used in their defense against the occupation's soldiers. Resistance is giving them a taste of their own medicine. #Chelsea #Christmas #Sterling #Santa #Wilder",
           type: "image",
           src: k5,
         },
