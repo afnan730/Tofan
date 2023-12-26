@@ -18,12 +18,12 @@ const store = createStore({
           src: p1,
         },
         {
-          text: "تعيد المقاومة تصنيع الأسلحة التي تتساقط على غزة ولا تنفجر، فتضرب بها الصهاينة بعد أن تردها للخدمة بطريقة أفضل مما كانت عليه وهي بأيديهم، فيُقتَلون بأسلحتهم التي قتلوا بها الأبرياء ظلما، مغلفة بعبارة: ذوقوا من نفس الكأس الذي تجرعونه غيركم.#رساله_اليوم #غزه_تنتصر #Christma",
+          text: "تعيد المقاومة تصنيع الأسلحة التي تتساقط على غزة ولا تنفجر، فتضرب بها الصهاينة بعد أن تردها للخدمة بطريقة أفضل مما كانت عليه وهي بأيديهم، فيُقتَلون بأسلحتهم التي قتلوا بها الأبرياء ظلما، مغلفة بعبارة: ذوقوا من نفس الكأس الذي تجرعونه غيركم.#رساله_اليوم #غزه_تنتصر #Christmas",
           type: "image",
           src: p3,
         },
         {
-          text: "If you still believe that the occupying entity Israel is 'the only democratic country in the Middle East' please listen to this.#Inoue Boxing Day #Christma",
+          text: "If you still believe that the occupying entity Israel is 'the only democratic country in the Middle East' please listen to this.#Inoue Boxing Day #Christmas",
           type: "video",
           src: v1,
         },
@@ -33,18 +33,18 @@ const store = createStore({
           src: p1,
         },
         {
-          text: "After only 6 hrs of traveling from Jerusalem to Ramallah & witnessing  the apartheid regime's treatment 2 Palestinians,this is his answer when asked about his reaction if he were to endure what they've been suffering 4 decades #Inoue Boxing Day #Christma",
+          text: "After only 6 hrs of traveling from Jerusalem to Ramallah & witnessing  the apartheid regime's treatment 2 Palestinians,this is his answer when asked about his reaction if he were to endure what they've been suffering 4 decades #Inoue Boxing Day #Christmas",
           type: "video",
           src: video1,
         },
         {
-          text: "Western influencers use holidays 2 raise awareness about Zionist actions in Palestine, urging continued boycotts that effectively pressure rule-breakers, & enforce some brands to close some branches,change their names or back down! #Inoue Boxing Day #Christma",
+          text: "Western influencers use holidays 2 raise awareness about Zionist actions in Palestine, urging continued boycotts that effectively pressure rule-breakers, & enforce some brands to close some branches,change their names or back down! #Inoue Boxing Day #Christmas",
           type: "video",
           src: v2,
         },
 
         {
-          text: "These war crimes occurred moments after Biden's announcement that he didn't request a ceasefire,& a few weeks ago,the U.S also vetoed against a ceasefire. What Gazans endure is a genocide by American weapons,while the UN & the whole world is watching #Inoue Boxing Day #Christma",
+          text: "These war crimes occurred moments after Biden's announcement that he didn't request a ceasefire,& a few weeks ago,the U.S also vetoed against a ceasefire. What Gazans endure is a genocide by American weapons,while the UN & the whole world is watching #Inoue Boxing Day #Christmas",
           type: "image",
           src: p2,
         },
