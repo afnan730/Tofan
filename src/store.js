@@ -11,6 +11,10 @@ import p6 from "./assets/static/p6.jpeg";
 import p7 from "./assets/static/p7.jpeg";
 import p8 from "./assets/static/p8.jpeg";
 import p9 from "./assets/static/p9.jpeg";
+import v3 from "./assets/static/v3.mp4";
+import v4 from "./assets/static/v4.mp4";
+import v5 from "./assets/static/v5.mp4";
+import p10 from "./assets/static/p10.jpeg";
 const store = createStore({
   state() {
     return {
@@ -61,6 +65,7 @@ const store = createStore({
           type: "video",
           src: v2,
         },
+
         {
           text: "Since Oct 7th, 110 ambulance&145 health establishments were bombed, 320 victims from medical staff as well as 25 hospitals were totally out of service & as a result of all this damages 2 health care system, hundered of wounded & patients r dying. #Slavery #Christmas #StormGerrit",
           type: "image",
@@ -71,6 +76,28 @@ const store = createStore({
           text: "'A child is killed every 10 minutes in Gaza.'This is what the World Health Organization(WHO)stated,In light of a genocide that exceeded 1440 hours, in just over two months! #Slavery #StormGerrit #Christmas #Pamplona",
           type: "image",
           src: p1,
+        },
+        {
+          text: "Children should never be exposed to terrific scenes as per Children Right Organisations. However, in Gaza, they don't only witness them but live them if they got lucky and escape death. #Slavery #Christmas #Pamplona #XRC20 #Nigeria",
+          type: "video",
+          src: v3,
+        },
+
+        {
+          text: "In a 5 years operation,'Bid Rig', FBI made 46 arrests of high profile people including politicians, mayors & Orthodox rabbis who were charged with money laundering 2 Israel, black market kidney trafficking & real state scheme. #Slavery #Christmas #Pamplona #XRC20 #Nigeria",
+          type: "image",
+          src: p10,
+        },
+        {
+          text: "Even the bodies of martyrs in Gaza did not escape the brutality of the occupying entity, as they were mutilated, their internal organs were stolen, and many of them decomposed. #Slavery #Christmas #Pamplona #XRC20 #Nigeria",
+          type: "video",
+          src: v4,
+        },
+
+        {
+          text: "They teach their generations that they are not save and complete until they ethnically cleanse Palestinians. #Slavery #Christmas #Pamplona #XRC20 #Nigeria",
+          type: "video",
+          src: v5,
         },
         // {
         //   text: "فرحة الأطفال أعيادهم. إلى جانب جبرُ خاطرِ خليل وإسعاده، يظهر في هذا الفيديو إيثار الأسرة لخليل رغم كثرة عددهم وحاجتهم؛ لكنهم يثقون في عطاء الله الذي وسعت خزائنه السماوات والأرض. 'وَاللهُ فِي عَوْنِ الْعَبْدِ مَا كَانَ الْعَبْدُ فِي عَوْنِ أَخِيهِ'. رواه مسلم #ولعت #الهلال #ايران",
