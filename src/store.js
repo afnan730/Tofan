@@ -9,6 +9,8 @@ import p2 from "./assets/static/p2.jpeg";
 import p5 from "./assets/static/p5.jpeg";
 import p6 from "./assets/static/p6.jpeg";
 import p7 from "./assets/static/p7.jpeg";
+import p8 from "./assets/static/p8.jpeg";
+import p9 from "./assets/static/p9.jpeg";
 const store = createStore({
   state() {
     return {
@@ -43,6 +45,21 @@ const store = createStore({
           text: "Liberating Palestine is a liberation for the world. Peace will not occur until it is for everyone. #Slavery #Christmas #Pamplona #XRC20 #Nigeria",
           type: "image",
           src: p6,
+        },
+        {
+          text: "Palestinian Red Crescent spokesman: The Israeli occupation army does not stop targeting UNRWA schools that provide shelter for displaced persons. #Slavery #Christmas #Pamplona #XRC20 #Nigeria",
+          type: "image",
+          src: p9,
+        },
+        {
+          text: "'I'm not afraid of death but to be a captive', a Gazan said. The occupation kidnapped dozens of Gazans, who were sent back in body bags with no kidneys, hearts, etc. What level of inhumanity & cruelty is this? #Slavery #Christmas #Pamplona #XRC20 #Nigeria",
+          type: "image",
+          src: p8,
+        },
+        {
+          text: "If all these scenes won't make the world do something to end those children' suffering, what would? They're already facing death either by bombardment, diseases, starvation, fear & bad weather conditions. Ceasefire now 2 save them. #Slavery #Christmas #Pamplona #XRC20 #Nigeria",
+          type: "video",
+          src: v2,
         },
         {
           text: "Since Oct 7th, 110 ambulance&145 health establishments were bombed, 320 victims from medical staff as well as 25 hospitals were totally out of service & as a result of all this damages 2 health care system, hundered of wounded & patients r dying. #Slavery #Christmas #StormGerrit",
