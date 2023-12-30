@@ -20,7 +20,7 @@ const store = createStore({
     return {
       tweets: [
         {
-          text: "The King Crane Commission rejects the Zionist claim of a 2000-year-old right for Jews in Palestine. It advocates limiting Jewish migration and ending the establishment of a purely Jewish state in the region #Term #Palmer #Chelsea #Luton #Gaza",
+          text: "King–Crane Commission stated:'the zionists claim that jews've the right 2 a land by being descendants from natives 2000+ yrs ago shouldn't be taken seriously&Jews immigration should be limited&2 stop making Palestine a purely Jew's state' Aug 29,1919 #Term #Palmer #Chelsea #Luton",
           type: "image",
           src: p5,
         },
@@ -71,13 +71,6 @@ const store = createStore({
           type: "image",
           src: p8,
         },
-
-        // {
-        //   text: "Children should never be exposed to terrific scenes as per Children Right Organisations. However, in Gaza, they don't only witness them but live them if they got lucky and escape death. #Slavery #Christmas #Pamplona #XRC20 #Nigeria",
-        //   type: "video",
-        //   src: v3,
-        // },
-
         {
           text: "Gaza isn't Israel's sole target. Masjid AlAqsa faces continuous aggression 4 decades; on 12/28/2023, 174 settlers stormed it without restraint. Muslims endure inhumane treatment, humiliation, aggressive searches, assault,& unjustified entry denials. #Term #Palmer #Chelsea #Luton",
           type: "image",
