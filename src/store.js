@@ -95,9 +95,9 @@ const store = createStore({
         },
 
         {
-          text: "They teach their generations that they are not save and complete until they ethnically cleanse Palestinians. #Slavery #Christmas #Pamplona #XRC20 #Nigeria",
-          type: "video",
-          src: v5,
+          text: "Bombardment isn't the only death's cause in Gaza.  According 2 Euro-Mediterranean Human Rights Monitor, 71% Gazans r facing food shortage, 98% suffer from starvation while 64% consume grass, raw & or expired food. #Slavery #Christmas #Pamplona #XRC20 #Nigeria",
+          type: "image",
+          src: p8,
         },
         // {
         //   text: "فرحة الأطفال أعيادهم. إلى جانب جبرُ خاطرِ خليل وإسعاده، يظهر في هذا الفيديو إيثار الأسرة لخليل رغم كثرة عددهم وحاجتهم؛ لكنهم يثقون في عطاء الله الذي وسعت خزائنه السماوات والأرض. 'وَاللهُ فِي عَوْنِ الْعَبْدِ مَا كَانَ الْعَبْدُ فِي عَوْنِ أَخِيهِ'. رواه مسلم #ولعت #الهلال #ايران",
