@@ -6,7 +6,8 @@ import v2 from "./assets/static/v2.mp4";
 import p1 from "./assets/static/p1.jpeg";
 
 import p2 from "./assets/static/p2.jpeg";
-
+import p3 from "./assets/static/p3.jpeg";
+import p4 from "./assets/static/p4.jpeg";
 import v3 from "./assets/static/v3.mp4";
 import v4 from "./assets/static/v4.mp4";
 import v5 from "./assets/static/v5.mp4";
@@ -25,9 +26,24 @@ const store = createStore({
           src: p2,
         },
         {
+          text: "While people around the world are busy buying & decorating their Christmas trees, Israeli occupation made a special & free delivery of one made by American weapon & delivered by Israeli's war machinery. Happy 2024 #AEWWorldsEnd #Lions #FULARS Feliz Año",
+          type: "image",
+          src: p3,
+        },
+        {
           text: "يد واحدة لا تصفق؛ لكنها تخوض معركة، وتسحق جيشا، وتصنع بطولة عجزت عن صناعتها أمة. قدم واحدة لا تستطيع السير؛ لكنها تستطيع الوقوف في أرض الرباط تدافع عن ثغر أمة. الإقدام أو التراجع من داخل المرء، ولا علاقة له بفقدان أو تعطل عضو. #السنه_الجديده #HappyNewYear #الشهيد_الساجد آرسنال",
           type: "video",
           src: v4,
+        },
+        {
+          text: "As the Gaza genocide persists,our  new year won't be happy while countless innocents're being massacred by Israeli occupation. Instead of a countdown for a happy new year, let's countdown for a permanent #CEASEFIRE. Happy 2024 Happy New Year #AEWWorldsEnd #Lions #FULARS Feliz Año",
+          type: "video",
+          src: v6,
+        },
+        {
+          text: "With burns, suffering and fear caused by the heinous acts of Israeli occupation, this is how the children of Gaza will be starting their New Year. Happy 2024 Happy New Year #AEWWorldsEnd #Lions #FULARS Feliz Año",
+          type: "video",
+          src: v5,
         },
         {
           text: "The creation of a “buffer state” that would be hostile to it's neighbours and friendly to Europe and it's interests.\n- Al-Nakba: The Palestinian catastrophe documentry. Happy 2024 Happy New Year #AEWWorldsEnd #Lions #FULARS Feliz Año",
@@ -60,22 +76,16 @@ const store = createStore({
           type: "video",
           src: v8,
         },
+        {
+          text: "Gazans have no food stored as Isreal used to allow food's entry  matching only the number of carolies Gazans need to survive. Civilians have to cook grass to eat & the starving mother're so weak to brestfeed their babies! Happy 2024 #AEWWorldsEnd #Lions #FULARS Feliz Año",
+          type: "image",
+          src: p4,
+        },
 
         {
           text: "As the world celebrates the Happy New Year, thousands of children in Gaza are being killed. The genocide on Gaza's persisted for 87 days, and those who survive live in panic & displacement, enduring Israeli bombings in the open. Happy 2024 #AEWWorldsEnd #Lions #FULARS Feliz Año",
           type: "video",
           src: v9,
-        },
-
-        {
-          text: "As the Gaza genocide persists,our  new year won't be happy while countless innocents're being massacred by Israeli occupation. Instead of a countdown for a happy new year, let's countdown for a permanent #CEASEFIRE. Happy 2024 Happy New Year #AEWWorldsEnd #Lions #FULARS Feliz Año",
-          type: "video",
-          src: v6,
-        },
-        {
-          text: "With burns, suffering and fear caused by the heinous acts of Israeli occupation, this is how the children of Gaza will be starting their New Year. Happy 2024 Happy New Year #AEWWorldsEnd #Lions #FULARS Feliz Año",
-          type: "video",
-          src: v5,
         },
       ],
       arabic: {
