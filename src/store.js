@@ -67,11 +67,6 @@ const store = createStore({
           src: v9,
         },
 
-        // {
-        //   text: "According to the Palestinian Red Crescent spokesman, the entire northern Gaza Strip lacks a single ambulance, despite the northern Gaza Strip is crowded with wounded and martyrs daily as a result of the ongoing criminality of the occupation. #Term #Palmer #Chelsea #Luton #Gaza",
-        //   type: "image",
-        //   src: p9,
-        // },
         {
           text: "As the Gaza genocide persists,our  new year won't be happy while countless innocents're being massacred by Israeli occupation. Instead of a countdown for a happy new year, let's countdown for a permanent #CEASEFIRE. Happy 2024 Happy New Year #AEWWorldsEnd #Lions #FULARS Feliz Año",
           type: "video",
@@ -82,17 +77,6 @@ const store = createStore({
           type: "video",
           src: v5,
         },
-        // {
-        //   text: "Even the bodies of martyrs in Gaza did not escape the brutality of the occupying entity, as they were mutilated, their internal organs were stolen, and many of them decomposed. #Slavery #Christmas #Pamplona #XRC20 #Nigeria",
-        //   type: "video",
-        //   src: v4,
-        // },
-
-        // {
-        //   text: "Bombardment isn't the only death's cause in Gaza.  According 2 Euro-Mediterranean Human Rights Monitor, 71% Gazans r facing food shortage, 98% suffer from starvation while 64% consume grass, raw & or expired food. #Slavery #Christmas #Pamplona #XRC20 #Nigeria",
-        //   type: "image",
-        //   src: p8,
-        // },
       ],
       arabic: {
         header: "🔻طُـوفَـان الـحَـقِـيـقَـة",
