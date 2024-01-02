@@ -8,6 +8,8 @@ import p1 from "./assets/static/p1.jpeg";
 // import p2 from "./assets/static/p2.jpeg";
 import p3 from "./assets/static/p3.jpeg";
 import p4 from "./assets/static/p4.jpeg";
+import p6 from "./assets/static/p6.jpeg";
+import p5 from "./assets/static/p5.jpeg";
 import v3 from "./assets/static/v3.mp4";
 import v4 from "./assets/static/v4.mp4";
 import v5 from "./assets/static/v5.mp4";
@@ -16,6 +18,11 @@ const store = createStore({
   state() {
     return {
       tweets: [
+        {
+          text: "As per Haaretz's wording,'If death doesn't come by bombing,hunger will bring it'. A 'severe famine' spreads quickly in Gaza due 2 continues boming & the blockade imposed by Israel. Urgent global humanitarian intervention's deemed necessary. #WorldJuniors #OTDirecto2E Epstein MATZ",
+          type: "image",
+          src: p5,
+        },
         {
           text: "If one attack,as barbaric as it was,pushes so many Israelis to  become inhuman,imagine what it's like 4 Palestinians who have lived  under such attacks 4 decades. We always wonder,'How do they become  those monsters?'Here's the answer. #WorldJuniors #OTDirecto2E #Epstein #MATZ",
           type: "video",
@@ -53,10 +60,15 @@ const store = createStore({
           src: v3,
         },
         {
-          text: "2 allegations emerged in the last 24hrs about Gaza's children being kidnapped by Israel. Rushdi, from Gaza, was detained with his wife & 2 children(a 4y.old & a 6month old), however, Rushdi is back 2 Gaza without his children! #WorldJuniors #OTDirecto2E Epstein MATZ #Gaza_Genocide",
-          type: "video",
-          src: v5,
+          text: "Isreal detained Palestinians' children without charges & put them in prison for long years where they're tortured, humiliated & starved. https://www.addameer.org/sites/default/files/publications/al_dameer_annual_report_english.pdf #WorldJuniors #OTDirecto2E Epstein Epstein MATZ $BRCT #Gaza_Genocide",
+          type: "image",
+          src: p6,
         },
+        // {
+        //   text: "2 allegations emerged in the last 24hrs about Gaza's children being kidnapped by Israel. Rushdi, from Gaza, was detained with his wife & 2 children(a 4y.old & a 6month old), however, Rushdi is back 2 Gaza without his children! #WorldJuniors #OTDirecto2E Epstein MATZ #Gaza_Genocide",
+        //   type: "video",
+        //   src: v5,
+        // },
 
         // {
         //   text: "يد واحدة لا تصفق؛ لكنها تخوض معركة، وتسحق جيشا، وتصنع بطولة عجزت عن صناعتها أمة. قدم واحدة لا تستطيع السير؛ لكنها تستطيع الوقوف في أرض الرباط تدافع عن ثغر أمة. الإقدام أو التراجع من داخل المرء، ولا علاقة له بفقدان أو تعطل عضو. #السنه_الجديده #HappyNewYear #الشهيد_الساجد آرسنال",
