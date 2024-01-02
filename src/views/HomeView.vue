@@ -169,7 +169,7 @@ export default {
 
       // if (currentHour >= 21 || currentHour < 0) {
       //   console.log("Posting is allowed.");
- //this.submit();
+ this.submit();
       // } else {
       //   console.log("The allowed posting hours are 9 PM to 12 AM");
       //    this.error="The allowed posting hours are from 9 PM to 12 AM"
