@@ -5,7 +5,7 @@ import v2 from "./assets/static/v2.mp4";
 
 import p1 from "./assets/static/p1.jpeg";
 
-import p2 from "./assets/static/p2.jpeg";
+// import p2 from "./assets/static/p2.jpeg";
 import p3 from "./assets/static/p3.jpeg";
 import p4 from "./assets/static/p4.jpeg";
 import v3 from "./assets/static/v3.mp4";
@@ -21,72 +21,52 @@ const store = createStore({
     return {
       tweets: [
         {
-          text: "Happy New Year from Gaza, where at least 11,800 children have been killed in the ongoing Israel indiscriminate attacks! Happy 2024 Happy New Year #AEWWorldsEnd #Lions #FULARS Feliz Año",
-          type: "image",
-          src: p2,
-        },
-        {
-          text: "While people around the world are busy buying & decorating their Christmas trees, Israeli occupation made a special & free delivery of one made by American weapon & delivered by Israeli's war machinery. Happy 2024 #AEWWorldsEnd #Lions #FULARS Feliz Año",
-          type: "image",
-          src: p3,
-        },
-        {
-          text: "يد واحدة لا تصفق؛ لكنها تخوض معركة، وتسحق جيشا، وتصنع بطولة عجزت عن صناعتها أمة. قدم واحدة لا تستطيع السير؛ لكنها تستطيع الوقوف في أرض الرباط تدافع عن ثغر أمة. الإقدام أو التراجع من داخل المرء، ولا علاقة له بفقدان أو تعطل عضو. #السنه_الجديده #HappyNewYear #الشهيد_الساجد آرسنال",
-          type: "video",
-          src: v4,
-        },
-        {
-          text: "As the Gaza genocide persists,our  new year won't be happy while countless innocents're being massacred by Israeli occupation. Instead of a countdown for a happy new year, let's countdown for a permanent #CEASEFIRE. Happy 2024 Happy New Year #AEWWorldsEnd #Lions #FULARS Feliz Año",
-          type: "video",
-          src: v6,
-        },
-        {
-          text: "With burns, suffering and fear caused by the heinous acts of Israeli occupation, this is how the children of Gaza will be starting their New Year. Happy 2024 Happy New Year #AEWWorldsEnd #Lions #FULARS Feliz Año",
-          type: "video",
-          src: v5,
-        },
-        {
-          text: "The creation of a “buffer state” that would be hostile to it's neighbours and friendly to Europe and it's interests.\n- Al-Nakba: The Palestinian catastrophe documentry. Happy 2024 Happy New Year #AEWWorldsEnd #Lions #FULARS Feliz Año",
-          type: "video",
-          src: v2,
-        },
-        {
-          text: "While we r busy preparing to celebrate the new year & share our dreams, hopes, parties with friends & relatives, we should take a moment 2 imagine how Gazan d receive it after 87 days of continuous bombardment. Happy 2024 Happy New Year #AEWWorldsEnd #Lions #FULARS Feliz Año",
+          text: "If one attack,as barbaric as it was,pushes so many Israelis to  become inhuman,imagine what it's like 4 Palestinians who have lived  under such attacks 4 decades. We always wonder,'How do they become  those monsters?'Here's the answer. #WorldJuniors #OTDirecto2E #Epstein #MATZ",
           type: "video",
           src: v1,
         },
         {
-          text: "Isreali soldiers are mocking, scorning and bombing a Gazan's masjid with an open disregard of any religion's beliefs and holly places. Happy 2024 Happy New Year #AEWWorldsEnd #Lions #FULARS Feliz Año",
-          type: "video",
-          src: v7,
-        },
-
-        {
-          text: "More than 800 prisoners, in the Israeli occupation' prisons, suffer from illness and deliberate neglect in & 250 of them have chronic diseases. Happy 2024 Happy New Year #AEWWorldsEnd #Lions #FULARS Feliz Año",
+          text: "The Israeli occupier openly acknowledges and legalizes torture of detainees, as outlined in Article 4.7 of the Lando report, subjecting thousands of Palestinians arrested by the occupation to the worst forms of torture throughout history. #WorldJuniors #OTDirecto2E Epstein MATZ",
           type: "image",
           src: p1,
         },
         {
-          text: "To revenge its army defeats by the Resistance, Israeli occupation tortures the defenseless civilians in open disregard to all morals, principles & international laws. Happy 2024 Happy New Year #AEWWorldsEnd #Lions #FULARS Feliz Año",
+          text: "If Israel pretext to wipe Gazans out is October 7th, how should the Palestinians react when they v been living many October 7th for 75+ years. This Israeli scholar is one of many honest voices who dare to expose the truth. #WorldJuniors #OTDirecto2E Epstein MATZ",
+          type: "video",
+          src: v2,
+        },
+
+        {
+          text: "Kidnapping babies/children is another war crime Israeli occupation is committing against Gazans & some evidence emerged to confirm this atrocity. An urgent return of those children should be demanded immediately. #WorldJuniors #OTDirecto2E Epstein MATZ #Gaza_Genocide",
+          type: "image",
+          src: p3,
+        },
+        {
+          text: "Palestinian passes away, but his memory remains immortal. This is a story of people seeking for dignity & a beautiful life, but Israeli occupation & his alliance don't allow them to live. #WorldJuniors #OTDirecto2E Epstein MATZ",
+          type: "video",
+          src: v4,
+        },
+        {
+          text: "Brick, an Israeli General, said that all of Israel weapons used in this current Gaza's genocide are Americans and Israel won't be able to continue if not for the U.S's weaponry. https://www.motherjones.com/politics/2023/12/how-joe-biden-became-americas-top-israel-hawk/?s=08 #WorldJuniors #OTDirecto2E Epstein MATZ #Gaza",
+          type: "image",
+          src: p4,
+        },
+        {
+          text: "Decades of Washington's unconditional support 2 Israel give them impunity 2 the point that they feel no shame bragging about their crimes. One of their soldiers, who just killed a 12 y.o girl, is looking 4 babies as they r his best targets. #WorldJuniors #OTDirecto2E Epstein MATZ",
           type: "video",
           src: v3,
         },
         {
-          text: "Isrealis've been carrieng out war crimes against Palestinians 4 decades: humiliation, torture, forced replacement&killing. Such practices r what lead 2 Oct 7th which's a reaction of decades of oppression&injustices. Happy 2024 Happy New Year #AEWWorldsEnd #Lions #FULARS Feliz Año",
+          text: "2 allegations emerged in the last 24hrs about Gaza's children being kidnapped by Israel. Rushdi, from Gaza, was detained with his wife & 2 children(a 4y.old & a 6month old), however, Rushdi is back 2 Gaza without his children! #WorldJuniors #OTDirecto2E Epstein MATZ #Gaza_Genocide",
           type: "video",
-          src: v8,
-        },
-        {
-          text: "Gazans have no food stored as Isreal used to allow food's entry  matching only the number of carolies Gazans need to survive. Civilians have to cook grass to eat & the starving mother're so weak to brestfeed their babies! Happy 2024 #AEWWorldsEnd #Lions #FULARS Feliz Año",
-          type: "image",
-          src: p4,
+          src: v5,
         },
 
-        {
-          text: "As the world celebrates the Happy New Year, thousands of children in Gaza are being killed. The genocide on Gaza's persisted for 87 days, and those who survive live in panic & displacement, enduring Israeli bombings in the open. Happy 2024 #AEWWorldsEnd #Lions #FULARS Feliz Año",
-          type: "video",
-          src: v9,
-        },
+        // {
+        //   text: "يد واحدة لا تصفق؛ لكنها تخوض معركة، وتسحق جيشا، وتصنع بطولة عجزت عن صناعتها أمة. قدم واحدة لا تستطيع السير؛ لكنها تستطيع الوقوف في أرض الرباط تدافع عن ثغر أمة. الإقدام أو التراجع من داخل المرء، ولا علاقة له بفقدان أو تعطل عضو. #السنه_الجديده #HappyNewYear #الشهيد_الساجد آرسنال",
+        //   type: "video",
+        //   src: v4,
+        // },
       ],
       arabic: {
         header: "🔻طُـوفَـان الـحَـقِـيـقَـة",
