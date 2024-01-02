@@ -198,11 +198,13 @@ export default {
         }
         
       }).catch(e => {
-        console.log(e.response.data)
+        console.log(e.response.data.arabic)
         if(this.$store.state.arabicTest){
-        this.error = e.response.data.arabic;
+
+        this.error = e.response.data.arabic?e.response.data.arabic:e.response.data;
+        console.log(this.error)
         }else{
-          this.error = e.response.data.english;
+          this.error = e.response.data.english? e.response.data.english:e.response.data;
         }
 
         }).finally(() => {    
