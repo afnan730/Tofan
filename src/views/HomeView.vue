@@ -85,18 +85,29 @@
               
               <div class="note">
                 <p class="mt-1">{{content.note}}</p>
-                <div v-if="isLoading" > <p >{{content.LoadingMsg}}</p>
+                <!-- <div v-if="isLoading" > <p >{{content.LoadingMsg}}</p>
               <div  class="spinner-border" role="status">
                 <span class="sr-only"></span>
                 
               </div>
-              </div>
-              </div>
-              
-              
+              </div> -->
+              </div>  
             </form>
-
-  
+            
+            <!-- Loading modal -->
+          <div v-if="isLoading" class="modal fade show" tabindex="-1" role="dialog" style="display: block;">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content"> 
+                  <div class="modal-body text-dark text-center">
+                    <div  class="spinner-border" role="status">
+                       <span class="sr-only"></span>        
+                    </div>
+                    <h5 class="mt-2"><p >{{content.LoadingMsg}}</p></h5> 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Error modal -->
             <div v-if="checkError" class="modal fade show" tabindex="-1" role="dialog" style="display: block;">
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content"> 
@@ -110,6 +121,7 @@
                 </div>
               </div>
             </div>
+            <!-- Success modal -->
             <div v-if="success" class="modal fade show" tabindex="-1" role="dialog" style="display: block;">
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
@@ -125,9 +137,6 @@
               </div>
             </div>
 
-            <!-- <div v-if="message" class="alert alert-success mt-2" role="alert">
-              {{ message }}
-            </div> -->
             </div>
           </div>
 
