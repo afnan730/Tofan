@@ -4,7 +4,7 @@
       <div class="main d-flex align-items-center justify-content-center">
        
         <div>
-          <div class="card">
+          <div class="main-card">
             <div class="login-box">
               <h3 class="text-center login-label fw-bold mb-2 ">
                 {{content.header}}
@@ -93,7 +93,7 @@
               </div> -->
               </div>  
             </form>
-            
+
             <!-- Loading modal -->
           <div v-if="isLoading" class="modal fade show" tabindex="-1" role="dialog" style="display: block;">
               <div class="modal-dialog modal-dialog-centered">
