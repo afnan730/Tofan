@@ -209,10 +209,10 @@ export default {
         
       }).catch(e => {
         console.log(e)
-        if(error.response && error.response.status === 504){
-          this.message="تم النشر بحمد الله"
-          return;
-        }
+        // if(error.response && error.response.status === 504){
+        //   this.message="تم النشر بحمد الله"
+        //   return;
+        // }
         if(this.$store.state.arabicTest){
 
         this.error = e.response.data.arabic?e.response.data.arabic:e.response.data;
