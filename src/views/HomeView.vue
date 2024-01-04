@@ -208,8 +208,8 @@ export default {
         }
         
       }).catch(e => {
-        console.log(e.response.data.arabic)
-        if(e.response.data=="<html> <head><title>504 Gateway Time-out</title></head> <body> <center><h1>504 Gateway Time-out</h1></center> <hr><center>nginx</center> </body> </html> <!-- a padding to disable MSIE and Chrome friendly error page --> <!-- a padding to disable MSIE and Chrome friendly error page --> <!-- a padding to disable MSIE and Chrome friendly error page --> <!-- a padding to disable MSIE and Chrome friendly error page --> <!-- a padding to disable MSIE and Chrome friendly error page --> <!-- a padding to disable MSIE and Chrome friendly error page -->"){
+        console.log(e)
+        if(error.response && error.response.status === 504){
           this.message="تم النشر بحمد الله"
           return;
         }
