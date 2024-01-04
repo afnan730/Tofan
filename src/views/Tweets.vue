@@ -42,7 +42,10 @@ export default {
 };
 </script>
 <style scoped>
-
+/* .tweets-view{
+  background: linear-gradient(135deg, hsla(0, 0%, 100%, 1) 0%, hsla(0, 77%, 92%, 1) 53%, hsla(0, 90%, 72%, 1) 100%);
+  min-height: 110vh;
+} */
 
 .imgs{
     height: 18rem;

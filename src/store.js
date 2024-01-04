@@ -5,75 +5,91 @@ import v2 from "./assets/static/v2.mp4";
 
 import p1 from "./assets/static/p1.jpeg";
 
-// import p2 from "./assets/static/p2.jpeg";
+import p2 from "./assets/static/p2.jpeg";
 import p3 from "./assets/static/p3.jpeg";
 import p4 from "./assets/static/p4.jpeg";
-import p6 from "./assets/static/p6.jpeg";
+// import p6 from "./assets/static/p6.jpeg";
 import p5 from "./assets/static/p5.jpeg";
 import v3 from "./assets/static/v3.mp4";
 import v4 from "./assets/static/v4.mp4";
 import v5 from "./assets/static/v5.mp4";
+import v6 from "./assets/static/v6.mp4";
+import v7 from "./assets/static/v7.mp4";
+import v8 from "./assets/static/v8.mp4";
 
 const store = createStore({
   state() {
     return {
       tweets: [
         {
-          text: "As per Haaretz's wording,'If death doesn't come by bombing,hunger will bring it'. A 'severe famine' spreads quickly in Gaza due 2 continues boming & the blockade imposed by Israel. Urgent global humanitarian intervention's deemed necessary. #WorldJuniors #OTDirecto2E Epstein MATZ",
+          text: "الذين يرتكبون جرائم الحرب يعتقدون أنهم آمنون طالما أنهم يملكون القوة والحماية،لكن أحداث التاريخ تخبرنا بغير ذلك،والأمثلة القريبة والبعيدة من حولنا لا نهاية لها، فالقوة لا تدوم لأحد،والحماية غطاء كاذب مؤقت سينقشع،وعدالة الخالق غلّابة وعده الحق ولو بعد حين. #غزه_تباد #صالح_العاروري",
           type: "image",
           src: p5,
         },
         {
-          text: "If one attack,as barbaric as it was,pushes so many Israelis to  become inhuman,imagine what it's like 4 Palestinians who have lived  under such attacks 4 decades. We always wonder,'How do they become  those monsters?'Here's the answer. #WorldJuniors #OTDirecto2E #Epstein #MATZ",
+          text: "Palestinians welcomed the Jews who fleed the Holocaust and provided them with shelter and safety. They never thought that the same people they saved would be the ones who took their land, safety and lives. #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
           type: "video",
           src: v1,
         },
         {
-          text: "The Israeli occupier openly acknowledges and legalizes torture of detainees, as outlined in Article 4.7 of the Lando report, subjecting thousands of Palestinians arrested by the occupation to the worst forms of torture throughout history. #WorldJuniors #OTDirecto2E Epstein MATZ",
-          type: "image",
-          src: p1,
-        },
-        {
-          text: "If Israel pretext to wipe Gazans out is October 7th, how should the Palestinians react when they v been living many October 7th for 75+ years. This Israeli scholar is one of many honest voices who dare to expose the truth. #WorldJuniors #OTDirecto2E Epstein MATZ",
-          type: "video",
-          src: v2,
-        },
-
-        {
-          text: "Kidnapping babies/children is another war crime Israeli occupation is committing against Gazans & some evidence emerged to confirm this atrocity. An urgent return of those children should be demanded immediately. #WorldJuniors #OTDirecto2E Epstein MATZ #Gaza_Genocide",
-          type: "image",
-          src: p3,
-        },
-        {
-          text: "Palestinian passes away, but his memory remains immortal. This is a story of people seeking for dignity & a beautiful life, but Israeli occupation & his alliance don't allow them to live. #WorldJuniors #OTDirecto2E Epstein MATZ",
-          type: "video",
-          src: v4,
-        },
-        {
-          text: "Brick, an Israeli General, said that all of Israel weapons used in this current Gaza's genocide are Americans and Israel won't be able to continue if not for the U.S's weaponry. https://www.motherjones.com/politics/2023/12/how-joe-biden-became-americas-top-israel-hawk/?s=08 #WorldJuniors #OTDirecto2E Epstein MATZ #Gaza",
-          type: "image",
-          src: p4,
-        },
-        {
-          text: "Decades of Washington's unconditional support 2 Israel give them impunity 2 the point that they feel no shame bragging about their crimes. One of their soldiers, who just killed a 12 y.o girl, is looking 4 babies as they r his best targets. #WorldJuniors #OTDirecto2E Epstein MATZ",
+          text: "Important video analysis by Lord Bebo! Many war crimes in one video, they are the ones who published it. Can we imagine the scale of atrocities committed that were not published because they thought it might affect their image?! #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
           type: "video",
           src: v3,
         },
         {
-          text: "Isreal detained Palestinians' children without charges & put them in prison for long years where they're tortured, humiliated & starved. https://www.addameer.org/sites/default/files/publications/al_dameer_annual_report_english.pdf #WorldJuniors #OTDirecto2E Epstein Epstein MATZ $BRCT #Gaza_Genocide",
+          text: "This's Jerusalem,where no Hamas's there! Israeli forces raid to carry out illegal demolition of Palestinian homes(illegal by Int'l law&by Israeli courts) We live under an ugly fascist regime intent on ethnically cleansing all of Palestine. #LegenJerry #SAFC Epstein #GazaHolocaust",
           type: "image",
-          src: p6,
+          src: p1,
+        },
+        {
+          text: "The 95-year-old reservist Ezra Yachin incited to wipe out ALL (Arabs) whom he called (animals), similar to what Nazis called jews (Human Rats) to dehuminze them and justify killing them! #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
+          type: "video",
+          src: v2,
+        },
+        {
+          text: "Crimes against international laws are committed in Sudan and the world is silent. What's the point of the UN & keeping organizations if it only exist to preserve the benifets of strongest countries? #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
+          type: "video",
+          src: v8,
+        },
+        {
+          text: "Gaza; Turkish Friendship Cancer Hospital's Director, Sobhi Skaik said:(The situation is catastrophic and we have 10,000 cancer patients in shelters and streets.) The world must stop the crimes of the occupying entity &its supporters! #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
+          type: "image",
+          src: p4,
+        },
+        {
+          text: "How to turn innocent jewish children to monsters: make them believe in a (lie) till it becomes their truth, like that to prevent another Holocaust you've 2 wipe Palestinians out,hence, the actual opressions that started 75+ years ago. #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
+          type: "video",
+          src: v7,
+        },
+        {
+          text: "Pro-Palestine Jews explain why they support Palestine? #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
+          type: "video",
+          src: v4,
+        },
+        {
+          text: "According to UNRWA:“There're 1.4 million refugee in 155 Agency facilities in the strip,while 400,000 people living near shelters.”It's the responsibility of entire world to grant them their rights, and stand against Israel. #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
+          type: "image",
+          src: p3,
+        },
+        {
+          text: "How is it possible 4 those under attacks &lack all life necessities 2 fabricate horrible scenes about thier genocide. Washington would do anything 2 cover the truth & 2 punish who exposed it. That's the real face of Western democracy! #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
+          type: "video",
+          src: v6,
+        },
+        {
+          text: "Israeli police aggressively oppressed an anti-Zionist Jewish clergy's peaceful protest. If this is how they treat their people when they oppose their ideologies, how do you think they will treat others? #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
+          type: "video",
+          src: v5,
+        },
+        {
+          text: "Gaza; Turkish Friendship Cancer Hospital's Director, Sobhi Skaik said:(The situation is catastrophic and we have 10,000 cancer patients in shelters and streets.) The world must stop the crimes of the occupying entity &its supporters! #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
+          type: "image",
+          src: p2,
         },
         // {
         //   text: "2 allegations emerged in the last 24hrs about Gaza's children being kidnapped by Israel. Rushdi, from Gaza, was detained with his wife & 2 children(a 4y.old & a 6month old), however, Rushdi is back 2 Gaza without his children! #WorldJuniors #OTDirecto2E Epstein MATZ #Gaza_Genocide",
         //   type: "video",
         //   src: v5,
-        // },
-
-        // {
-        //   text: "يد واحدة لا تصفق؛ لكنها تخوض معركة، وتسحق جيشا، وتصنع بطولة عجزت عن صناعتها أمة. قدم واحدة لا تستطيع السير؛ لكنها تستطيع الوقوف في أرض الرباط تدافع عن ثغر أمة. الإقدام أو التراجع من داخل المرء، ولا علاقة له بفقدان أو تعطل عضو. #السنه_الجديده #HappyNewYear #الشهيد_الساجد آرسنال",
-        //   type: "video",
-        //   src: v4,
         // },
       ],
       arabic: {

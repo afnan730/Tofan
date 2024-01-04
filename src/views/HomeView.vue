@@ -67,7 +67,7 @@
                 name="access_token_secret"
                 v-model="accessSecret"
               />
-              <label class="form-label" for="barerr_token"
+              <!-- <label class="form-label" for="barerr_token"
                 >5. Bearer Token</label
               >
               <input
@@ -76,7 +76,7 @@
                 id="barerr_token"
                 name="barerr_token"
                 v-model="bearerToken"
-              />
+              /> -->
              
 
               <button type="submit" class="btn btn-dark post-btn">
@@ -178,26 +178,27 @@ export default {
 
       // if (currentHour >= 21 || currentHour < 0) {
       //   console.log("Posting is allowed.");
- //this.submit();
+ this.submit();
       // } else {
       //   console.log("The allowed posting hours are 9 PM to 12 AM");
       //    this.error="The allowed posting hours are from 9 PM to 12 AM"
       // }
-           if(this.$store.state.arabicTest){
-            this.error="تم إيقاف النشر حتى الساعة 9 مساءً. نتطلّع لرؤيتكم"
-        }
-         else{
-           this.error="Posting tweets has been suspended until 9 p.m. We look forward to seeing you."
-             }
+        //    if(this.$store.state.arabicTest){
+        //     this.error="تم إيقاف النشر حتى الساعة 9 مساءً. نتطلّع لرؤيتكم"
+        // }
+        //  else{
+        //    this.error="Posting tweets has been suspended until 9 p.m. We look forward to seeing you."
+        //      }
       
     },
     submit() {
-      axios.post("https://www.thetufan.com/api/tweet", {
+       axios.post("https://www.thetufan.com/api/tweet", {
+        // axios.post("http://localhost:3000/api/tweet", {
         appKey: this.appKey,
         appSecret: this.appSecret,
         accessToken: this.accessToken,
         accessSecret: this.accessSecret,
-        bearerToken: this.bearerToken,
+        // bearerToken: this.bearerToken,
       }).then((resp) => {
         console.log(resp.data)
         if(this.$store.state.arabicTest){
