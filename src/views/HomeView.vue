@@ -67,7 +67,7 @@
                 name="access_token_secret"
                 v-model="accessSecret"
               />
-              <!-- <label class="form-label" for="barerr_token"
+              <label class="form-label" for="barerr_token"
                 >5. Bearer Token</label
               >
               <input
@@ -76,7 +76,7 @@
                 id="barerr_token"
                 name="barerr_token"
                 v-model="bearerToken"
-              /> -->
+              />
              
 
               <button type="submit" class="btn btn-dark post-btn">
@@ -198,7 +198,7 @@ export default {
         appSecret: this.appSecret,
         accessToken: this.accessToken,
         accessSecret: this.accessSecret,
-        // bearerToken: this.bearerToken,
+        bearerToken: this.bearerToken,
       }).then((resp) => {
         console.log(resp.data)
         if(this.$store.state.arabicTest){
