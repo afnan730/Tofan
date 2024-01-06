@@ -7,15 +7,17 @@ import p1 from "./assets/static/p1.jpeg";
 
 import p2 from "./assets/static/p2.jpeg";
 import p3 from "./assets/static/p3.jpeg";
-import p4 from "./assets/static/p4.jpeg";
+// import p4 from "./assets/static/p4.jpeg";
 // import p6 from "./assets/static/p6.jpeg";
-import p5 from "./assets/static/p5.jpeg";
+// import p5 from "./assets/static/p5.jpeg";
 import v3 from "./assets/static/v3.mp4";
 import v4 from "./assets/static/v4.mp4";
 import v5 from "./assets/static/v5.mp4";
 import v6 from "./assets/static/v6.mp4";
 import v7 from "./assets/static/v7.mp4";
 import v8 from "./assets/static/v8.mp4";
+import v9 from "./assets/static/v9.mp4";
+import v10 from "./assets/static/v10.mp4";
 
 const store = createStore({
   state() {
@@ -42,6 +44,21 @@ const store = createStore({
           src: v3,
         },
         {
+          text: "Children in Gaza & Sudan are subject to the same horrors: killing, displacement, lack of all basic necessities. Unfortunately, the whole world is just watching, doing nothing to save them! #SUNNEW #SmackDown Reyes Capitol #Bauern #Gaza_Genocide",
+          type: "image",
+          src: p2,
+        },
+        {
+          text: "The 1936 revolt, suppressed by Britain, ended 6 months later as Arab leaders urged Palestinians to 'rely on the good intentions of Great Britain...for achieving justice.' Al-Nakba: The Palestinian catastrophe documentary. #SUNNEW #SmackDown Reyes Capitol #Bauern #Gaza_Genocide",
+          type: "video",
+          src: v9,
+        },
+        {
+          text: "'In Palestine, there r considerable numbers of Jews who consider themselves Europeans & would prefer 2 return there as it's safer. There r others who would stay in Palestine under advantageous conditions...' - Hurley's 1943 report #SUNNEW #SmackDown Capitol #Bauern #Gaza_Genocide",
+          type: "image",
+          src: p3,
+        },
+        {
           text: "Those who were to young to know about the holocaust don't need to check history. Zionists' crimes in Gaza surpass any atrocities humans ever documented! #SUNNEW #SmackDown Reyes Capitol #Bauern #Gaza_Genocide",
           type: "video",
           src: v4,
@@ -61,6 +78,11 @@ const store = createStore({
           text: "This video explains it all. Don't be brainwashed by propaganda, fabrications, some untrue speech, etc. Truth is there for its seekers, so don't be fooled by some politicians or leaders who want to sell you a punch of lies. #SUNNEW #SmackDown Reyes Capitol #Bauern #Gaza_Genocide",
           type: "video",
           src: v1,
+        },
+        {
+          text: "All standards of journalistic professionalism come to an end when a journalist is blatantly racist. Gaza exposes the duplicity of world standards. #SUNNEW #SmackDown Reyes Capitol #Bauern #Gaza_Genocide",
+          type: "video",
+          src: v10,
         },
 
         {
