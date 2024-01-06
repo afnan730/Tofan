@@ -22,74 +22,61 @@ const store = createStore({
     return {
       tweets: [
         {
-          text: "الذين يرتكبون جرائم الحرب يعتقدون أنهم آمنون طالما أنهم يملكون القوة والحماية،لكن أحداث التاريخ تخبرنا بغير ذلك،والأمثلة القريبة والبعيدة من حولنا لا نهاية لها، فالقوة لا تدوم لأحد،والحماية غطاء كاذب مؤقت سينقشع،وعدالة الخالق غلّابة وعده الحق ولو بعد حين. #غزه_تباد #صالح_العاروري",
-          type: "image",
-          src: p5,
-        },
-        {
-          text: "Palestinians welcomed the Jews who fleed the Holocaust and provided them with shelter and safety. They never thought that the same people they saved would be the ones who took their land, safety and lives. #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
-          type: "video",
-          src: v1,
-        },
-        {
-          text: "Important video analysis by Lord Bebo! Many war crimes in one video, they are the ones who published it. Can we imagine the scale of atrocities committed that were not published because they thought it might affect their image?! #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
-          type: "video",
-          src: v3,
-        },
-        {
-          text: "This's Jerusalem,where no Hamas's there! Israeli forces raid to carry out illegal demolition of Palestinian homes(illegal by Int'l law&by Israeli courts) We live under an ugly fascist regime intent on ethnically cleansing all of Palestine. #LegenJerry #SAFC Epstein #GazaHolocaust",
-          type: "image",
-          src: p1,
-        },
-        {
-          text: "The 95-year-old reservist Ezra Yachin incited to wipe out ALL (Arabs) whom he called (animals), similar to what Nazis called jews (Human Rats) to dehuminze them and justify killing them! #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
-          type: "video",
-          src: v2,
-        },
-        {
-          text: "Crimes against international laws are committed in Sudan and the world is silent. What's the point of the UN & keeping organizations if it only exist to preserve the benifets of strongest countries? #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
-          type: "video",
-          src: v8,
-        },
-        {
-          text: "Gaza; Turkish Friendship Cancer Hospital's Director, Sobhi Skaik said:(The situation is catastrophic and we have 10,000 cancer patients in shelters and streets.) The world must stop the crimes of the occupying entity &its supporters! #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
-          type: "image",
-          src: p4,
-        },
-        {
-          text: "How to turn innocent jewish children to monsters: make them believe in a (lie) till it becomes their truth, like that to prevent another Holocaust you've 2 wipe Palestinians out,hence, the actual opressions that started 75+ years ago. #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
-          type: "video",
-          src: v7,
-        },
-        {
-          text: "Pro-Palestine Jews explain why they support Palestine? #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
-          type: "video",
-          src: v4,
-        },
-        {
-          text: "According to UNRWA:“There're 1.4 million refugee in 155 Agency facilities in the strip,while 400,000 people living near shelters.”It's the responsibility of entire world to grant them their rights, and stand against Israel. #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
-          type: "image",
-          src: p3,
-        },
-        {
-          text: "How is it possible 4 those under attacks &lack all life necessities 2 fabricate horrible scenes about thier genocide. Washington would do anything 2 cover the truth & 2 punish who exposed it. That's the real face of Western democracy! #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
-          type: "video",
-          src: v6,
-        },
-        {
-          text: "Israeli police aggressively oppressed an anti-Zionist Jewish clergy's peaceful protest. If this is how they treat their people when they oppose their ideologies, how do you think they will treat others? #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
+          text: "This world calls for peace & prosperity for all show its real hypocrite face & its double standard policy at Gaza's genocide. It just turns the blind eye 2 children's cries & suffering while complicity support the oppressor! #SUNNEW #SmackDown Reyes Capitol #Bauern #Gaza_Genocide",
           type: "video",
           src: v5,
         },
         {
-          text: "Gaza; Turkish Friendship Cancer Hospital's Director, Sobhi Skaik said:(The situation is catastrophic and we have 10,000 cancer patients in shelters and streets.) The world must stop the crimes of the occupying entity &its supporters! #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
+          text: "Proudly, loudly & full of confidence, she stated that she won't go back to her settlement, built on a stolen land, till all Palastinians're wiped out. Would any normal human being would dare 2 pronounce such hareful words?! #SUNNEW #SmackDown Reyes Capitol #Bauern #Gaza_Genocide",
+          type: "video",
+          src: v7,
+        },
+        {
+          text: "By supressing 1936 revolt, Britain destroyed Palastine's leadership & defense system, which gave zionists time to set in motion their plan & plant their next moves.The Ethnic Cleansing of Palastine by Ilan Pappe #SUNNEW #SmackDown Reyes Capitol #Bauern #Gaza_Genocide",
+          type: "video",
+          src: v6,
+        },
+        {
+          text: "Palestinians're being attacked by settlers while the occupation's soldiers turn the blind eye & some time they take rule in such aggression, which proves that Israeli occupation is never a democracy but an apartheid entity. #SUNNEW #SmackDown Reyes Capitol #Bauern #Gaza_Genocide",
+          type: "video",
+          src: v3,
+        },
+        {
+          text: "Those who were to young to know about the holocaust don't need to check history. Zionists' crimes in Gaza surpass any atrocities humans ever documented! #SUNNEW #SmackDown Reyes Capitol #Bauern #Gaza_Genocide",
+          type: "video",
+          src: v4,
+        },
+        {
+          text: "(We'd do the same thing even 2 a 3 y.old) an Israeli soldier said after killing 13 y.old girl by 17 bullets in 2005. Israel's crimes r not recent but v been committed against the land legitime owners 4 over 75 yrs. https://www.theguardian.com/world/2005/nov/16/israel2 #SUNNEW #SmackDown #Bauern #Gaza_Genocide",
           type: "image",
-          src: p2,
+          src: p1,
+        },
+        {
+          text: "Some Israeli soldiers described the crimes they committed against Palestinians in 1948 as they were herotic & brave. Israel was never a state but an apartheid entity. #SUNNEW #SmackDown Reyes Capitol #Bauern #Gaza_Genocide",
+          type: "video",
+          src: v2,
+        },
+
+        {
+          text: "This video explains it all. Don't be brainwashed by propaganda, fabrications, some untrue speech, etc. Truth is there for its seekers, so don't be fooled by some politicians or leaders who want to sell you a punch of lies. #SUNNEW #SmackDown Reyes Capitol #Bauern #Gaza_Genocide",
+          type: "video",
+          src: v1,
+        },
+
+        {
+          text: "Int'l law guarantees 2 people their rights. Yet,If u r a Palestinian, u v none. However,the occupation's above the law&accountability. It committed horrible crimes in Palestine&when they tried 2 defend themselves,they r labeled terrorist! #SUNNEW #SmackDown #Bauern #Gaza_Genocide",
+          type: "video",
+          src: v8,
         },
         // {
-        //   text: "2 allegations emerged in the last 24hrs about Gaza's children being kidnapped by Israel. Rushdi, from Gaza, was detained with his wife & 2 children(a 4y.old & a 6month old), however, Rushdi is back 2 Gaza without his children! #WorldJuniors #OTDirecto2E Epstein MATZ #Gaza_Genocide",
+        //   text: "Israeli police aggressively oppressed an anti-Zionist Jewish clergy's peaceful protest. If this is how they treat their people when they oppose their ideologies, how do you think they will treat others? #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
         //   type: "video",
         //   src: v5,
+        // },
+        // {
+        //   text: "Gaza; Turkish Friendship Cancer Hospital's Director, Sobhi Skaik said:(The situation is catastrophic and we have 10,000 cancer patients in shelters and streets.) The world must stop the crimes of the occupying entity &its supporters! #LegenJerry #SAFC Epstein Katt #GazaHolocaust",
+        //   type: "image",
+        //   src: p2,
         // },
       ],
       arabic: {
