@@ -183,12 +183,12 @@ export default {
       //   console.log("The allowed posting hours are 9 PM to 12 AM");
       //    this.error="The allowed posting hours are from 9 PM to 12 AM"
       // }
-           if(this.$store.state.arabicTest){
-            this.error="تم إيقاف النشر حتى الساعة 9 مساءً. نتطلّع لرؤيتكم"
-        }
-         else{
-           this.error="Posting tweets has been suspended until 9 p.m. We look forward to seeing you."
-             }
+          if(this.$store.state.arabicTest){
+           this.error="تم إيقاف النشر حتى الساعة 9 مساءً. نتطلّع لرؤيتكم"
+       }
+        else{
+          this.error="Posting tweets has been suspended until 9 p.m. We look forward to seeing you."
+            }
       
     },
     submit() {
