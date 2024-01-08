@@ -3,7 +3,7 @@ import { createStore } from "vuex";
 import v1 from "./assets/static/v1.mp4";
 import v2 from "./assets/static/v2.mp4";
 
-// import p1 from "./assets/static/p1.jpeg";
+import p1 from "./assets/static/p1.jpeg";
 
 // import p2 from "./assets/static/p2.jpeg";
 // import p3 from "./assets/static/p3.jpeg";
@@ -28,7 +28,11 @@ const store = createStore({
           type: "video",
           src: v2,
         },
-
+        {
+          text: "According to 1943 report of Patrick Hurley, special envoy of President Roosevelt to the Middle East: The Zionists's goal was to take Plastine & Transjordan after displacing its Arab population to Iraq. #uksnow Coretta #GoldenGlobes #OTDirecto8E #Bauernproteste #Gaza_Genocide",
+          type: "image",
+          src: p1,
+        },
         {
           text: "What is Nakba? When had been planning it? Who is the planner? Brief historical account of Nakba's events. #uksnow Coretta #GoldenGlobes #OTDirecto8E #Bauernproteste #Gaza_Genocide",
           type: "video",
