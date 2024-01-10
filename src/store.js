@@ -24,7 +24,7 @@ const store = createStore({
     return {
       tweets: [
         {
-          text: "South Africa's filed a genocide case against Israel in the ICJ in reference 2 the latest continuous attacks on Gaza.Thank you 2 this great nation that stands with what's right.What about the others? #Epstein #PMQs $AGN #SouthAfrica #Attal #Gaza_Geniocide",
+          text: "South Africa filed a genocide case against Israel in the ICJ in reference to the latest continuous attacks on Gaza. Thanks to this great nation that stands for what's right. What about the others? #Epstein #PMQs $AGN #SouthAfrica #Attal #Gaza_Geniocide",
           type: "image",
           link: "https://www.cnn.com/2024/01/09/middleeast/israel-genocide-case-world-court-gaza-mime-intl/index.html",
           src: p5,
