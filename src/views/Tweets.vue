@@ -14,6 +14,7 @@
           <p v-if="tweet.type=='image'|| tweet.type=='video'" class="card-text text-start">{{ tweet.text }}
             </p>
             <p v-else class="textTweet">{{ tweet.text }}</p>
+            <p v-if="tweet.link"><a :href="tweet.link" target="_blank">{{ tweet.link }}</a></p>
         </div>
       </div>
       
@@ -49,6 +50,9 @@ export default {
 
 .imgs{
     height: 18rem;
+}
+a{
+  font-size: 1rem;
 }
 
 @media only screen and (max-width: 766px) {
