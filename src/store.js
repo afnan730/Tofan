@@ -33,7 +33,7 @@ const store = createStore({
         // },
 
         {
-          text: "Israel & its complicits are trying to dsmiss the genocide's case as it would have many negative consequences on them. Zionism proves to have catastrophic effects on the west. Vivek Yemen Alberta Nigeria #Gaza_Geniocide",
+          text: "Israel and its accomplices are trying to dismiss the genocide case, fearing its potential negative consequences. Zionism proves to have catastrophic effects on the west. Vivek Yemen Alberta Nigeria #Gaza_Geniocide",
           type: "video",
           src: v12,
         },
