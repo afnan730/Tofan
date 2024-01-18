@@ -1,24 +1,26 @@
 import { createStore } from "vuex";
 
-import v1 from "./assets/static/v1.mp4";
-// import v2 from "./assets/static/v2.mp4";
 
-import p1 from "./assets/static/p1.jpeg";
+import p1 from "./assets/static/p1.jpg";
 
 // import p2 from "./assets/static/p2.jpeg";
 // import p3 from "./assets/static/p3.jpeg";
 // import p4 from "./assets/static/p4.jpeg";
 // import p6 from "./assets/static/p6.jpeg";
 // import p5 from "./assets/static/p5.jpeg";
-// import v3 from "./assets/static/v3.mp4";
-// import v4 from "./assets/static/v4.mp4";
+
+import v1 from "./assets/static/v1.mp4";
+import v2 from "./assets/static/v2.mp4";
+import v3 from "./assets/static/v3.mp4";
+import v4 from "./assets/static/v4.mp4";
 import v5 from "./assets/static/v5.mp4";
 import v6 from "./assets/static/v6.mp4";
 import v7 from "./assets/static/v7.mp4";
 import v8 from "./assets/static/v8.mp4";
 import v9 from "./assets/static/v9.mp4";
 import v10 from "./assets/static/v10.mp4";
-import v11 from "./assets/static/v11.mp4";
+
+// import v11 from "./assets/static/v11.mp4";
 // import v12 from "./assets/static/v12.mp4";
 
 const store = createStore({
@@ -32,53 +34,78 @@ const store = createStore({
         //   src: p5,
         // },
 
-        {
-          text: "The (most moral army)  is dealing with Gaza's people like hunting prey  or a (fun time hobby) as they are for them (human animals) and should be treated as such. Jose Iowa Roma Trump Eagles Davos  #Gaza_Geniocide",
-          type: "video",
-          src: v7,
-        },
-        {
-          text: "100+ days with a death toll of 23k+,7k+ under rubble &over 70k wounded in a world claiming to protect the innocent, what's the true power of the UN? How does it differ from Ukraine where firm resolutions were imposed? Jose Iowa Roma Trump Eagles Davos #Gaza_Geniocide",
-          type: "video",
-          src: v8,
-        },
-        {
-          text: "only 60 seconds reveal the details of the genocide war waged by Israel on Gaza and the heinous crimes it committed in less than 90 days. Jose Iowa Roma Trump Eagles Davos #Gaza_Geniocide",
-          type: "video",
-          src: v11,
-        },
-        {
-          text: "While Israel is trying hard to manipulate the International Court and convince the world that it is the absolute victim, its soldiers are bombing a building full of innocents and dedicating this crime to their late (leaders). Jose Iowa Roma Trump Eagles Davos #Gaza_Geniocide",
-          type: "video",
-          src: v6,
-        },
-        {
-          text: "What is Nakba? It's the abrupt loss of everything: home, safety, loved ones. Lucky to be alive but filled with despair, pain, grief, and memories of a people and land robbed by those once welcomed and protected. Jose Iowa Roma Trump Eagles Davos  #Gaza_Geniocide",
-          type: "video",
-          src: v5,
-        },
-        {
-          text: "Despite the desperate attempts to suppress pro-Palestine voices, the world's seen many manifestations demanding an immediate ceasefire. However,leaders & decision maker turn a blind eye to the public's demands but till when? Jose Iowa Roma Trump Eagles Davos #Gaza_Geniocide",
-          type: "video",
-          src: v10,
-        },
+        //1
+    {
+      text: "In this war, deliberate starvation rivals intentional killing.4 kids died of hunger in Gaza. Surprisingly, the issue isn't money, but a shortage of goods despite a massive accumulation at the crossing! #Trump #Davos #Pakistan #Argentina #GazaGenocide",
+      type: "media",
+      path: ["p1.jpg"],
+    },
 
-        {
-          text: "Palestinians R being used as training tools 4 the Israeli army.Soldiers R ordered 2 invade a home & terrorize residents for hours & then simply leave.It seems funny to those soldiers but definitely terrifying for the innocents. Jose Iowa Roma Trump Eagles Davos #Gaza_Geniocide",
-          type: "video",
-          src: v1,
-        },
-        {
-          text: "Resistance is never terrorism,it's the legitimate right of any nation to defend itself.Some're trying hard to demoralize it but people R no longer easily brainwashed. Our duty's to help those truth seekers & present them with facts & evidence. Jose Iowa Trump Davos #Gaza_Geniocide",
-          type: "video",
-          src: v9,
-        },
+    //2
+    {
+      text: "How daring Zionists&their allying r 2 attempt 2 legitimise crimes in lawyers' face who reveal them by virtue of laws they themselves have enacted.If law justifies their actions,do humanity justify their brutality? #Trump #Davos #Pakistan #Argentina  Metro #GazaGenocide",
+      type: "media",
+      path: ["v1.mp4"],
+    },
+	
+    //3
+    {
+      text: "Media figures should be neutral & respect guests. But the Zionist media bully guests with different opinions, interrupt & attack them. There's no freedom of speech & the media is a tool in the hands of the powerful & rich. #Trump #Davos #Pakistan #Argentina  Metro #GazaGenocide",
+      type: "media",
+      path: ["v2.mp4"],
+    },
+    
+    //4
+    {
+      text: "Rather than being safe & happy at school, he cries in desperation,unable to feed his starving family. In Gaza,+100k person lack life necessities as Israel delays aid deliveries,stored just meters away at the Rafah crossing! #Trump #Davos #Pakistan #Argentina  Metro #GazaGenocide",
+      type: "media",
+      path: ["v3.mp4"],
+    },
+    
+    //5
+    {
 
-        {
-          text: "Isn't it enough of a shame for us that we live in this terrible historical era where the oppressor holds our necks to watch our children being killed and oppressed?! We must SPEAK UP to stop this unjust aggression.. to save humanity. Jose Iowa Roma Trump Eagles Davos #Gaza_Geniocide",
-          type: "image",
-          src: p1,
-        },
+      text: "Occupation aggression has no boundaries, targeting even the small children. This 5 aged child's detained by israeli soldiers. A simple question rises:What could a child this age possibly do to be treated in such brutality? #Trump #Davos #Pakistan #Argentina  Metro #GazaGenocide",
+      type: "media",
+      path: ["v4.mp4"],
+    },
+
+    //6
+    {
+      text:"Gaza faces an escalation in amputation cases unless the conflict ceases&the blockade's lifted.Beyond indiscriminate shelling&intentional targeting of limbs,resources shortage compels the adoption of limb removal 2 save the wounded #Trump #Davos #Pakistan #Argentina #GazaGenocide",
+      type: "media",
+      path: ["v5.mp4"],
+    },
+
+    //7
+    {
+
+      text: "Zionists instill (Traumatization and Revenge) in Israelis through education and media,portraying Arabs as (New Nazis) dehumanizing Palestinians, and promoting genocide as the solution to prevent a (New Holocaust.)  #Trump #Davos #Pakistan #Argentina Metro  #GazaGenocide",
+      type: "media",
+      path: ["v6.mp4", "v7.mp4"],
+    },
+    
+    //8
+    {
+      text: "The West manipulates laws to serve its interests. Isreal bought most of the U.S.  legislators to criminalize anti Zionists critics. But what about +1000k of Americans jews who R anti-zionists? What about the freedom of speech?! #Trump #Davos #Pakistan #Argentina #GazaGenocide",
+      type: "media",
+      path: ["v8.mp4"],
+    },
+    
+    //9
+    {
+      text: "To justify robbinng the land and killing its indinigeous, Isreal tries to erase Palastine's history. However, Western museums show otherwise. Besides, even if this is true, it never justifies genocides. #Trump #Davos #Pakistan Metro #Argentina #GazaGenocide",
+      type: "media",
+      path: ["v9.mp4"],
+    },
+    
+    //10
+    {
+      text: "Israel is starving Palestinians in Gaza and just opened fire on a larger crowd of Palestinians simply trying to get food. #Trump #Davos #Pakistan Metro #Argentina #GazaGenocide",
+      type: "media",
+      path: ["v10.mp4"],
+    },
+    
       ],
       arabic: {
         header: "🔻طُـوفَـان الـحَـقِـيـقَـة",
