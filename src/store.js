@@ -38,7 +38,7 @@ const store = createStore({
     {
       text: "In this war, deliberate starvation rivals intentional killing.4 kids died of hunger in Gaza. Surprisingly, the issue isn't money, but a shortage of goods despite a massive accumulation at the crossing! #Trump #Davos #Pakistan #Argentina #GazaGenocide",
       type: "image",
-      src: ["p1.jpg"],
+      src: p1.jpg,
     },
 
     //2
