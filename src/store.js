@@ -37,73 +37,73 @@ const store = createStore({
         //1
     {
       text: "In this war, deliberate starvation rivals intentional killing.4 kids died of hunger in Gaza. Surprisingly, the issue isn't money, but a shortage of goods despite a massive accumulation at the crossing! #Trump #Davos #Pakistan #Argentina #GazaGenocide",
-      type: "media",
-      path: ["p1.jpg"],
+      type: "image",
+      src: ["p1.jpg"],
     },
 
     //2
     {
       text: "How daring Zionists&their allying r 2 attempt 2 legitimise crimes in lawyers' face who reveal them by virtue of laws they themselves have enacted.If law justifies their actions,do humanity justify their brutality? #Trump #Davos #Pakistan #Argentina  Metro #GazaGenocide",
-      type: "media",
-      path: ["v1.mp4"],
+      type: "video",
+      src: ["v1.mp4"],
     },
 	
     //3
     {
       text: "Media figures should be neutral & respect guests. But the Zionist media bully guests with different opinions, interrupt & attack them. There's no freedom of speech & the media is a tool in the hands of the powerful & rich. #Trump #Davos #Pakistan #Argentina  Metro #GazaGenocide",
-      type: "media",
-      path: ["v2.mp4"],
+      type: "video",
+      src: ["v2.mp4"],
     },
     
     //4
     {
       text: "Rather than being safe & happy at school, he cries in desperation,unable to feed his starving family. In Gaza,+100k person lack life necessities as Israel delays aid deliveries,stored just meters away at the Rafah crossing! #Trump #Davos #Pakistan #Argentina  Metro #GazaGenocide",
-      type: "media",
-      path: ["v3.mp4"],
+      type: "video",
+      src: ["v3.mp4"],
     },
     
     //5
     {
 
       text: "Occupation aggression has no boundaries, targeting even the small children. This 5 aged child's detained by israeli soldiers. A simple question rises:What could a child this age possibly do to be treated in such brutality? #Trump #Davos #Pakistan #Argentina  Metro #GazaGenocide",
-      type: "media",
-      path: ["v4.mp4"],
+      type: "video",
+      src: ["v4.mp4"],
     },
 
     //6
     {
       text:"Gaza faces an escalation in amputation cases unless the conflict ceases&the blockade's lifted.Beyond indiscriminate shelling&intentional targeting of limbs,resources shortage compels the adoption of limb removal 2 save the wounded #Trump #Davos #Pakistan #Argentina #GazaGenocide",
-      type: "media",
-      path: ["v5.mp4"],
+      type: "video",
+      src: ["v5.mp4"],
     },
 
     //7
     {
 
       text: "Zionists instill (Traumatization and Revenge) in Israelis through education and media,portraying Arabs as (New Nazis) dehumanizing Palestinians, and promoting genocide as the solution to prevent a (New Holocaust.)  #Trump #Davos #Pakistan #Argentina Metro  #GazaGenocide",
-      type: "media",
-      path: ["v6.mp4", "v7.mp4"],
+      type: "video",
+      src: ["v6.mp4"],
     },
     
     //8
     {
       text: "The West manipulates laws to serve its interests. Isreal bought most of the U.S.  legislators to criminalize anti Zionists critics. But what about +1000k of Americans jews who R anti-zionists? What about the freedom of speech?! #Trump #Davos #Pakistan #Argentina #GazaGenocide",
-      type: "media",
-      path: ["v8.mp4"],
+      type: "video",
+      src: ["v8.mp4"],
     },
     
     //9
     {
       text: "To justify robbinng the land and killing its indinigeous, Isreal tries to erase Palastine's history. However, Western museums show otherwise. Besides, even if this is true, it never justifies genocides. #Trump #Davos #Pakistan Metro #Argentina #GazaGenocide",
-      type: "media",
-      path: ["v9.mp4"],
+      type: "video",
+      src: ["v9.mp4"],
     },
     
     //10
     {
       text: "Israel is starving Palestinians in Gaza and just opened fire on a larger crowd of Palestinians simply trying to get food. #Trump #Davos #Pakistan Metro #Argentina #GazaGenocide",
-      type: "media",
-      path: ["v10.mp4"],
+      type: "video",
+      src: ["v10.mp4"],
     },
     
       ],
