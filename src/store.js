@@ -1,20 +1,19 @@
 import { createStore } from "vuex";
 
 
-// import p1 from "./assets/static/p1.jpg";
-
-// import p2 from "./assets/static/p2.jpeg";
-// import p3 from "./assets/static/p3.jpeg";
-// import p4 from "./assets/static/p4.jpeg";
+import p1 from "./assets/static/p1.jpg";
+import p2 from "./assets/static/p2.jpg";
+import p3 from "./assets/static/p3.jpg";
+import p4 from "./assets/static/p4.jpg";
 // import p6 from "./assets/static/p6.jpeg";
 // import p5 from "./assets/static/p5.jpeg";
 
 import v1 from "./assets/static/v1.mp4";
 import v2 from "./assets/static/v2.mp4";
 import v3 from "./assets/static/v3.mp4";
-import v4 from "./assets/static/v4.mp4";
-import v5 from "./assets/static/v5.mp4";
-import v6 from "./assets/static/v6.mp4";
+// import v4 from "./assets/static/v4.mp4";
+// import v5 from "./assets/static/v5.mp4";
+// import v6 from "./assets/static/v6.mp4";
 // import v7 from "./assets/static/v7.mp4";
 // import v8 from "./assets/static/v8.mp4";
 // import v9 from "./assets/static/v9.mp4";
@@ -34,57 +33,60 @@ const store = createStore({
         //   src: p5,
         // },
 
-   //1
+     //1
     {
-
-      text: "What does 15k demolition orders in Jerusalem alone reveal?It exposes Israel's clear intent  to get rid of all Palestinians by all means possible. If this isn't a colonization & ethnic cleansing,what else could it be?  #Gaza_Genocide Arsenal Martinelli Palworld Palace Saka #MINU",
-      type: "video",
-      src: v1,
+      text: "The huge difference in the conditions of the freed hostages/prisoners is a clear indication of who are the (moral ones.) Actions are louders and more honest than words and propaganda. #Gazagenocide‌ #WWE2K24  Bills Chiefs Palworld Demos Mbemba Auschwitz",
+      type: "image",
+      src: p1,
     },
 
     //2
     {
-
-      text: "Israeli forces R continuing to commit massacres in Gaza, they executed an elderly man in front of his family.The occupation continues with such atrocities with total support from the world's leaders. #Gaza_Genocide Arsenal Martinelli Palworld Palace Saka #MINU",
-      type: "video",
-      src: v2,
+      text: "The Israeli media justifies targeting anything in Gaza, even dolls, it is linked to Hamas. Their aim, in essence, is to eliminate all people except Zionists. #Gazagenocide‌ #WWE2K24  Bills Chiefs Palworld Demos Mbemba Auschwitz",
+      type: "image",
+      path: p2,
     },
 	
     //3
     {
 
-      text: "Gazans endure 100+ days of horrors – crimes,destruction,starvation,& loss. Continuous war crimes persist while major world players & UN organizations simply watch. R Gazans abandoned to be brutally wiped out by Israel #Gaza_Genocide Arsenal Martinelli Palworld Palace Saka #MINU",
+
+      text: "She must face consequences for violating international law & inciting violence. We call on people globally to gather at Israeli embassies,close them,expel or detain ambassadors until justice achieved in Gaza.#Gazagenocide‌ #WWE2K24  Bills Chiefs Palworld Demos Mbemba Auschwitz",
       type: "video",
-      src: v3,
+      src: v1,
     },
     
     //4
     {
 
-      text: "Understanding the Nakba is by exploring the ongoing struggles against illegal land seizures. Moreover, Israeli apartheid's regime practices expose the enduring oppression on Palestinians #Gaza_Genocide Arsenal Martinelli Palworld Palace Saka #MINU",
+      text: "Ex-Israeli soldier questions Israel's claim of(most moral army)&(best democracy). He wonders about storing banned white phosphorus,& now,the mystery's resolved.This weapon,along with others,is used on Gazans! #Gazagenocide‌ #WWE2K24  Bills Chiefs Palworld Demos Mbemba Auschwitz",
       type: "video",
-      src: v4,
+      src: v2,
     },
     
     //5
     {
-
-
-      text: "Israeli students endorse violence towards Arabs,envisioning harm & enslavement 4 survivors.Concerns arise about their future actions as potential soldiers,revealing a lack of emphasis on tolerance& diversity in their education #Gaza_Genocide Arsenal Martinelli Palworld Palace",
-      type: "video",
-      src: v5,
+      text: "Despite global condemnation,Washington staunchly defends Israel against genocide accusations. What's the secret behind this unconditional support?Would the US risk losing its (reputation) for Israel & what for?#Gazagenocide‌ #WWE2K24  Bills Chiefs Palworld Demos Mbemba Auschwitz",
+      type: "image",
+      src: p3,
     },
 
    
-
     //6
     {
-
-      text: "Zionists instill (Traumatization and Revenge) in Israelis through education and media,portraying Arabs as (New Nazis) dehumanizing Palestinians, and promoting genocide as the solution to prevent a (New Holocaust.)  #Trump #Davos #Pakistan #Argentina Metro  #GazaGenocide",
-      type: "video",
-      src: v6,
+      text: "Its time 2 uncover the truth&resist lies &propaganda.October 7th wasn't a start bt response to years of massacres &oppression. How does one react when being under attack,with loved ones slain,&homeland robbed? #Gazagenocide‌ #WWE2K24  Bills Chiefs Palworld Demos Mbemba Auschwitz",
+      type: "image",
+      src: p4,
     },
-   
+    
+    
+      //7
+    {
+      
+      text:"Some French soldiers are bragging about going to Gaza to massacre innocents and describing this by (wonderful.) Where are the International Criminal Court from such behaviors? #Gazagenocide‌ #WWE2K24  Bills Chiefs Palworld Demos Mbemba Auschwitz",
+      type: "video",
+      src: v3,
+    },
     
   
     
