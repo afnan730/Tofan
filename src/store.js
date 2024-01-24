@@ -63,7 +63,7 @@ const store = createStore({
 
       text: "Nazism is currently a historical Nazi, a revival of an ancient Nazi rife with genocide. #Gazagenocide‌ $joker Emergencies Act Trudeau #ALGMRT Zverev Mauritanie",
       type: "video",
-      src: v3.,
+      src: v3,
     },
     
     //5
