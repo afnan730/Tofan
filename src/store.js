@@ -32,105 +32,85 @@ const store = createStore({
         //   src: p5,
         // },
 
-
         //1
+        // {
+        //   text: "Israel consistently violates Human Rights.Ayman is a human rights workers & among the prisoners recounts abuse in Israeli detention where 6 Palestinian prisoners deaths reported",
+        //   type: "image",
+        //   link: "https://www.theguardian.com/world/2024/jan/21/gaza-activist-tells of-beating-and-abuse-in-israeli-detention CMP=Share_AndroidApp_Other&s=09",
+        //   src: p1,
+        // },
+
+        //2
         {
-          text: "Israel consistently violates Human Rights.Ayman is a human rights workers & among the prisoners recounts abuse in Israeli detention where 6 Palestinian prisoners deaths reported",
-          type: "image",
-          link: "https://www.theguardian.com/world/2024/jan/21/gaza-activist-tells of-beating-and-abuse-in-israeli-detention CMP=Share_AndroidApp_Other&s=09",
-          src: p1,
+          text: "This is how Israel 🇮🇱 treat Palestinian 🇵🇸 kids when there’s cameras on them! Just imagine what they do behind closed doors",
+          type: "video",
+          src: v1,
         },
 
-    
-    //2
-    {
+        //3
+        {
+          text: "Gaza faces hunger,worsened by Israeli aid restriction.WFP says almost every Palestinian goes without food 4 a day.  Resorting to animal feed when they have a chance,with meager portions shared among many families",
+          type: "video",
+          src: v2,
+        },
 
-      text: "This is how Israel 🇮🇱 treat Palestinian 🇵🇸 kids when there’s cameras on them! Just imagine what they do behind closed doors",
-      type: "video",
-      src: v1,
-    },
-	
-    //3
-    {
+        //4
+        {
+          text: "The United States requires a profound transformation in its governance.This country is ran by Israel.",
+          type: "image",
+          src: p3,
+        },
 
+        //5
 
-      text: "Gaza faces hunger,worsened by Israeli aid restriction.WFP says almost every Palestinian goes without food 4 a day.  Resorting to animal feed when they have a chance,with meager portions shared among many families",
-      type: "video",
-      src: v2,
-    },
-    
-    //4
-    {
+        {
+          text: "Netanyahu incited soldiers to commit genocide under religious cover and pretext. He is using a whole range of outrageous Machiavellian maneuvers to achieve his goals.",
+          type: "video",
+          src: v3,
+        },
 
-      text: "The United States requires a profound transformation in its governance.This country is ran by Israel.",
-      type: "image",
-      src: p3,
-    },
-    
-    //5
-    
-     {
+        //6
 
-      text: "Netanyahu incited soldiers to commit genocide under religious cover and pretext. He is using a whole range of outrageous Machiavellian maneuvers to achieve his goals.",
-      type: "video",
-      src: v3,
-    },
-    
-    
-    //6
-    
-     {
+        {
+          text: "People gift flowers, chocolate, and so on,but the (most moral army) is dedicating innocent massacres and home destructions. Have you ever seen such demoralization?!",
+          type: "video",
+          src: v4,
+        },
 
-      text: "People gift flowers, chocolate, and so on,but the (most moral army) is dedicating innocent massacres and home destructions. Have you ever seen such demoralization?!", 
-      type: "video",
-      src: v4,
-    },
-    
-    
-      //7
-    {
+        //7
+        {
+          text: "Israel uses 'dehumanizing language' to justify killing Gazans.The strange thing is when German media,considering its history, adopts such a strategy.",
+          type: "video",
+          src: v5,
+        },
 
+        //8
+        {
+          text: "A Palestinian mother refuses to leave the body of her slain son & carries him on her shoulder to escape Israeli bombing in Khan Younis to Rafah.The mother said Israeli soldiers shot at them & killed her son.",
+          type: "video",
+          src: v6,
+        },
 
-      text: "Israel uses 'dehumanizing language' to justify killing Gazans.The strange thing is when German media,considering its history, adopts such a strategy.",
-      type: "video",
-      src: v5,
-    },
-    
-    
-    //8
-    {
+        //9
+        {
+          text: "Thousands are displaced to the southern Gaza Strip through the (safe passage) designated by the Israeli army. Seeing all these displaced with signs of fear and exhaustion is heart breaking.",
+          type: "video",
+          src: v7,
+        },
 
-      text: "A Palestinian mother refuses to leave the body of her slain son & carries him on her shoulder to escape Israeli bombing in Khan Younis to Rafah.The mother said Israeli soldiers shot at them & killed her son.",
-      type: "video",
-      src: v6,
-    },
-    
-    
-      //9
-    {
+        //10
+        {
+          text: "With unprecedented audacity,Israel mocks the dead white,conveying a clear message of no peace with Palestinians. It knows it would never be held accountable,so it reveals  its true ugly face without concern.",
+          type: "image",
+          src: p4,
+        },
 
-      text: "Thousands are displaced to the southern Gaza Strip through the (safe passage) designated by the Israeli army. Seeing all these displaced with signs of fear and exhaustion is heart breaking.",
-      type: "video",
-      src: v7,
-    },
-    
-    //10
-    {
-
-      text: "With unprecedented audacity,Israel mocks the dead white,conveying a clear message of no peace with Palestinians. It knows it would never be held accountable,so it reveals  its true ugly face without concern.",
-      type: "image",
-      src: p4,
-    },
-    
-    //  //11
-    // {
-    //   text: "ELDERLY MAN ASSAULTED AND THE ISRAELI SOLDIER STANDS ON HIS NECK",
-    //   type: "media",
-    //   path: ["v8.mp4"],
-    // },
-    
-
-        
+        //  //11
+        // {
+        //   text: "ELDERLY MAN ASSAULTED AND THE ISRAELI SOLDIER STANDS ON HIS NECK",
+        //   type: "media",
+        //   path: ["v8.mp4"],
+        // },
       ],
       arabic: {
         header: "🔻طُـوفَـان الـحَـقِـيـقَـة",
