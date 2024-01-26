@@ -64,7 +64,7 @@ const store = createStore({
 
       text: "The United States requires a profound transformation in its governance.This country is ran by Israel.",
       type: "image",
-      src: [p2,p3],
+      src: p3,
     },
     
     //5
