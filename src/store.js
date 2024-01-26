@@ -1,6 +1,6 @@
 import { createStore } from "vuex";
 
-// import p1 from "./assets/static/p1.jpg";
+import p1 from "./assets/static/p1.jpg";
 import p2 from "./assets/static/p2.jpg";
 import p3 from "./assets/static/p3.jpg";
 import p4 from "./assets/static/p4.jpg";
@@ -12,8 +12,8 @@ import v2 from "./assets/static/v2.mp4";
 import v3 from "./assets/static/v3.mp4";
 import v4 from "./assets/static/v4.mp4";
 import v5 from "./assets/static/v5.mp4";
-// import v6 from "./assets/static/v6.mp4";
-// import v7 from "./assets/static/v7.mp4";
+import v6 from "./assets/static/v6.mp4";
+import v7 from "./assets/static/v7.mp4";
 // import v8 from "./assets/static/v8.mp4";
 // import v9 from "./assets/static/v9.mp4";
 // import v10 from "./assets/static/v10.mp4";
@@ -32,68 +32,105 @@ const store = createStore({
         //   src: p5,
         // },
 
-        // {
-        //   text: "Israel consistently violates Human Rights.Ayman is a human rights workers & among the prisoners recounts abuse in Israeli detention where 6 Palestinian prisoners deaths reported  #Gazagenocide‌ $joker Emergencies Act #ALGMRT Mauritanie Trudeau Zverev",
-        //   type: "image",
-        //   link: "https://www.theguardian.com/world/2024/jan/21/gaza-activist-tells of-beating-and-abuse-in-israeli-detention CMP=Share_AndroidApp_Other&s=09",
-        //   src: p1,
-        // },
 
-        //2
+        //1
         {
-          text: "This is how Israeli army has functioned in Palestine for so many years. #Gazagenocide‌ $joker Emergencies Act #ALGMRT Mauritanie Trudeau Zverev",
-          type: "video",
-          src: v1,
-        },
-
-        //3
-        {
-          text: "Israel practices racial segregation obviously. Not only in its refusal to recognize human rights, but also in its marginalization and use of Palestinans for purposes that contradict international treaties. #Gazagenocide‌ $joker Emergencies Act #ALGMRT Mauritanie Trudeau Zverev",
-          type: "video",
-          src: v2,
-        },
-
-        //4
-        {
-          text: "Nazism is currently a historical Nazi, a revival of an ancient Nazi rife with genocide. #Gazagenocide‌ $joker Emergencies Act Trudeau #ALGMRT Zverev Mauritanie",
-          type: "video",
-          src: v3,
-        },
-
-        //5
-        {
-          text: "This British lady answers questions related to double standards when it comes to non-white people & their interests, & why that appears in the dirtiest ways especially in issues related to Israel & Ukraine #Gazagenocide‌ $joker Emergencies Act Trudeau #ALGMRT Zverev Mauritanie",
-          type: "video",
-          src: v4,
-        },
-
-        //6
-        {
-          text: "(I’m losing the desire to belong to a country that kills 11,000 children) a well-known Israeli playwright & screenwriter, Motti Lerner, told a crowd at a literary event in Israel. #Gazagenocide‌ $joker Emergencies Act Trudeau #ALGMRT Zverev Mauritanie",
-          type: "video",
-          src: v5,
-        },
-
-        //7
-        {
-          text: "Israel is using starvation of civilians as a method of warfare, and according to the U.N reports: 1 in 4 people are starving and 9 out of 10 families in some areas spend a day and night without food. #Gazagenocide‌ $joker Emergencies Act Trudeau #ALGMRT Zverev",
+          text: "Israel consistently violates Human Rights.Ayman is a human rights workers & among the prisoners recounts abuse in Israeli detention where 6 Palestinian prisoners deaths reported  #Gazagenocide‌ $joker Emergencies Act #ALGMRT Mauritanie Trudeau Zverev",
           type: "image",
-          src: p2,
+          link: "https://www.theguardian.com/world/2024/jan/21/gaza-activist-tells of-beating-and-abuse-in-israeli-detention CMP=Share_AndroidApp_Other&s=09",
+          src: p1,
         },
 
-        //8
-        {
-          text: "Gaza Media Office:800,000 residents in Gaza & the northern enclave face death due to Israel's starvation & thirst policy. World leaders must act 2 end this abhorrent war crime with devastating effects on the innocents #Gazagenocide‌ $joker Emergencies Act Trudeau #ALGMRT Zverev",
-          type: "image",
-          src: p3,
-        },
+    
+    //2
+    {
 
-        //9
-        {
-          text: "Israel's deliberately blocking water,food,& fuel delivery while willfully impeding humanitarian assistance,apparently razing agricultural areas,& depriving the civilians of objects indispensable to their survival #Gazagenocide‌ $joker Emergencies Act Trudeau #ALGMRT Zverev",
-          type: "image",
-          src: p4,
-        },
+      text: "This is how Israel 🇮🇱 treat Palestinian 🇵🇸 kids when there’s cameras on them! Just imagine what they do behind closed doors",
+      type: "video",
+      src: v1,
+    },
+	
+    //3
+    {
+
+
+      text: "Gaza faces hunger,worsened by Israeli aid restriction.WFP says almost every Palestinian goes without food 4 a day.  Resorting to animal feed when they have a chance,with meager portions shared among many families",
+      type: "video",
+      src: v2,
+    },
+    
+    //4
+    {
+
+      text: "The United States requires a profound transformation in its governance.This country is ran by Israel.",
+      type: "image",
+      src: [p2,p3],
+    },
+    
+    //5
+    
+     {
+
+      text: "Netanyahu incited soldiers to commit genocide under religious cover and pretext. He is using a whole range of outrageous Machiavellian maneuvers to achieve his goals.",
+      type: "video",
+      src: v3,
+    },
+    
+    
+    //6
+    
+     {
+
+      text: "People gift flowers, chocolate, and so on,but the (most moral army) is dedicating innocent massacres and home destructions. Have you ever seen such demoralization?!", 
+      type: "video",
+      src: v4,
+    },
+    
+    
+      //7
+    {
+
+
+      text: "Israel uses 'dehumanizing language' to justify killing Gazans.The strange thing is when German media,considering its history, adopts such a strategy.",
+      type: "video",
+      src: v5,
+    },
+    
+    
+    //8
+    {
+
+      text: "A Palestinian mother refuses to leave the body of her slain son & carries him on her shoulder to escape Israeli bombing in Khan Younis to Rafah.The mother said Israeli soldiers shot at them & killed her son.",
+      type: "video",
+      src: v6,
+    },
+    
+    
+      //9
+    {
+
+      text: "Thousands are displaced to the southern Gaza Strip through the (safe passage) designated by the Israeli army. Seeing all these displaced with signs of fear and exhaustion is heart breaking.",
+      type: "video",
+      src: v7,
+    },
+    
+    //10
+    {
+
+      text: "With unprecedented audacity,Israel mocks the dead white,conveying a clear message of no peace with Palestinians. It knows it would never be held accountable,so it reveals  its true ugly face without concern.",
+      type: "image",
+      src: p4,
+    },
+    
+    //  //11
+    // {
+    //   text: "ELDERLY MAN ASSAULTED AND THE ISRAELI SOLDIER STANDS ON HIS NECK",
+    //   type: "media",
+    //   path: ["v8.mp4"],
+    // },
+    
+
+        
       ],
       arabic: {
         header: "🔻طُـوفَـان الـحَـقِـيـقَـة",
