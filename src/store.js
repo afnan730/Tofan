@@ -33,12 +33,12 @@ const store = createStore({
         // },
 
         //1
-        // {
-        //   text: "Israel consistently violates Human Rights.Ayman is a human rights workers & among the prisoners recounts abuse in Israeli detention where 6 Palestinian prisoners deaths reported",
-        //   type: "image",
-        //   link: "https://www.theguardian.com/world/2024/jan/21/gaza-activist-tells of-beating-and-abuse-in-israeli-detention CMP=Share_AndroidApp_Other&s=09",
-        //   src: p1,
-        // },
+        {
+          text: "Israel consistently violates Human Rights.Ayman is a human rights workers & among the prisoners recounts abuse in Israeli detention where 6 Palestinian prisoners deaths reported",
+          type: "image",
+          link: "https://www.theguardian.com/world/2024/jan/21/gaza-activist-tells of-beating-and-abuse-in-israeli-detention CMP=Share_AndroidApp_Other&s=09",
+          src: p1,
+        },
 
         //2
         {
