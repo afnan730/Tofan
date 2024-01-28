@@ -36,7 +36,7 @@ const store = createStore({
     
      {
       text: "ELDERLY MAN ASSAULTED AND THE ISRAELI SOLDIER STANDS ON HIS NECK",
-      type: "media",
+      type: "video",
       src: v1,
     },
     
