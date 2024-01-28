@@ -33,84 +33,94 @@ const store = createStore({
         // },
 
         //1
-        {
-          text: "Israel consistently violates Human Rights.Ayman is a human rights workers & among the prisoners recounts abuse in Israeli detention where 6 Palestinian prisoners deaths reported",
-          type: "image",
-          link: "https://www.theguardian.com/world/2024/jan/21/gaza-activist-tells of-beating-and-abuse-in-israeli-detention CMP=Share_AndroidApp_Other&s=09",
-          src: p1,
-        },
+    
+     {
+      text: "ELDERLY MAN ASSAULTED AND THE ISRAELI SOLDIER STANDS ON HIS NECK",
+      type: "media",
+      src: ["v1.mp4"],
+    },
+    
+   
+    //2
+    {
 
-        //2
-        {
-          text: "This is how Israel 🇮🇱 treat Palestinian 🇵🇸 kids when there’s cameras on them! Just imagine what they do behind closed doors",
-          type: "video",
-          src: v1,
-        },
+      text: "Children R the primary victims in the ongoing Israeli attack on Gaza. In the video, you witness one of many daily efforts to rescue children from rubble,accepting whatever outcome may follow.",
+      type: "video",
+      src: v2,
+    },
+	
+    //3
+    {
 
-        //3
-        {
-          text: "Gaza faces hunger,worsened by Israeli aid restriction.WFP says almost every Palestinian goes without food 4 a day.  Resorting to animal feed when they have a chance,with meager portions shared among many families",
-          type: "video",
-          src: v2,
-        },
+      text: "Al Jazeera reported live,(Next to their white flags!! Israeli soldiers shot a child & his brother after they went out holding two white flags to inspect the road for evacuating their family.",
+      type: "image",
+      src: p1,
+    },
+    
+    //4
+    {
 
-        //4
-        {
-          text: "The United States requires a profound transformation in its governance.This country is ran by Israel.",
-          type: "image",
-          src: p3,
-        },
+      text: "This Palestinian man logically & calmly exposed soldiers to their apartheid regime via their unfair treatment to Palestinians. Peace can only be achieved by equality & justice for all.",
+      type: "video",
+      src: v3,
+    },
+    
+    
+    
+    //5
+    
+     {
 
-        //5
+      text: "Documentation of 710 Combat Engineering Corps in the Israeli army bombing a residential building—an apparent war crime, part of Israel's daily series of such acts.", 
+      type: "video",
+      src: v4,
+    },
+    
+   
+    //6
+    {
 
-        {
-          text: "Netanyahu incited soldiers to commit genocide under religious cover and pretext. He is using a whole range of outrageous Machiavellian maneuvers to achieve his goals.",
-          type: "video",
-          src: v3,
-        },
+      text: "Children's rights are violated in Zionist prisons,facing severe psychological& physical abuses, including sexual harassment, defying international law.",
+      type: "video",
+      src: v5,
+    },
+	
+    //7
+    {
 
-        //6
+      text: "Don't expect much from the International Court of Justice. The global system, with its organizations and laws, has morally collapsed, evident daily in Gaza's tragic scenes on our screens.",
+      type: "video",
+      src: v6,
+    },
+    
+    //8
+    {
 
-        {
-          text: "People gift flowers, chocolate, and so on,but the (most moral army) is dedicating innocent massacres and home destructions. Have you ever seen such demoralization?!",
-          type: "video",
-          src: v4,
-        },
+      text: "Despite clear evidence of Gaza's destruction,international law & courts R still seeking proof 4 urgent ceasefire.Perhaps they R waiting 4 complete annihilation to comically judge it decades later.",
+      type: "video",
+      src: v7,
+    },
+    
+    
+       //9
+    {
 
-        //7
-        {
-          text: "Israel uses 'dehumanizing language' to justify killing Gazans.The strange thing is when German media,considering its history, adopts such a strategy.",
-          type: "video",
-          src: v5,
-        },
+      text: "Is it possible for children to live in a place like this?! In developed nations, kids enjoy rights to life &safety. In Gaza, these rights're denied, supported by leaders of specific developed countries!",
+      type: "image",
+      src: p2,
+    },
+    
+       //10
+    {
 
-        //8
-        {
-          text: "A Palestinian mother refuses to leave the body of her slain son & carries him on her shoulder to escape Israeli bombing in Khan Younis to Rafah.The mother said Israeli soldiers shot at them & killed her son.",
-          type: "video",
-          src: v6,
-        },
+      text: "Despite harsh weather, a child sells homemade food to feed a family displaced by Israeli genocide. In a world claiming children's protection & welfare, it seems selective based on skin color!",
+      type: "video",
+      src: v8,
+    },
+    
 
-        //9
-        {
-          text: "Thousands are displaced to the southern Gaza Strip through the (safe passage) designated by the Israeli army. Seeing all these displaced with signs of fear and exhaustion is heart breaking.",
-          type: "video",
-          src: v7,
-        },
 
-        //10
-        {
-          text: "With unprecedented audacity,Israel mocks the dead white,conveying a clear message of no peace with Palestinians. It knows it would never be held accountable,so it reveals  its true ugly face without concern.",
-          type: "image",
-          src: p4,
-        },
 
-        //  //11
-        // {
-        //   text: "ELDERLY MAN ASSAULTED AND THE ISRAELI SOLDIER STANDS ON HIS NECK",
-        //   type: "media",
-        //   path: ["v8.mp4"],
-        // },
       ],
       arabic: {
         header: "🔻طُـوفَـان الـحَـقِـيـقَـة",
