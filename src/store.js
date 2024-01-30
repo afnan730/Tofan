@@ -1,7 +1,7 @@
 import { createStore } from "vuex";
 
 import p1 from "./assets/static/p1.jpg";
-import p2 from "./assets/static/p2.jpg";
+// import p2 from "./assets/static/p2.jpg";
 // import p3 from "./assets/static/p3.jpg";
 // import p4 from "./assets/static/p4.jpg";
 // import p6 from "./assets/static/p6.jpeg";
@@ -14,10 +14,9 @@ import v4 from "./assets/static/v4.mp4";
 import v5 from "./assets/static/v5.mp4";
 import v6 from "./assets/static/v6.mp4";
 import v7 from "./assets/static/v7.mp4";
-import v8 from "./assets/static/v8.mp4";
-// import v9 from "./assets/static/v9.mp4";
-// import v10 from "./assets/static/v10.mp4";
-
+// import v8 from "./assets/static/v8.mp4";
+import v9 from "./assets/static/v9.mp4";
+import v10 from "./assets/static/v10.mp4";
 // import v11 from "./assets/static/v11.mp4";
 // import v12 from "./assets/static/v12.mp4";
 
@@ -32,91 +31,102 @@ const store = createStore({
         //   src: p5,
         // },
 
-        //1
+      //1
     
-     {
-      text: "ELDERLY MAN ASSAULTED AND THE ISRAELI SOLDIER STANDS ON HIS NECK",
-      type: "video",
-      src: v1,
-    },
-    
-   
-    //2
-    {
+      {
 
-      text: "Children R the primary victims in the ongoing Israeli attack on Gaza. In the video, you witness one of many daily efforts to rescue children from rubble,accepting whatever outcome may follow.",
-      type: "video",
-      src: v2,
-    },
-	
-    //3
-    {
-
-      text: "Al Jazeera reported live,(Next to their white flags!! Israeli soldiers shot a child & his brother after they went out holding two white flags to inspect the road for evacuating their family.",
-      type: "image",
-      src: p1,
-    },
+        text: "'More than 25,000 children have lost one or both parents in Gaza.' -Mediterranean Observatory for Human Rights", 
+        type: "image",
+        src: p1,
+      },
+      
+     
+      //2
+      {
+  
+        text: "In addressing Israel's worst atrocities,world leaders & politicians avoid condemning them but readily label resistance as terrorism when they defend themselves, illustrating blatant double standards.",
+        type: "video",
+        src: v1,
+      },
     
-    //4
-    {
-
-      text: "This Palestinian man logically & calmly exposed soldiers to their apartheid regime via their unfair treatment to Palestinians. Peace can only be achieved by equality & justice for all.",
-      type: "video",
-      src: v3,
-    },
+      //3
+      {
+  
+        text: "Gaza endures destruction,bombing,siege, hunger,displacement,tents,&mass graves simultaneously for +100 days,& the world merely watching.If only 1 of these occurred in a region,it will be declared as disastrous area",
+        type: "video",
+        src: v2,
+      },
+      
+      
+          //4
+      
+       {
+        text: "Israel manipulates lands & history to eradicate Palestinians, their history, & identity. Yet, truth arises within the Jewish community, exposing Israel's reality as an apartheid, brutal, & colonial entity.",
+        type: "video",
+        src: v3,
+      },
+      
+     
+      //5
+      {
+  
+        text: "Being a Jewish doesn't mean supporting the zionist's methodology",
+        type: "video",
+        src: v4,
+      },
     
+      //6
+      {
+  
+        text: "Many honest intellectual Jewish reveal the truth. It's ur duty to seek it. Yet, if the truth doesn't liberate U from supporting a regime waging a brutal war on children,what does that make u?",
+        type: "video",
+        src: v5,
+      },
+      
+          //7
+      
+       {
+  
+        text: "In cold conditions,Gazans arrested by IOF were forcibly undressed,handcuffed, & given only a thin layer of paper for covering.These innocent civilians appeared exhausted,sleep-deprived,& tortured.", 
+        type: "video",
+        src: v6,
+      },
+      
+     
+      //8
+      {
+  
+        text: "Wise and logical minds will see through Oct 7th as a resistance againt opression & brutality of an entity that has no regards to humanity, international law or even lives. Therefore, this entity criminal behaviors will be the reason of its demise.",
+        type: "video",
+        src: v7,
+      },
     
+      //9
+    //  {
+  
+      //  text: "'They won't even get air to breathe. It's a religious matter, even if you need to travel on a Saturday!' This is one of many hatred incitements made by a top Israeli rabbi, Dov Lior, who is calling for violating 'religious observances' to participate in the genocide by preventibg aid from entering #Gaza",
+        //type: "video",
+        //src: v8,
+      //},
+      
+          //10
+      
+       {
+  
+        text: "After being completely cut out from drinkable water, Gazans collect rain to drink as it is better than the polluted,  undrinkable one they only have access to for over 3 months.", 
+        type: "video",
+        src: v9,
+      },
+      
+     
+      //11
+      {
+  
+        text: "People don't really choose to resist. Resistance is normally the only available option to confront injustice, torture, and oppression l",
+        type: "video",
+        src: v10,
+      },
     
-    //5
-    
-     {
-
-      text: "Documentation of 710 Combat Engineering Corps in the Israeli army bombing a residential building—an apparent war crime, part of Israel's daily series of such acts.", 
-      type: "video",
-      src: v4,
-    },
-    
-   
-    //6
-    {
-
-      text: "Children's rights are violated in Zionist prisons,facing severe psychological& physical abuses, including sexual harassment, defying international law.",
-      type: "video",
-      src: v5,
-    },
-	
-    //7
-    {
-
-      text: "Don't expect much from the International Court of Justice. The global system, with its organizations and laws, has morally collapsed, evident daily in Gaza's tragic scenes on our screens.",
-      type: "video",
-      src: v6,
-    },
-    
-    //8
-    {
-
-      text: "Despite clear evidence of Gaza's destruction,international law & courts R still seeking proof 4 urgent ceasefire.Perhaps they R waiting 4 complete annihilation to comically judge it decades later.",
-      type: "video",
-      src: v7,
-    },
-    
-    
-       //9
-    {
-
-      text: "Is it possible for children to live in a place like this?! In developed nations, kids enjoy rights to life &safety. In Gaza, these rights're denied, supported by leaders of specific developed countries!",
-      type: "image",
-      src: p2,
-    },
-    
-       //10
-    {
-
-      text: "Despite harsh weather, a child sells homemade food to feed a family displaced by Israeli genocide. In a world claiming children's protection & welfare, it seems selective based on skin color!",
-      type: "video",
-      src: v8,
-    },
     
 
 
