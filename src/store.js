@@ -14,7 +14,7 @@ import v4 from "./assets/static/v4.mp4";
 import v5 from "./assets/static/v5.mp4";
 import v6 from "./assets/static/v6.mp4";
 import v7 from "./assets/static/v7.mp4";
-// import v8 from "./assets/static/v8.mp4";
+import v8 from "./assets/static/v8.mp4";
 import v9 from "./assets/static/v9.mp4";
 import v10 from "./assets/static/v10.mp4";
 // import v11 from "./assets/static/v11.mp4";
@@ -96,18 +96,18 @@ const store = createStore({
       //8
       {
   
-        text: "Wise and logical minds will see through Oct 7th as a resistance againt opression & brutality of an entity that has no regards to humanity, international law or even lives. Therefore, this entity criminal behaviors will be the reason of its demise.",
-        type: "video",
+      text: "One of many hatred incitements made by a top Israeli rabbi, Dov Lior, who is calling for violating 'religious observances' to participate in the genocide by preventing aid from entering #Gaza!",  
+      type: "video",
         src: v7,
       },
     
       //9
-    //  {
+     {
   
-      //  text: "'They won't even get air to breathe. It's a religious matter, even if you need to travel on a Saturday!' This is one of many hatred incitements made by a top Israeli rabbi, Dov Lior, who is calling for violating 'religious observances' to participate in the genocide by preventibg aid from entering #Gaza",
-        //type: "video",
-        //src: v8,
-      //},
+       text: "'They won't even get air to breathe. It's a religious matter, even if you need to travel on a Saturday!' This is one of many hatred incitements made by a top Israeli rabbi, Dov Lior, who is calling for violating 'religious observances' to participate in the genocide by preventibg aid from entering #Gaza",
+        type: "video",
+        src: v8,
+      },
       
           //10
       
