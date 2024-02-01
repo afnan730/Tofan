@@ -16,7 +16,7 @@ import v6 from "./assets/static/v6.mp4";
 import v7 from "./assets/static/v7.mp4";
 import v8 from "./assets/static/v8.mp4";
 import v9 from "./assets/static/v9.mp4";
-import v10 from "./assets/static/v10.mp4";
+// import v10 from "./assets/static/v10.mp4";
 // import v11 from "./assets/static/v11.mp4";
 // import v12 from "./assets/static/v12.mp4";
 
@@ -31,102 +31,110 @@ const store = createStore({
         //   src: p5,
         // },
 
-      //1
+     
+      
+          //1
     
-      {
+          {
 
-        text: "'More than 25,000 children have lost one or both parents in Gaza.' -Mediterranean Observatory for Human Rights", 
-        type: "image",
-        src: p1,
-      },
+            text: "The US delivered the israelis 25,000 tonnes of weaponry through 280 aircraft to enable the israeli genocide",
+            type: "image",
+            src: p1,
+          },
+          
+         
+          //2
+          {
       
-     
-      //2
-      {
-  
-        text: "In addressing Israel's worst atrocities,world leaders & politicians avoid condemning them but readily label resistance as terrorism when they defend themselves, illustrating blatant double standards.",
-        type: "video",
-        src: v1,
-      },
+            text: "While Washington swiftly responds with sanctions & military actions to less severe crises,Gaza genocide receives only empty speeches.The unconditional support 4 Israel's criminal regime by USA is appalling",
+            type: "video",
+            src: v1,
+          },
+        
+          //3
+          {
+      
+            text: "This is the true face of Israeli ideology: pride in mass killing & brutal destruction. This blood thirst has to be stopped.",
+            type: "video",
+            src: v2,
+          },
+          
+          
+              //4
+          
+           {
     
-      //3
-      {
-  
-        text: "Gaza endures destruction,bombing,siege, hunger,displacement,tents,&mass graves simultaneously for +100 days,& the world merely watching.If only 1 of these occurred in a region,it will be declared as disastrous area",
-        type: "video",
-        src: v2,
-      },
-      
-      
-          //4
-      
-       {
-        text: "Israel manipulates lands & history to eradicate Palestinians, their history, & identity. Yet, truth arises within the Jewish community, exposing Israel's reality as an apartheid, brutal, & colonial entity.",
-        type: "video",
-        src: v3,
-      },
-      
+            text: "Depsite Israel's claims of their 'most moral & ethical army',videos circulating in the media reveal the real ugly,immoral,brutal & terroristic natur of this so-called army,exposing a group of sadistic gangers",
+            type: "video",
+            src: v3,
+          },
+          
+         
+          //5
+          {
      
-      //5
-      {
-  
-        text: "Being a Jewish doesn't mean supporting the zionist's methodology",
-        type: "video",
-        src: v4,
-      },
-    
-      //6
-      {
-  
-        text: "Many honest intellectual Jewish reveal the truth. It's ur duty to seek it. Yet, if the truth doesn't liberate U from supporting a regime waging a brutal war on children,what does that make u?",
-        type: "video",
-        src: v5,
-      },
-      
-          //7
-      
-       {
-  
-        text: "In cold conditions,Gazans arrested by IOF were forcibly undressed,handcuffed, & given only a thin layer of paper for covering.These innocent civilians appeared exhausted,sleep-deprived,& tortured.", 
-        type: "video",
-        src: v6,
-      },
-      
+            text: "Explore & use all necessary means to inform the world about the war crimes against children & civilians of Gaza. U r the voice they need & the hope they got.",
+            type: "video",
+            src: v4,
+          },
+        
+          //6
+          {
      
-      //8
-      {
-  
-      text: "One of many hatred incitements made by a top Israeli rabbi, Dov Lior, who is calling for violating 'religious observances' to participate in the genocide by preventing aid from entering #Gaza!",  
-      type: "video",
-        src: v7,
-      },
+            text: "Zionist forces breached norms,infiltrated Jenin's Ibn Sina Hospital disguised as civilians,executed a patient & 2 companions. World Leaders' support empower the criminal occupation in its despicable actions",
+            type: "video",
+            src: v5,
+          },
+          
+              //7
+          
+           {
+      
+            text: "How is the infamous #EpsteinClientList related to #Mossad?", 
+            type: "video",
+            src: v6,
+          },
+          
+         
+          //8
+          {
+      
+          text: "Israel is committing the same crimes,even more violently now. This state,claiming liberalism & peace, engages in terrorism that didn't start on Oct 7th but dates back to 1948,repeating over the years.",
+          type: "video",
+          src: v7,
+          },
+        
+          
+              //9
+          
+           {
+            text: "#Israeli Politician Daniella Weiss talks about the need to 'brainwash' people into accepting the idea of Israel 'from the Euphrates to the Nile'!", 
+            type: "video",
+            src: v8,
+          },
+          
+            //10
+          
+           {
     
-      //9
-     {
-  
-       text: "'They won't even get air to breathe. It's a religious matter, even if you need to travel on a Saturday!' This is one of many hatred incitements made by a top Israeli rabbi, Dov Lior, who is calling for violating 'religious observances' to participate in the genocide by preventibg aid from entering #Gaza",
-        type: "video",
-        src: v8,
-      },
-      
-          //10
-      
-       {
-  
-        text: "After being completely cut out from drinkable water, Gazans collect rain to drink as it is better than the polluted,  undrinkable one they only have access to for over 3 months.", 
-        type: "video",
-        src: v9,
-      },
-      
-     
-      //11
-      {
-  
-        text: "People don't really choose to resist. Resistance is normally the only available option to confront injustice, torture, and oppression l",
-        type: "video",
-        src: v10,
-      },
-    
+            text: "They are proudly enjoying their achievements: murdering children & civilians, torture, theft, etc. Is this the self-defense the world is talking about?!", 
+            type: "video",
+            src: v9,
+          },
+         
+          //11
+          {
+            text: "The secrets behind Gazans' strength, patience, steadfastness, resilience, hope and faith by Prof. Eyad Qunaibi. https://twitter.com/Dr_EyadQun/status/1736084880830660991?t=AsBIrnE_CpEhehd3Ep2n-g&s=19",
+            type: "text",
+            //path: ['v10.mp4'],
+          },
+        
+          //12
+          {
+            text: "Global Campaign Urges Activists and free people to Join French Parliament Members in Rafah, Egypt, to Break Gaza Siege. https://twitter.com/Esralshikh/status/1752667112512819276?t=s_ZiTkQ4geTIWP20wEpS0A&s=19",
+            type: "text",
+           // path: ['v10.mp4'],
+          },
     
 
 
