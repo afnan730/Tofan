@@ -1,6 +1,6 @@
 import { createStore } from "vuex";
 
-import p1 from "./assets/static/p1.jpg";
+// import p1 from "./assets/static/p1.jpg";
 // import p2 from "./assets/static/p2.jpg";
 // import p3 from "./assets/static/p3.jpg";
 // import p4 from "./assets/static/p4.jpg";
@@ -16,7 +16,7 @@ import v6 from "./assets/static/v6.mp4";
 import v7 from "./assets/static/v7.mp4";
 import v8 from "./assets/static/v8.mp4";
 import v9 from "./assets/static/v9.mp4";
-// import v10 from "./assets/static/v10.mp4";
+import v10 from "./assets/static/v10.mp4";
 // import v11 from "./assets/static/v11.mp4";
 // import v12 from "./assets/static/v12.mp4";
 
@@ -31,111 +31,98 @@ const store = createStore({
         //   src: p5,
         // },
 
-     
-      
+    
           //1
+     
+      {
+  
+        text: "Isreali crimes exhibit similarities to the actions of Nazis, witnessed  by individuals & organizations for decades. The continued lack of accountability for those responsible perpetuates the persistence of these crimes.",
+        type: "video",
+        src: v1,
+      },
     
-          {
-
-            text: "The US delivered the israelis 25,000 tonnes of weaponry through 280 aircraft to enable the israeli genocide",
-            type: "image",
-            src: p1,
-          },
-          
-         
-          //2
-          {
+      //2
+      {
+  
+        text: "If this scene was in Ukraine, NATO would surely act in a different way. However, the hypocrisy & double-standards r currently running the world. But by the will of people, this will come to an end soon.",
+        type: "video",
+        src: v2,
+      },
       
-            text: "While Washington swiftly responds with sanctions & military actions to less severe crises,Gaza genocide receives only empty speeches.The unconditional support 4 Israel's criminal regime by USA is appalling",
-            type: "video",
-            src: v1,
-          },
-        
+      
           //3
-          {
       
-            text: "This is the true face of Israeli ideology: pride in mass killing & brutal destruction. This blood thirst has to be stopped.",
-            type: "video",
-            src: v2,
-          },
-          
-          
-              //4
-          
-           {
-    
-            text: "Depsite Israel's claims of their 'most moral & ethical army',videos circulating in the media reveal the real ugly,immoral,brutal & terroristic natur of this so-called army,exposing a group of sadistic gangers",
-            type: "video",
-            src: v3,
-          },
-          
-         
-          //5
-          {
+       {
+
+       
+         text: "Aid to Palestine failed to tackle the core issue– settler colonialism. It perpetuated the problem & made the occupation cost-free for Israel. It has become oppression subsidized by the international community.",
+         type: "video",
+         src: v3,
+      },
+      
      
-            text: "Explore & use all necessary means to inform the world about the war crimes against children & civilians of Gaza. U r the voice they need & the hope they got.",
-            type: "video",
-            src: v4,
-          },
-        
+      //4
+      {
+ 
+        text: "Colonialism never ended, it just takes on a different form.",
+        type: "video",
+        src: v4,
+      },
+    
+      //5
+      {
+ 
+
+        text: "Internationally restricted white phosphorus has been used on civilians in Palestine by the Israeli occupation army. With life-lasting, lethal effects, the use of this chemical in combat is still not considered a war crime!!",
+        type: "video",
+        src: v5,
+      },
+      
           //6
-          {
+      
+       {
+  
+        text: "Zionist soldiers brag about killing Palestinian children! The motivation to kill innocent children is nothing but sick, cruel & abnormal souls!", 
+        type: "video",
+        src: v6,
+      },
+      
      
-            text: "Zionist forces breached norms,infiltrated Jenin's Ibn Sina Hospital disguised as civilians,executed a patient & 2 companions. World Leaders' support empower the criminal occupation in its despicable actions",
-            type: "video",
-            src: v5,
-          },
-          
-              //7
-          
-           {
+      //7
+      {
+  
+      text: "Tyrants consistently exhibit the same arrogant actions & words, refusing to learn from history. Nevertheless, the light will prevail over the darkness cast by Netanyahu & all his accomplices.",  
+      type: "video",
+      src: v7,
+      },
+    
       
-            text: "How is the infamous #EpsteinClientList related to #Mossad?", 
-            type: "video",
-            src: v6,
-          },
-          
-         
           //8
-          {
       
-          text: "Israel is committing the same crimes,even more violently now. This state,claiming liberalism & peace, engages in terrorism that didn't start on Oct 7th but dates back to 1948,repeating over the years.",
-          type: "video",
-          src: v7,
-          },
-        
-          
-              //9
-          
-           {
-            text: "#Israeli Politician Daniella Weiss talks about the need to 'brainwash' people into accepting the idea of Israel 'from the Euphrates to the Nile'!", 
-            type: "video",
-            src: v8,
-          },
-          
-            //10
-          
-           {
+       {
+        text: "Despite the contravention of the international laws for decades, what was the response of the western world of what's happening in Gaza?!", 
+        type: "video",
+        src: v8,
+      },
+      
+        //9
+      
+       {
+
+        text: "رسالة إلى نشامى الأردن وشعبه الأصيل: مهمتكم اليوم قطع الإمدادات عن العدو.", 
+        type: "video",
+        src: v9,
+      },
+     
+      //10
+      {
+        text: "The new media, politics & decision maker's diseases 'the double standards' become contagious.Some social media platforms adopt Israeli propaganda & defend it. Freedom of expression turns out to be a tool used only selectively.",
+        type: "video",
+        src: v10,
+      },
     
-            text: "They are proudly enjoying their achievements: murdering children & civilians, torture, theft, etc. Is this the self-defense the world is talking about?!", 
-            type: "video",
-            src: v9,
-          },
-         
-          //11
-          {
-            text: "The secrets behind Gazans' strength, patience, steadfastness, resilience, hope and faith by Prof. Eyad Qunaibi. https://twitter.com/Dr_EyadQun/status/1736084880830660991?t=AsBIrnE_CpEhehd3Ep2n-g&s=19",
-            type: "text",
-            //path: ['v10.mp4'],
-          },
-        
-          //12
-          {
-            text: "Global Campaign Urges Activists and free people to Join French Parliament Members in Rafah, Egypt, to Break Gaza Siege. https://twitter.com/Esralshikh/status/1752667112512819276?t=s_ZiTkQ4geTIWP20wEpS0A&s=19",
-            type: "text",
-           // path: ['v10.mp4'],
-          },
-    
+      
+
 
 
 
