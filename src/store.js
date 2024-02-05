@@ -32,11 +32,13 @@ const store = createStore({
         // },
 
     
-          //1
+     
+
+         //1
      
       {
   
-        text: "Isreali crimes exhibit similarities to the actions of Nazis, witnessed  by individuals & organizations for decades. The continued lack of accountability for those responsible perpetuates the persistence of these crimes.",
+        text: "Professor Norman,a researcher on the Israeli-Palestinian conflict,notes higher casualties among women & children in Gaza than the Allied bombing of Germany in WWII.Still,60% of Israelis say Israel isn't using enough force on Gaza",
         type: "video",
         src: v1,
       },
@@ -44,7 +46,7 @@ const store = createStore({
       //2
       {
   
-        text: "If this scene was in Ukraine, NATO would surely act in a different way. However, the hypocrisy & double-standards r currently running the world. But by the will of people, this will come to an end soon.",
+        text: "What if the child 'Hend' was an American? The question posed by an American activist about the Palestinian girl, that has been reached after all members of her family was killed in their car in Gaza by the Israeli army.",
         type: "video",
         src: v2,
       },
@@ -54,8 +56,8 @@ const store = createStore({
       
        {
 
-       
-         text: "Aid to Palestine failed to tackle the core issue– settler colonialism. It perpetuated the problem & made the occupation cost-free for Israel. It has become oppression subsidized by the international community.",
+      
+         text: "Moral bankruptcy displayed as they bomb sacred sites in frustration over battlefield failures,boasting afterward.Quran's truth revealed:their cowardice in facing battles&tendency 2 fight while hiding.",
          type: "video",
          src: v3,
       },
@@ -64,7 +66,8 @@ const store = createStore({
       //4
       {
  
-        text: "Colonialism never ended, it just takes on a different form.",
+
+        text: "They returned to the north after the occupation forces withdrew,only to find dozens of civilian bodies handcuffed & blindfolded – a heinous manifestation of Israeli terrorist gangs' acts of crime & genocide.",
         type: "video",
         src: v4,
       },
@@ -72,8 +75,7 @@ const store = createStore({
       //5
       {
  
-
-        text: "Internationally restricted white phosphorus has been used on civilians in Palestine by the Israeli occupation army. With life-lasting, lethal effects, the use of this chemical in combat is still not considered a war crime!!",
+        text: "Why have women's rights organizations done nth about Gaza's women who R arrested while passing through the supposedly safe crossing - according to Israel's claim - harassed, abused, insulted,& tortured?",
         type: "video",
         src: v5,
       },
@@ -82,25 +84,26 @@ const store = createStore({
       
        {
   
-        text: "Zionist soldiers brag about killing Palestinian children! The motivation to kill innocent children is nothing but sick, cruel & abnormal souls!", 
-        type: "video",
-        src: v6,
+        text: "Most of Gaza was destroyed in full view of 'international humanitarian' laws and regulations.", 
+        type: "image",
+        src: p1,
       },
       
      
       //7
       {
   
-      text: "Tyrants consistently exhibit the same arrogant actions & words, refusing to learn from history. Nevertheless, the light will prevail over the darkness cast by Netanyahu & all his accomplices.",  
+      text: "Double standards spread like a contagious disease in the new media,politics,& decision-making circles. Certain social media platforms adopt & defend Israeli propaganda,revealing a selective use of freedom of expression.",  
       type: "video",
-      src: v7,
+      src: v6,
       },
     
       
           //8
       
        {
-        text: "Despite the contravention of the international laws for decades, what was the response of the western world of what's happening in Gaza?!", 
+
+        text: "Miko Peled,the son of an Israeli general, became 1 of the most famous Zionism critics,questions: R we irrational 2 condemn the resistance of a people have been oppressed,killed,& subjected 2 genocide for 75 years?",
         type: "video",
         src: v8,
       },
@@ -109,19 +112,13 @@ const store = createStore({
       
        {
 
-        text: "رسالة إلى نشامى الأردن وشعبه الأصيل: مهمتكم اليوم قطع الإمدادات عن العدو.", 
-        type: "video",
-        src: v9,
+        text: "Beyond the Headlines: Unseen Agony in Gaza, One of Millions of Heartbreaking Stories Before October 7. https://twitter.com/ARezeg/status/1754261225716813876?t=NHUeuR-VOECktXerr6Wzeg&s=19",
+        type: "text",
+        //path: ['v9.mp4'],
       },
      
-      //10
-      {
-        text: "The new media, politics & decision maker's diseases 'the double standards' become contagious.Some social media platforms adopt Israeli propaganda & defend it. Freedom of expression turns out to be a tool used only selectively.",
-        type: "video",
-        src: v10,
-      },
+     
     
-      
 
 
 
