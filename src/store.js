@@ -1,6 +1,6 @@
 import { createStore } from "vuex";
 
-// import p1 from "./assets/static/p1.jpg";
+import p1 from "./assets/static/p1.jpg";
 // import p2 from "./assets/static/p2.jpg";
 // import p3 from "./assets/static/p3.jpg";
 // import p4 from "./assets/static/p4.jpg";
@@ -13,10 +13,10 @@ import v3 from "./assets/static/v3.mp4";
 import v4 from "./assets/static/v4.mp4";
 import v5 from "./assets/static/v5.mp4";
 import v6 from "./assets/static/v6.mp4";
-import v7 from "./assets/static/v7.mp4";
+// import v7 from "./assets/static/v7.mp4";
 import v8 from "./assets/static/v8.mp4";
-import v9 from "./assets/static/v9.mp4";
-import v10 from "./assets/static/v10.mp4";
+// import v9 from "./assets/static/v9.mp4";
+// import v10 from "./assets/static/v10.mp4";
 // import v11 from "./assets/static/v11.mp4";
 // import v12 from "./assets/static/v12.mp4";
 
