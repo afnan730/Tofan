@@ -16,9 +16,9 @@ import v6 from "./assets/static/v6.mp4";
 // import v7 from "./assets/static/v7.mp4";
 import v8 from "./assets/static/v8.mp4";
 // import v9 from "./assets/static/v9.mp4";
-// import v10 from "./assets/static/v10.mp4";
-// import v11 from "./assets/static/v11.mp4";
-// import v12 from "./assets/static/v12.mp4";
+import v10 from "./assets/static/v10.mp4";
+import v11 from "./assets/static/v11.mp4";
+import v12 from "./assets/static/v12.mp4";
 
 const store = createStore({
   state() {
@@ -51,6 +51,15 @@ const store = createStore({
         src: v2,
       },
       
+         // 11
+    
+     {
+ 
+
+      text: "One of many hatred incitements made by a top Israeli rabbi, Dov Lior, who is calling for violating 'religious observances' to participate in the genocide by preventing aid from entering #Gaza!",
+      type: "video",
+       src: v11,
+   },
       
           //3
       
@@ -89,7 +98,14 @@ const store = createStore({
         src: p1,
       },
       
-     
+      // 10
+     {
+ 
+      text: "Israel manipulates lands & history to eradicate Palestinians, their history, & identity. Yet, truth arises within the Jewish community, exposing Israel's reality as an apartheid, brutal, & colonial entity.",
+        type: "video",
+       src: v10,
+     },
+        
       //7
       {
   
@@ -107,7 +123,16 @@ const store = createStore({
         type: "video",
         src: v8,
       },
-      
+
+             // 12
+    
+     {
+ 
+
+      text: "People don't really choose to resist. Resistance is normally the only available option to confront injustice, torture, and oppression.",
+      type: "video",
+     src: v12,
+   },
         //9
       
        {
