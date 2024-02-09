@@ -13,12 +13,12 @@ import v3 from "./assets/static/v3.mp4";
 import v4 from "./assets/static/v4.mp4";
 import v5 from "./assets/static/v5.mp4";
 import v6 from "./assets/static/v6.mp4";
-// import v7 from "./assets/static/v7.mp4";
+import v7 from "./assets/static/v7.mp4";
 import v8 from "./assets/static/v8.mp4";
-// import v9 from "./assets/static/v9.mp4";
+import v9 from "./assets/static/v9.mp4";
 import v10 from "./assets/static/v10.mp4";
-import v11 from "./assets/static/v11.mp4";
-import v12 from "./assets/static/v12.mp4";
+// import v11 from "./assets/static/v11.mp4";
+// import v12 from "./assets/static/v12.mp4";
 
 const store = createStore({
   state() {
@@ -34,82 +34,67 @@ const store = createStore({
     
      
 
-         //1
+      
+      //1
      
       {
   
-        text: "Professor Norman,a researcher on the Israeli-Palestinian conflict,notes higher casualties among women & children in Gaza than the Allied bombing of Germany in WWII.Still,60% of Israelis say Israel isn't using enough force on Gaza",
+        text: "British musician Roger Waters exposes Israeli crimes,seeing things as they truly R, & recognizing Israel as an apartheid entity. He said,'They treated me poorly,& I hold a British passport. Imagine how they treat Palestinians!' ",
         type: "video",
         src: v1,
       },
     
-      //2
-      {
-  
-        text: "What if the child 'Hend' was an American? The question posed by an American activist about the Palestinian girl, that has been reached after all members of her family was killed in their car in Gaza by the Israeli army.",
+    // 2
+    
+     {
+
+        text : "How much racism they think they can get away with?! The use of deception & misinformation is a collapse of ethics, principles, & humanity. Each time,Israel's mask falls  & Palastine gains strength.",
         type: "video",
         src: v2,
       },
-      
-         // 11
-    
-     {
- 
 
-      text: "One of many hatred incitements made by a top Israeli rabbi, Dov Lior, who is calling for violating 'religious observances' to participate in the genocide by preventing aid from entering #Gaza!",
-      type: "video",
-       src: v11,
-   },
-      
-          //3
+           //3
       
        {
-
-      
-         text: "Moral bankruptcy displayed as they bomb sacred sites in frustration over battlefield failures,boasting afterward.Quran's truth revealed:their cowardice in facing battles&tendency 2 fight while hiding.",
+         text: "Zionism is an ideological idea based on apartheid & has nothing to do with religion or Judaism.RabbiDovid Weiss, a leader in the @Neturei Jewish Movement asserts that the State of 'Israel' doesn't have the right to exist.",
          type: "video",
          src: v3,
       },
       
-     
-      //4
-      {
- 
-
-        text: "They returned to the north after the occupation forces withdrew,only to find dozens of civilian bodies handcuffed & blindfolded – a heinous manifestation of Israeli terrorist gangs' acts of crime & genocide.",
-        type: "video",
-        src: v4,
-      },
     
-      //5
-      {
- 
-        text: "Why have women's rights organizations done nth about Gaza's women who R arrested while passing through the supposedly safe crossing - according to Israel's claim - harassed, abused, insulted,& tortured?",
-        type: "video",
-        src: v5,
+       //4
+      
+       {
+
+         text: "The difference between a victim and an Occupier. So clearly What the occupation is doing is committing more crimes alongside the crime of occupation!",
+         type: "video",
+         src: v4,
       },
       
-          //6
+      //5
       
        {
   
-        text: "Most of Gaza was destroyed in full view of 'international humanitarian' laws and regulations.", 
+        text: "Palestinians are living under the rubble of their houses, destroyed by Israeli airstrikes, yet they remain steadfast, determined not to leave their home & their homeland, just like this old women did.",
+         type: "video",
+        src: v5,
+      },
+      
+
+       //6
+      
+       {
+  
+        text: "Ex-PM of Israel,Menachem Begin,was on British terror lists & sought by Palestinian police in 1946 for bombing the King David Hotel in Palestine,resulting in 90 deaths,including 28 British nationals.", 
         type: "image",
         src: p1,
       },
-      
-      // 10
-     {
- 
-      text: "Israel manipulates lands & history to eradicate Palestinians, their history, & identity. Yet, truth arises within the Jewish community, exposing Israel's reality as an apartheid, brutal, & colonial entity.",
-        type: "video",
-       src: v10,
-     },
-        
-      //7
+
+         //7
       {
   
-      text: "Double standards spread like a contagious disease in the new media,politics,& decision-making circles. Certain social media platforms adopt & defend Israeli propaganda,revealing a selective use of freedom of expression.",  
+
+      text: "Despite suffering, ongoing bombing, & a constant siege before the current genocide in Gaza, the original landowners endure & stay, unlike Israelis who returned to their home countries.",  
       type: "video",
       src: v6,
       },
@@ -118,29 +103,43 @@ const store = createStore({
           //8
       
        {
-
-        text: "Miko Peled,the son of an Israeli general, became 1 of the most famous Zionism critics,questions: R we irrational 2 condemn the resistance of a people have been oppressed,killed,& subjected 2 genocide for 75 years?",
+        text: "This is Rafah, the safe area as they claim",
         type: "video",
-        src: v8,
+        src: v7,
       },
 
-             // 12
-    
-     {
- 
 
-      text: "People don't really choose to resist. Resistance is normally the only available option to confront injustice, torture, and oppression.",
-      type: "video",
-     src: v12,
-   },
-        //9
+          //9
       
        {
 
-        text: "Beyond the Headlines: Unseen Agony in Gaza, One of Millions of Heartbreaking Stories Before October 7. https://twitter.com/ARezeg/status/1754261225716813876?t=NHUeuR-VOECktXerr6Wzeg&s=19",
-        type: "text",
-        //path: ['v9.mp4'],
+
+         text: "Europe's double standards R beyond imagination! A Belgian Member of the European Parliament exposes the double standards in Europe's approach to the genocide of Gaza's people by the occupying Israeli entity",
+         type: "video",
+        src: v8,
       },
+     
+     
+           //10
+      
+       {
+
+        text: "Jewish-American professor Norman Finkelstein, the son of 2 Holocaust survivors, justifies Palestinian resistance and poses the crucial question – what were their options?", 
+        type: "video",
+        src: v9,
+      },
+    
+      
+        //11
+      
+       {
+
+        text: "A British channel expels an American writer after defending the Palestinian cause, as an example of the double standards of the Western media, which has the slogan of Freedom of expression & Respect opinions.",
+        type: "video",
+        src: v10,
+      },
+     
+     
      
      
     
