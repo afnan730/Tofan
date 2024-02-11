@@ -4,7 +4,7 @@ import { createStore } from "vuex";
  import p2 from "./assets/static/p2.jpg";
  import p3 from "./assets/static/p3.jpg";
  // import p4 from "./assets/static/p4.jpg";
-import p5 from "./assets/static/p5.jpeg";
+import p5 from "./assets/static/p5.jpg";
 // import p6 from "./assets/static/p6.jpeg";
 
 import v1 from "./assets/static/v1.mp4";
