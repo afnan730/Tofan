@@ -1,11 +1,11 @@
 import { createStore } from "vuex";
 
-import p1 from "./assets/static/p1.jpg";
-// import p2 from "./assets/static/p2.jpg";
-// import p3 from "./assets/static/p3.jpg";
-// import p4 from "./assets/static/p4.jpg";
+ import p1 from "./assets/static/p1.jpg";
+ import p2 from "./assets/static/p2.jpg";
+ import p3 from "./assets/static/p3.jpg";
+ // import p4 from "./assets/static/p4.jpg";
+import p5 from "./assets/static/p5.jpeg";
 // import p6 from "./assets/static/p6.jpeg";
-// import p5 from "./assets/static/p5.jpeg";
 
 import v1 from "./assets/static/v1.mp4";
 import v2 from "./assets/static/v2.mp4";
@@ -13,10 +13,10 @@ import v3 from "./assets/static/v3.mp4";
 import v4 from "./assets/static/v4.mp4";
 import v5 from "./assets/static/v5.mp4";
 import v6 from "./assets/static/v6.mp4";
-import v7 from "./assets/static/v7.mp4";
-import v8 from "./assets/static/v8.mp4";
-import v9 from "./assets/static/v9.mp4";
-import v10 from "./assets/static/v10.mp4";
+// import v7 from "./assets/static/v7.mp4";
+// import v8 from "./assets/static/v8.mp4";
+// import v9 from "./assets/static/v9.mp4";
+// import v10 from "./assets/static/v10.mp4";
 // import v11 from "./assets/static/v11.mp4";
 // import v12 from "./assets/static/v12.mp4";
 
@@ -31,34 +31,35 @@ const store = createStore({
         //   src: p5,
         // },
 
-    
-     
-
-      
-      //1
+     //1
      
       {
   
-        text: "British musician Roger Waters exposes Israeli crimes,seeing things as they truly R, & recognizing Israel as an apartheid entity. He said,'They treated me poorly,& I hold a British passport. Imagine how they treat Palestinians!' ",
+
+        text: "Australian Senator Jordan Steele-John condemns the Australian government for cutting funding to organizations saving Palestinians' lives while continuing to fund those involved in killing them.",
         type: "video",
-        src: v1,
+        src: ['v1.mp4' ],
       },
     
     // 2
     
      {
 
-        text : "How much racism they think they can get away with?! The use of deception & misinformation is a collapse of ethics, principles, & humanity. Each time,Israel's mask falls  & Palastine gains strength.",
-        type: "video",
-        src: v2,
-      },
 
-           //3
+       text: "Einstein,a just Jew,declined collecting donations 4 Zionists. Post-Deir Yassin massacre,he sent 2 the emerging entity : 'Terrorist organizations from our ranks R responsible 4 Palestine.I don't want 2 see these misled criminals' ",
+       	type: "image",
+        src: p1,
+      },
+    
+  
+      
+          //3
       
        {
-         text: "Zionism is an ideological idea based on apartheid & has nothing to do with religion or Judaism.RabbiDovid Weiss, a leader in the @Neturei Jewish Movement asserts that the State of 'Israel' doesn't have the right to exist.",
+
+         text: "A nurse in #KhanYunis, #Gaza risks her life running through gunfire to save an injured man and treat him, symbolizing to the world the bravery of the Gazan people!",
          type: "video",
-         src: v3,
+         src: v2,
       },
       
     
@@ -66,57 +67,65 @@ const store = createStore({
       
        {
 
-         text: "The difference between a victim and an Occupier. So clearly What the occupation is doing is committing more crimes alongside the crime of occupation!",
-         type: "video",
-         src: v4,
+
+         text: "Occupation Brutality: Hind Rajab's Final Moments Inside Destroyed Family Car https://twitter.com/KhaledSafi/status/1756395136798392363?t=ahPWiZ08lCmS1bYkKXB5tQ&s=19 ",
+         type: "text",
+        // path: ['v4.mp4'],
       },
       
-      //5
+    
+
+       //5
       
        {
   
-        text: "Palestinians are living under the rubble of their houses, destroyed by Israeli airstrikes, yet they remain steadfast, determined not to leave their home & their homeland, just like this old women did.",
-         type: "video",
-        src: v5,
+
+         text: "In moments of intense hardship & pain,he sought solace in his faith.This resilient people never experiences defeat.A Gazan boy while being taken to the hospital following  injuries from ongoing Israeli airstrikes in Gaza.",
+         type: "image",
+        src: p2,
       },
       
-
-       //6
+    
+    
+          //6
       
        {
   
-        text: "Ex-PM of Israel,Menachem Begin,was on British terror lists & sought by Palestinian police in 1946 for bombing the King David Hotel in Palestine,resulting in 90 deaths,including 28 British nationals.", 
-        type: "image",
-        src: p1,
-      },
 
-         //7
+         text: "Did you know 'Israel' has one of the world's largest weapons stockpiles? It conducts postwar auctions & weapons shows, showcasing their effectiveness, exploiting Gaza genocide & Palestine's suffering as an example!",
+         type: "video",
+        src: v3,
+      },
+      
+     
+      //7
       {
   
 
-      text: "Despite suffering, ongoing bombing, & a constant siege before the current genocide in Gaza, the original landowners endure & stay, unlike Israelis who returned to their home countries.",  
+      text: "In the West Bank, life starkly contrasts with limitations, iron barriers, and meticulous surveillance, depicting the oppressive reality of occupation, curtailing lives and asserting control.",
       type: "video",
-      src: v6,
+      src: v4,
       },
     
       
           //8
       
        {
-        text: "This is Rafah, the safe area as they claim",
-        type: "video",
-        src: v7,
+
+        text: "In Western media,double standards have evolved into skewed ones.Ukrainian child's death by Russian airstrike gets detailed coverage,bt when the Israeli army killed child aged 6 in Gaza,it's vaguely stated. Who killed her @BBCWorld ?", 
+        type: "image",
+        src: p3,
       },
-
-
-          //9
+    
+      
+        //9
       
        {
 
 
-         text: "Europe's double standards R beyond imagination! A Belgian Member of the European Parliament exposes the double standards in Europe's approach to the genocide of Gaza's people by the occupying Israeli entity",
+         text: "Arresting an American human rights activist exposes the bias of Zionists, the West, and America against UNRWA for the purpose of exterminating the Palestinian people.",
          type: "video",
-        src: v8,
+        src: v5,
       },
      
      
@@ -124,9 +133,10 @@ const store = createStore({
       
        {
 
-        text: "Jewish-American professor Norman Finkelstein, the son of 2 Holocaust survivors, justifies Palestinian resistance and poses the crucial question – what were their options?", 
-        type: "video",
-        src: v9,
+
+         text: "A 3-second scene provides ample evidence 2 accuse Israel of war crimes:bombing without warning,targeting ambulances& medical personnel,bombing residential areas,causing civilian casualties,endangering kid's&women'slives.",
+         type: "video",
+        src: v6,
       },
     
       
@@ -134,11 +144,16 @@ const store = createStore({
       
        {
 
-        text: "A British channel expels an American writer after defending the Palestinian cause, as an example of the double standards of the Western media, which has the slogan of Freedom of expression & Respect opinions.",
-        type: "video",
-        src: v10,
+
+        text: "This map was issued by National Geographic in 1947, one year before the Nakba, there was no such thing called “Israel”.", 
+        type: "image",
+        src: p5,
       },
      
+     
+     
+
+
      
      
      
