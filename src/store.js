@@ -1,10 +1,10 @@
 import { createStore } from "vuex";
 
- import p1 from "./assets/static/p1.jpg";
- import p2 from "./assets/static/p2.jpg";
- import p3 from "./assets/static/p3.jpg";
+ // import p1 from "./assets/static/p1.jpg";
+ // import p2 from "./assets/static/p2.jpg";
+ // import p3 from "./assets/static/p3.jpg";
  // import p4 from "./assets/static/p4.jpg";
-import p5 from "./assets/static/p5.jpg";
+// import p5 from "./assets/static/p5.jpg";
 // import p6 from "./assets/static/p6.jpeg";
 
 import v1 from "./assets/static/v1.mp4";
@@ -13,8 +13,8 @@ import v3 from "./assets/static/v3.mp4";
 import v4 from "./assets/static/v4.mp4";
 import v5 from "./assets/static/v5.mp4";
 import v6 from "./assets/static/v6.mp4";
-// import v7 from "./assets/static/v7.mp4";
-// import v8 from "./assets/static/v8.mp4";
+import v7 from "./assets/static/v7.mp4";
+import v8 from "./assets/static/v8.mp4";
 // import v9 from "./assets/static/v9.mp4";
 // import v10 from "./assets/static/v10.mp4";
 // import v11 from "./assets/static/v11.mp4";
@@ -31,24 +31,21 @@ const store = createStore({
         //   src: p5,
         // },
 
-     //1
+    //1
      
       {
-  
-
-        text: "Australian Senator Jordan Steele-John condemns the Australian government for cutting funding to organizations saving Palestinians' lives while continuing to fund those involved in killing them.",
+        text: "المطلوب هو النفير العام على كل مسلم أن يخرج إلى الساحات والميادين والسفارات، والعصيان المدني في كل بلاد العالم حتى تنتهي حرب الإبادة وهذا أقل الواجب تجاه أهلنا في غزة !",
         type: "video",
-        src: ['v1.mp4' ],
+        src: v1,
       },
     
     // 2
     
      {
 
-
-       text: "Einstein,a just Jew,declined collecting donations 4 Zionists. Post-Deir Yassin massacre,he sent 2 the emerging entity : 'Terrorist organizations from our ranks R responsible 4 Palestine.I don't want 2 see these misled criminals' ",
-       	type: "image",
-        src: p1,
+       text: "Australian documentary exposes Israeli torture of Palestinian kids,revealing physical abuse,false confessions,& intelligence gathering.UNICEF reported nightly arrests, raids,threats,violence,etc. https://youtu.be/cvOSv2fGJ5w?si=_1uKg9LZmB35ZyXJ ",
+       type: "text",
+       // path: ['p1.jpg'],
       },
     
   
@@ -57,7 +54,7 @@ const store = createStore({
       
        {
 
-         text: "A nurse in #KhanYunis, #Gaza risks her life running through gunfire to save an injured man and treat him, symbolizing to the world the bravery of the Gazan people!",
+         text: "Israeli soldiers in the West Bank proudly share on their accounts about vandalizing shops, stating, 'Who needs sabotage? we are here. A workshop in the city.' ",
          type: "video",
          src: v2,
       },
@@ -67,10 +64,9 @@ const store = createStore({
       
        {
 
-
-         text: "Occupation Brutality: Hind Rajab's Final Moments Inside Destroyed Family Car https://twitter.com/KhaledSafi/status/1756395136798392363?t=ahPWiZ08lCmS1bYkKXB5tQ&s=19 ",
-         type: "text",
-        // path: ['v4.mp4'],
+         text: "Even fair-minded Jews call for fighting the occupation and standing with the Palestinians against the injustice inflicted upon them.",
+         type: "video",
+         src: v3,
       },
       
     
@@ -78,11 +74,10 @@ const store = createStore({
        //5
       
        {
-  
 
-         text: "In moments of intense hardship & pain,he sought solace in his faith.This resilient people never experiences defeat.A Gazan boy while being taken to the hospital following  injuries from ongoing Israeli airstrikes in Gaza.",
-         type: "image",
-        src: p2,
+         text: "Gaza urgently needs U NOW more than before. Israel forced 1.5 M displaced people to the last 'safe' place,then bombing through air,land &sea. THIS is a planned genocide withfull support from world leaders.",
+        type: "video",
+        src: v4,
       },
       
     
@@ -91,20 +86,18 @@ const store = createStore({
       
        {
   
-
-         text: "Did you know 'Israel' has one of the world's largest weapons stockpiles? It conducts postwar auctions & weapons shows, showcasing their effectiveness, exploiting Gaza genocide & Palestine's suffering as an example!",
-         type: "video",
-        src: v3,
+        text: "To those who are skeptical of the justification for the actions of October 7th: https://twitter.com/thetufan07/status/1757409124554313887?t=AVqfXgWtoOyyfdw4SuGfug&s=19 ",
+        type: "text",
+        //path: ['v3.mp4'],
       },
       
      
       //7
       {
-  
 
-      text: "In the West Bank, life starkly contrasts with limitations, iron barriers, and meticulous surveillance, depicting the oppressive reality of occupation, curtailing lives and asserting control.",
+      text: "ليعلم الجميع أن حجم مصر وإمكانيات مصر وإرادة المصريين تستطيع أن تقتلع جذور العدوان ' مصر هي الثقل العربي الذي يمكن أن يغير كل الموازين'.",
       type: "video",
-      src: v4,
+      src: v5,
       },
     
       
@@ -112,9 +105,9 @@ const store = createStore({
       
        {
 
-        text: "In Western media,double standards have evolved into skewed ones.Ukrainian child's death by Russian airstrike gets detailed coverage,bt when the Israeli army killed child aged 6 in Gaza,it's vaguely stated. Who killed her @BBCWorld ?", 
-        type: "image",
-        src: p3,
+        text: "Biden initially said 'our military operation in Rafah' but corrected to 'the major military operation,' revealing a moment of truth in the 1st. FACT: USA funds Israel's Gaza genocide using taxpayers' money.",
+        type: "video",
+        src: v6,
       },
     
       
@@ -122,10 +115,9 @@ const store = createStore({
       
        {
 
-
-         text: "Arresting an American human rights activist exposes the bias of Zionists, the West, and America against UNRWA for the purpose of exterminating the Palestinian people.",
-         type: "video",
-        src: v5,
+        text: "The world can't or won't airdrop milk for Gaza's children, yet occupation soldiers bring in coffee equipment for latte in Khan Yunis, amidst famine in the north & a looming displacement plan in the south.",
+        type: "video",
+        src: v7,
       },
      
      
@@ -133,24 +125,11 @@ const store = createStore({
       
        {
 
-
-         text: "A 3-second scene provides ample evidence 2 accuse Israel of war crimes:bombing without warning,targeting ambulances& medical personnel,bombing residential areas,causing civilian casualties,endangering kid's&women'slives.",
-         type: "video",
-        src: v6,
+        text: "Muslims once sheltered Jews in their mosques during the Nazi war, notes a Jewish rabbi. He condemns Israel's actions in Gaza as a war crime that demands accountability.",
+        type: "video",
+        src: v8,
       },
     
-      
-        //11
-      
-       {
-
-
-        text: "This map was issued by National Geographic in 1947, one year before the Nakba, there was no such thing called “Israel”.", 
-        type: "image",
-        src: p5,
-      },
-     
-     
      
 
 
