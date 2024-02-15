@@ -31,10 +31,12 @@ const store = createStore({
         //   src: p5,
         // },
 
-    //1
+
+        //1
      
       {
-        text: "المطلوب هو النفير العام على كل مسلم أن يخرج إلى الساحات والميادين والسفارات، والعصيان المدني في كل بلاد العالم حتى تنتهي حرب الإبادة وهذا أقل الواجب تجاه أهلنا في غزة !",
+
+        text: "المساعدات لم تصل لغزة، ودعم اليهود مستمر من قِبَل الحكام الخونة ومن فوقهم أمريكا، والمحكمة الدولية لم تنصف المسلمين. أي تحرك حقيقي الآن لابد أن يستند إلى الأمة الإسلامية بكل قواها المختلفة https://twitter.com/ARezeg/status/1757863873347015108?t=YGdYLA_VKhYAID7EcaqAGQ&s=19 ",
         type: "video",
         src: v1,
       },
@@ -43,7 +45,8 @@ const store = createStore({
     
      {
 
-       text: "Australian documentary exposes Israeli torture of Palestinian kids,revealing physical abuse,false confessions,& intelligence gathering.UNICEF reported nightly arrests, raids,threats,violence,etc. https://youtu.be/cvOSv2fGJ5w?si=_1uKg9LZmB35ZyXJ ",
+
+       text: "The situation in #Rafah is extremely dire,  with over three quarters of the total population of the #Gaza Strip currently living in a place made to house just a few hundred thousands! https://twitter.com/thetufan07/status/1758165304075596070?t=4N1kCJaQl4V9O0_TjcBvgw&s=19 ",
        type: "text",
        // path: ['p1.jpg'],
       },
@@ -54,7 +57,7 @@ const store = createStore({
       
        {
 
-         text: "Israeli soldiers in the West Bank proudly share on their accounts about vandalizing shops, stating, 'Who needs sabotage? we are here. A workshop in the city.' ",
+         text: "UN expert: Israel is an occupying power and therefore it has no right to defend itself.",
          type: "video",
          src: v2,
       },
@@ -64,7 +67,7 @@ const store = createStore({
       
        {
 
-         text: "Even fair-minded Jews call for fighting the occupation and standing with the Palestinians against the injustice inflicted upon them.",
+         text: "Israeli army is an army made up of sadistic soldiers trained in dirty practices and immoral behaviour.",
          type: "video",
          src: v3,
       },
@@ -75,7 +78,7 @@ const store = createStore({
       
        {
 
-         text: "Gaza urgently needs U NOW more than before. Israel forced 1.5 M displaced people to the last 'safe' place,then bombing through air,land &sea. THIS is a planned genocide withfull support from world leaders.",
+        text: "(3) Why is Israel racist and full of hate?  Israel is one of the most racist country in the world.", 
         type: "video",
         src: v4,
       },
@@ -86,18 +89,19 @@ const store = createStore({
       
        {
   
-        text: "To those who are skeptical of the justification for the actions of October 7th: https://twitter.com/thetufan07/status/1757409124554313887?t=AVqfXgWtoOyyfdw4SuGfug&s=19 ",
-        type: "text",
-        //path: ['v3.mp4'],
+
+        text: "(2) Why is Israel racist and full of hate?",
+        type: "video",
+        src: v5,
       },
       
      
       //7
       {
-
-      text: "ليعلم الجميع أن حجم مصر وإمكانيات مصر وإرادة المصريين تستطيع أن تقتلع جذور العدوان ' مصر هي الثقل العربي الذي يمكن أن يغير كل الموازين'.",
+        
+      text: "(1) Why is Israel racist and full of hate?",
       type: "video",
-      src: v5,
+      src: v6,
       },
     
       
@@ -105,9 +109,9 @@ const store = createStore({
       
        {
 
-        text: "Biden initially said 'our military operation in Rafah' but corrected to 'the major military operation,' revealing a moment of truth in the 1st. FACT: USA funds Israel's Gaza genocide using taxpayers' money.",
+        text: "No one hates like a zionist...",
         type: "video",
-        src: v6,
+        src: v7,
       },
     
       
@@ -115,9 +119,9 @@ const store = createStore({
       
        {
 
-        text: "The world can't or won't airdrop milk for Gaza's children, yet occupation soldiers bring in coffee equipment for latte in Khan Yunis, amidst famine in the north & a looming displacement plan in the south.",
-        type: "video",
-        src: v7,
+        text: "The Holocaust occurred before the current structure of international law,but Gaza Holocaust is happening in the presence of these laws with full support of Western democracies who we expected to uphold these laws! https://twitter.com/thetufan07/status/1758165802434396441?t=T4JAUgD5Ck4hl4KCIH26LA&s=19 ",
+        type: "text",
+       // path: ['v7.mp4'],
       },
      
      
@@ -125,7 +129,7 @@ const store = createStore({
       
        {
 
-        text: "Muslims once sheltered Jews in their mosques during the Nazi war, notes a Jewish rabbi. He condemns Israel's actions in Gaza as a war crime that demands accountability.",
+        text: " 'All the Israeli villages in the country were built above Palestinian villages' A truth said by an Israeli citizen,so after all of this, is it rational for Palestinians to live in peace & safety with the occupation?",
         type: "video",
         src: v8,
       },
