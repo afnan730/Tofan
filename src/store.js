@@ -1,7 +1,7 @@
 import { createStore } from "vuex";
 
- // import p1 from "./assets/static/p1.jpg";
- // import p2 from "./assets/static/p2.jpg";
+ import p1 from "./assets/static/p1.jpg";
+ import p2 from "./assets/static/p2.jpg";
  // import p3 from "./assets/static/p3.jpg";
  // import p4 from "./assets/static/p4.jpg";
 // import p5 from "./assets/static/p5.jpg";
@@ -32,111 +32,120 @@ const store = createStore({
         // },
 
 
-        //1
+      //1
      
-      {
-
-        text: "المساعدات لم تصل لغزة، ودعم اليهود مستمر من قِبَل الحكام الخونة ومن فوقهم أمريكا، والمحكمة الدولية لم تنصف المسلمين. أي تحرك حقيقي الآن لابد أن يستند إلى الأمة الإسلامية بكل قواها المختلفة https://twitter.com/ARezeg/status/1757863873347015108?t=YGdYLA_VKhYAID7EcaqAGQ&s=19 ",
-        type: "video",
-        src: v1,
+       {
+        text: "The Israeli occupation army continues to escalate its aggression to the extent of killing civilians daily by sniping in front of Nasser Hospital gate. https://twitter.com/thetufan07/status/1758891805775392828?t=bMOtu5RSpxeE4upNUJozLg&s=19 ",
+        type: "text",
+        //path: ['v1.mp4'],
       },
     
     // 2
     
      {
 
-
-       text: "The situation in #Rafah is extremely dire,  with over three quarters of the total population of the #Gaza Strip currently living in a place made to house just a few hundred thousands! https://twitter.com/thetufan07/status/1758165304075596070?t=4N1kCJaQl4V9O0_TjcBvgw&s=19 ",
-       type: "text",
-       // path: ['p1.jpg'],
+      	text: "Placing Palestinian citizens as human shields is a deeply rooted culture of the Israeli army.",
+       	type: "video",
+        src: v1,
       },
     
+      //3
+       {
   
-      
-          //3
-      
-       {
 
-         text: "UN expert: Israel is an occupying power and therefore it has no right to defend itself.",
-         type: "video",
-         src: v2,
-      },
+        text: "This ethnic cleansing, which Western leaders called self-defense.",
+        type: "video",
+        src: v2,
+       },
       
-    
-       //4
       
-       {
+          //4
+      
+        {
 
-         text: "Israeli army is an army made up of sadistic soldiers trained in dirty practices and immoral behaviour.",
+     
+          text: "The world must see how non-Zionist Jews are persecuted in Israel.",
          type: "video",
          src: v3,
-      },
-      
+       },
     
-
-       //5
-      
+     
+    //   //5
        {
+ 
 
-        text: "(3) Why is Israel racist and full of hate?  Israel is one of the most racist country in the world.", 
+
+         text: "It started before October 7th.",
         type: "video",
         src: v4,
-      },
-      
+       },
     
     
-          //6
-      
-       {
-  
-
-        text: "(2) Why is Israel racist and full of hate?",
+    
+      //6
+     
+      {
+        text: "Displacing them, starving them, and then killing them, Rafah removes the last mask of Western humanity.",
         type: "video",
         src: v5,
       },
-      
-     
-      //7
-      {
-        
-      text: "(1) Why is Israel racist and full of hate?",
-      type: "video",
-      src: v6,
+    
+    // 7
+    
+     {
+       
+       text: "In 1947, the Jewish state huddled on 18% of the original British Mandate land. The Jews accepted it gratefully.  The Arabs rejected it with a vengeance and seven Arab states immediately declared war against Israel.",
+       type: "image",
+        src: p1,
       },
     
-      
-          //8
-      
-       {
-
-        text: "No one hates like a zionist...",
-        type: "video",
-        src: v7,
-      },
     
-      
-        //9
-      
+      //8
        {
-
-        text: "The Holocaust occurred before the current structure of international law,but Gaza Holocaust is happening in the presence of these laws with full support of Western democracies who we expected to uphold these laws! https://twitter.com/thetufan07/status/1758165802434396441?t=T4JAUgD5Ck4hl4KCIH26LA&s=19 ",
-        type: "text",
-       // path: ['v7.mp4'],
-      },
-     
-     
-           //10
+         text: "Accountability Void:Israel's Decades of Unchecked Actions reflects a longstanding pattern of defying laws & fosters an apartheid regime where soldiers act with impunity,recording & sharing crimes without fearing consequences",
+         type: "video",
+         src: v6,
+       },
       
-       {
+      
+          //9
+      
+        {
 
-        text: " 'All the Israeli villages in the country were built above Palestinian villages' A truth said by an Israeli citizen,so after all of this, is it rational for Palestinians to live in peace & safety with the occupation?",
-        type: "video",
+      
+          text: "Israeli terrorism continues Forcing the displaced to leave Nasser Hospital under arms threat and Snipers with consent of the Silent World.",
+          type: "video",
+         src: v7,
+       },
+    
+     
+    //   //	10
+       {
+         text: "While people are dying from starvation and bombing, these settlers are holding a party at Karam Abu Salem crossing, preventing aid from entering Gaza!",
+         type: "video",
         src: v8,
-      },
+       },
     
+    
+     //	11
+       {
+         text: "Northern Gaza residents face severed means of survival, resorting to animal feed due to an occupier's cruelty. The ruthless aim is to eliminate landowners through massacres and starvation, ensuring no threat remains.",
+         type: "image",
+        src: p2,
+       },
+ 
+    
+    
+    //	12
+      
+        {
+
+
+          text: "Can international and humanitarian systems lift the siege, stop bombing, and hunger imposed on Gaza? Yes, they can, but they ignore and turn a blind eye, as Palestinian aren't from the West!  https://twitter.com/thetufan07/status/1758891813031629145?t=dBDa72FWMk1h810ga79PWg&s=19 ",
+         type: "text",
+        //path: ['v9.mp4'],
+      },
      
-
-
      
      
      
