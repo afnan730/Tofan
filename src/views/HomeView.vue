@@ -279,7 +279,7 @@ svg{
 .contact{
   color:rgb(64, 64, 70);
   display:flex;
-  margin-left:6rem;
+  margin-left:5rem;
 }
 </style>
 
