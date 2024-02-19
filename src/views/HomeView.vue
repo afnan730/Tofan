@@ -273,7 +273,7 @@ export default {
 
 svg{
   width: 20px;
-  margin-right: 0.5rem;
+  margin-right: 0.7rem;
   color:rgb(65, 93, 145);
 }
 
