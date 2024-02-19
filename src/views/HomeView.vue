@@ -205,8 +205,8 @@ export default {
       
     },
     submit() {
-      //  axios.post("https://www.thetufan.com/api/tweet", {
-        axios.post("http://localhost:3000/api/tweet", {
+       axios.post("https://www.thetufan.com/api/tweet", {
+        // axios.post("http://localhost:3000/api/tweet", {
         appKey: this.appKey,
         appSecret: this.appSecret,
         accessToken: this.accessToken,

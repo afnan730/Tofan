@@ -30,14 +30,6 @@ const store = createStore({
           link: "https://twitter.com/Dr_EyadQun/status/1736084880830660991?t=AsBIrnE_CpEhehd3Ep2n-g&s=19",
         },
 
-        //1
-
-        // {
-        //   text: "The Israeli occupation army continues to escalate its aggression to the extent of killing civilians daily by sniping in front of Nasser Hospital gate. https://twitter.com/thetufan07/status/1758891805775392828?t=bMOtu5RSpxeE4upNUJozLg&s=19 ",
-        //   type: "text",
-        //   //path: ['v1.mp4'],
-        // },
-
         // 2
 
         {
@@ -79,7 +71,7 @@ const store = createStore({
         // 7
 
         {
-          text: "In 1948 Israel poisoned wells to drive Palestinians from their land! This didn't start on October 7th.",
+          text: "In 1948 Israel poisoned water wells to drive Palestinians from their land! This didn't start on October 7th.",
           type: "image",
           src: p2,
         },
