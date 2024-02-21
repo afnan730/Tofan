@@ -121,7 +121,14 @@ const store = createStore({
            type: "video",
            src: v7,
        },
-  
+
+   // 12
+        {
+          text: "Urgent Call: Join the movement and gather with activists to march towards Rafah",
+          type: "text",
+          link: "https://twitter.com/Esralshikh/status/1760270509315416288?t=1GL-A-eu1Xb9dUlUrK6wNA&s=19",
+        },
+	      
 
         
        
