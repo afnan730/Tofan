@@ -3,7 +3,7 @@ import { createStore } from "vuex";
 import p1 from "./assets/static/p1.jpg";
 import p2 from "./assets/static/p2.jpg";
 import p3 from "./assets/static/p3.jpg";
-// import p4 from "./assets/static/p4.jpg";
+import p4 from "./assets/static/p4.jpg";
 // import p5 from "./assets/static/p5.jpg";
 // import p6 from "./assets/static/p6.jpeg";
 
@@ -11,9 +11,9 @@ import v1 from "./assets/static/v1.mp4";
 import v2 from "./assets/static/v2.mp4";
 import v3 from "./assets/static/v3.mp4";
 import v4 from "./assets/static/v4.mp4";
-import v5 from "./assets/static/v5.mp4";
+// import v5 from "./assets/static/v5.mp4";
 import v6 from "./assets/static/v6.mp4";
-import v7 from "./assets/static/v7.mp4";
+// import v7 from "./assets/static/v7.mp4";
 // import v8 from "./assets/static/v8.mp4";
 // import v9 from "./assets/static/v9.mp4";
 // import v10 from "./assets/static/v10.mp4";
@@ -30,104 +30,109 @@ const store = createStore({
     // 1
 
     {
-
-      text: "The United States is the primary perpetrator of Gaza genocide, as Israel relies on their support to sustain its atrocities. Without this backing, Israel couldn't continue its actions even for a day.",
+      text: "'احنا جعانين.. ما ضل إلا القطط نأكلها'.. فلسطيني في شمال قطاع غزة يتحدث على المجاعة.",
       type: "video",
-      src: v1,
+      path: v1,
     },
 
     //2
     {
 
-      text: "Rafah was never a 'Safe Zone'.. It was an ethnic cleansing plan! Truly psychopathic.",
+
+      text: "Israeli soldier posts video demolishing Gaza's only cancer hospital, then wrote ' it broke accidentally'. The hospital served as an Israeli camp for 3 months; no official claims of findings inside.",
       type: "video",
-      src: v2,
+      path: v2,
     },
 
-    //3
-
+    
+    //   //	3
     {
 
-      text: "Imagine your life being like this? This is the life of a Palestinian since 1948.",
-      type: "video",
-      src: v3,
-    },
 
-    //   //4
+      text: "من يخبر أهل الأردن أنّ نصف النصر رهين بيدهم الآن فقط ؟ من يخبرهم أن بيدهم إنقاذ 700 ألف نفس يرابطون في شمال غزة منذ 4 أشهر ونصف، والجوع ينهش لحومهم وعظامهم ؟ من يخبرهم أنهم لو أنقذوا هؤلاء، فلن يُكتب لإسرائيل النصر في هذه الحرب، ولو فعلت ما فعلت ؟!",
+      type: "video",
+     path: v3,
+    },
+    
+    
+    // 4
+    
     {
-
-      text: "The real definition of Zionism.",
+      text: "The World Ignores Israel's War Crimes. It's time to question the narrative of 'self-defense.' Is this truly defense, or are we witnessing an ongoing cycle of oppression?",
       type: "video",
-      src: v4,
-    },
-
+      path: v4,
+      },
+    
     //5
 
+    // {
+    //   text: "This is how the occupation deals with Muslims wanting to pray at Al-Aqsa Mosque, whether during Ramadan or throughout the year. Yet, some still hope to live in peace with a military raised on criminality.",
+    //   type: "video",
+    //   path: v5,
+    // },
+
+    //   //6
+    {
+      text: "هل تعلم ماذا يأكل الناس شمال غزة؟ - أعلاف الأرانب - التبن مخلوطًا بالشعير - خبزٌ عفن مغسولٌ بالماء - خضارٌ ملوّث بالفوسفور والذخائر- جذور النباتات - الخبيزة والسلق مخلوطة بالأعشاب.",
+      type: "text",
+     // path: ["v4.mp4"],
+    },
+    
+    
+    //  7
+ 
+       {
+
+         text: "Do you know what people in northern Gaza eat? -Rabbit feed -Straw mixed with barley, -Moldy bread washed with water, -Vegetables contaminated with phosphorus & bullets, -Plant roots -Wild plants mixed with herbs. #NorthernGazaStarving",
+         type: "text",
+        },
+
+    
+    //	8
+
+      {
+        text: "This represents true terrorism and the actions of deranged killers, not condemned by the world that claims to fight terrorism while oppressing peoples and occupying cities.",
+        type: "image",
+           path: p1,
+       },
+    
+
+    //9
+
     {
 
-      text: "Another disturbing video published by Israeli media showing civilians, stripped down, humiliated at an UNRWA center. Israel is a terrorist state!",
-      type: "video",
-      src: v5,
+      text: "Israeli soldiers not only engaged in sexual assault against women in Gaza but also shamelessly displayed their misconduct to the world.Meanwhile,Israeli propaganda wrongly accuses Hamas of assaulting women without evidence.",
+      type: "image",
+      path: p2,
     },
 
-    // 6
+    // 10
 
     {
-      text: "What’s the difference?",
-      type: "image",
-      src: p1,
+      text: "Hope for international justice endures globally despite decades of Palestinian suffering under a system rooted in colonization & oppression. Doubts arise about expecting justice from those perpetrating such actions.",
+      type: "video",
+      src: v6,
     },
 
    
     
-    //7
+    // 11
 
     {
-	  text: "According to a UN report, Israeli soldiers  have raped women and children in Gaza and kept them in cages",
+      text: "Armed Israeli soldier violently arrests a child with a broken arm in the occupied West Bank in 2015",
       type: "image",
-      src: p2,
+      path: p3,
     },
 
-  
-        // 8
-        {
-          text: "The secrets behind Gazans' strength, patience, steadfastness, resilience, hope and faith by Prof. Eyad Qunaibi.",
-          type: "text",
-          link: "https://twitter.com/Dr_EyadQun/status/1736084880830660991?t=AsBIrnE_CpEhehd3Ep2n-g&s=19",
-        },
     
-    // 9
-    
+    //   //	12
     {
-      text: "This map was issued by National Geographic in 1947, one year before the Nakba, there was no such thing called “Israel”. #GazaGenocide #SAFC Roy Hodgson #PresidentsDay #MondayMotivation",
+      text: "أمام المجاعة الحاصلة في غزة فإن الإغاثة المالية لأهلنا ضرورة واجبة، ومؤثرة، وخاصة في شمال غزة التي صبر سكانها صبراً شديداً أمام خطة التهجير. ومن حقهم علينا المساندة بكل ما يمكن، وهذا من أفضل الأعمال وأزكاها وأوجبها. وتحرى بأن تكون الجهة موثوقة. #خذلان_غزة_جريمة",
       type: "image",
-      src: p3,
-      },
-    
-    //  10
+      path: p4,
+    },
     
     
-       {
-         text: "Their own words, this was always their plan to ethnically cleanse the population without return. #GazaGenocide #SAFC Roy Hodgson #PresidentsDay #MondayMotivation",
-         type: "video",
-         src: v6,
-        },
-
-    
-    //	11
-
-      {
-           text: "If this is only a war against Hamas, then why is Israel destroying market stalls in the West Bank? #GazaGenocide #SAFC Roy Hodgson #PresidentsDay #MondayMotivation",
-           type: "video",
-           src: v7,
-       },
-
-   // 12
-        {
-          text: "Urgent Call: Join the movement and gather with activists to march towards Rafah",
-          type: "text",
-          link: "https://twitter.com/Esralshikh/status/1760270509315416288?t=1GL-A-eu1Xb9dUlUrK6wNA&s=19",
-        },
 	      
 
         
