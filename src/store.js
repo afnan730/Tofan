@@ -32,7 +32,7 @@ const store = createStore({
     {
       text: "'احنا جعانين.. ما ضل إلا القطط نأكلها'.. فلسطيني في شمال قطاع غزة يتحدث على المجاعة.",
       type: "video",
-      path: v1,
+      src: v1,
     },
 
     //2
@@ -41,7 +41,7 @@ const store = createStore({
 
       text: "Israeli soldier posts video demolishing Gaza's only cancer hospital, then wrote ' it broke accidentally'. The hospital served as an Israeli camp for 3 months; no official claims of findings inside.",
       type: "video",
-      path: v2,
+      src: v2,
     },
 
     
@@ -51,7 +51,7 @@ const store = createStore({
 
       text: "من يخبر أهل الأردن أنّ نصف النصر رهين بيدهم الآن فقط ؟ من يخبرهم أن بيدهم إنقاذ 700 ألف نفس يرابطون في شمال غزة منذ 4 أشهر ونصف، والجوع ينهش لحومهم وعظامهم ؟ من يخبرهم أنهم لو أنقذوا هؤلاء، فلن يُكتب لإسرائيل النصر في هذه الحرب، ولو فعلت ما فعلت ؟!",
       type: "video",
-     path: v3,
+     src: v3,
     },
     
     
@@ -60,7 +60,7 @@ const store = createStore({
     {
       text: "The World Ignores Israel's War Crimes. It's time to question the narrative of 'self-defense.' Is this truly defense, or are we witnessing an ongoing cycle of oppression?",
       type: "video",
-      path: v4,
+      src: v4,
       },
     
     //5
@@ -93,7 +93,7 @@ const store = createStore({
       {
         text: "This represents true terrorism and the actions of deranged killers, not condemned by the world that claims to fight terrorism while oppressing peoples and occupying cities.",
         type: "image",
-           path: p1,
+           src: p1,
        },
     
 
@@ -103,7 +103,7 @@ const store = createStore({
 
       text: "Israeli soldiers not only engaged in sexual assault against women in Gaza but also shamelessly displayed their misconduct to the world.Meanwhile,Israeli propaganda wrongly accuses Hamas of assaulting women without evidence.",
       type: "image",
-      path: p2,
+      src: p2,
     },
 
     // 10
@@ -121,7 +121,7 @@ const store = createStore({
     {
       text: "Armed Israeli soldier violently arrests a child with a broken arm in the occupied West Bank in 2015",
       type: "image",
-      path: p3,
+      src: p3,
     },
 
     
@@ -129,7 +129,7 @@ const store = createStore({
     {
       text: "أمام المجاعة الحاصلة في غزة فإن الإغاثة المالية لأهلنا ضرورة واجبة، ومؤثرة، وخاصة في شمال غزة التي صبر سكانها صبراً شديداً أمام خطة التهجير. ومن حقهم علينا المساندة بكل ما يمكن، وهذا من أفضل الأعمال وأزكاها وأوجبها. وتحرى بأن تكون الجهة موثوقة. #خذلان_غزة_جريمة",
       type: "image",
-      path: p4,
+      src: p4,
     },
     
     
