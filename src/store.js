@@ -59,7 +59,7 @@ type: "video",
     
     {
 
-	    text: "“What’s happening in Gaza is not war. It’s genocide.” —Brazil’s President Lula da Silva",
+	    text: "What’s happening in Gaza is not war. It’s genocide. —Brazil’s President Lula da Silva",
 	    type: "video",
       src: v4,
       },
@@ -122,24 +122,6 @@ text: "A thief is not an owner.",
    
 
    
-    
-    // 11
-
-    {
-      text: "Armed Israeli soldier violently arrests a child with a broken arm in the occupied West Bank in 2015",
-      type: "image",
-      src: p3,
-    },
-
-    
-    //   //	12
-    {
-      text: "أمام المجاعة الحاصلة في غزة فإن الإغاثة المالية لأهلنا ضرورة واجبة، ومؤثرة، وخاصة في شمال غزة التي صبر سكانها صبراً شديداً أمام خطة التهجير. ومن حقهم علينا المساندة بكل ما يمكن، وهذا من أفضل الأعمال وأزكاها وأوجبها. وتحرى بأن تكون الجهة موثوقة. #خذلان_غزة_جريمة",
-      type: "image",
-      src: p4,
-    },
-    
-    
 	      
 
         
