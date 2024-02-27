@@ -1,7 +1,7 @@
 import { createStore } from "vuex";
 
 import p1 from "./assets/static/p1.jpg";
-import p2 from "./assets/static/p2.jpg";
+// import p2 from "./assets/static/p2.jpg";
 // import p3 from "./assets/static/p3.jpg";
 // import p4 from "./assets/static/p4.jpg";
 // import p5 from "./assets/static/p5.jpg";
@@ -15,7 +15,7 @@ import v5 from "./assets/static/v5.mp4";
 import v6 from "./assets/static/v6.mp4";
 import v7 from "./assets/static/v7.mp4";
 import v8 from "./assets/static/v8.mp4";
-// import v9 from "./assets/static/v9.mp4";
+import v9 from "./assets/static/v9.mp4";
 // import v10 from "./assets/static/v10.mp4";
 // import v11 from "./assets/static/v11.mp4";
 // import v12 from "./assets/static/v12.mp4";
@@ -31,7 +31,7 @@ const store = createStore({
 
     {
 
-	text: "'All the Israeli villages in the country were built above Palestinian villages' A truth said by an Israeli citizen,so after all of this,is it rational for Palestinians to live in peace & safety with the occupation?",
+	text: "They said 'Be cautious about information from Gaza due to Hamas', yet have faith in everything from Israel, despite some false claims and unfounded accusations lacking credibility or honesty.",
       type: "video",
       src: v1,
     },
@@ -39,7 +39,7 @@ const store = createStore({
     //2
     {
 
-text: "An Israeli soldier documented Israeli occupation soldiers blowing up civilian homes in Khan Yunis while they mock a laugh, proud of their barbaric achievement!",
+text: "Israel keeps making false claims that Hamas uses civilians as human shields, simultaneously taking and torturing them. Not only that, but they go further by using civilians as human shields!",
 type: "video",
       src: v2,
     },
@@ -47,9 +47,8 @@ type: "video",
     
     //   //	3
     {
-
-
-	    text: "This is the treatment of the occupation towards Muslims when they want to perform worship at Al-Aqsa Mosque.",
+	    
+ text: "After Israel presented its map by erasing Palestine, Canada is currently removing Palestine from the list of countries! Following Israel's genocidal actions in Gaza, Canada is engaging in cultural eradication.",
 type: "video",
      src: v3,
     },
@@ -58,8 +57,7 @@ type: "video",
     // 4
     
     {
-
-	    text: "What’s happening in Gaza is not war. It’s genocide. —Brazil’s President Lula da Silva",
+	    text: "Video Documents Part of the Destruction of the Indonesian Hospital in Northern Gaza Strip as a Result of Israeli Airstrikes",
 	    type: "video",
       src: v4,
       },
@@ -68,14 +66,14 @@ type: "video",
 
      {
 
-	     text: "@realRickWiles talks about what he had seen when he went to occupied Palestine in 2018! 'If we don't stop Zionism, someday we'll all be Palestinians, & if Zionism isn't stopped, the entire world will become Palestinians...'",
+	     text: "هل من حق الفلسطينين الدفاع عن أنفسهم كما الأوكرانين؟، وزير خارجية النمسا يجيب: "هناك فرق"!",
 	     type: "video",
        src: v5,
      },
 
     //   //6
     {
-text : "UN report just released shows Israel has kidnapped women, held women in cages, stripped them naked and released footage online, severely beat women, and raped women in the occupied West Bank.",
+text : "Canadian researcher Karen DeVito warns:'This isn't just a war;it's a systematic genocide against a population. If we don't act now,there won't be a Gaza. The ongoing genocide,spanning a century,saw escalation and justification on October 7.'",
 	    type: "video",
       src: v6,
     },
@@ -86,7 +84,7 @@ text : "UN report just released shows Israel has kidnapped women, held women in 
        {
 
 
-	       text: "Israel arrest a 5 year old Palestinian boy, over 700. Palestinian children are illegally detained every year!",
+	       text: "Balfour Declaration's concealed history: Issued on Nov.2, 1917, by British foreign secretary to Zionist leader Walter Rothschild, promising establishing national homes 4 the Jewish in Palestine",
 	       type: "video",
 	       src: v7,
         },
@@ -95,7 +93,7 @@ text : "UN report just released shows Israel has kidnapped women, held women in 
 
     {
 
-	    text: "Josep Borrell,the EU's High Representative for Foreign Affairs,known for his inconsistent stance on Israeli crimes, exposes the West & countries supporting Israel regarding war crimes & Netanyahu's plan to invade Rafah",
+	    text: "This is the daily situation inside Shifa Medical Complex: no electricity and dozens of injuries.",
 	    type: "video",
       src: v8,
     },
@@ -104,9 +102,9 @@ text : "UN report just released shows Israel has kidnapped women, held women in 
 
       {
 
-	text: "The one who called for the rape of non-Jewish women is the Israeli army rabbi, and the one who committed sexual assaults, according to the United Nations, is also Israel. Stop misleading people",
-	      type: "image",
-           src: p1,
+	text: "People in Gaza aren't the only ones dealing with famine; even animals in Gaza are experiencing hunger.",
+	      type: "video",
+           src: v9,
        },
     
 
@@ -114,9 +112,9 @@ text : "UN report just released shows Israel has kidnapped women, held women in 
 
     {
 
-text: "A thief is not an owner.",
+text: "دعوة للإضراب الشامل في جميع الدول الخميس 29 فبراي. الهدف: إيقاف إطلاق النار - إدخال المساعدات - وقف المجاعة - كسر الحصار.",
 	    type: "image",
-      src: p2,
+      src: p1,
     },
 
    
