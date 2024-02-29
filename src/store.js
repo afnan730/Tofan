@@ -56,7 +56,7 @@ type: "video",
     {
 	    
 
-	    text: "Before invading & occupying Palestine,the European Zionists considered establishing a Jewish state in East Africa. In 1903, the "Uganda Scheme" was being mulled to carve out a Jewish country out of modern-day Kenya.",
+	    text: "Before invading & occupying Palestine,the European Zionists considered establishing a Jewish state in East Africa. In 1903, the 'Uganda Scheme' was being mulled to carve out a Jewish country out of modern-day Kenya.",
 type: "video",
      src: v3,
     },
