@@ -183,7 +183,7 @@ type: "video",
  
        {
 
-	       text: "Trying to colonize a local population inevitably provokes violent resistance. It's recognized by international law & openly foreseen by the Zionism founders,notably Jabotinsky in his 1923 essay "The Iron Wall". History didn’t start Oct 7th",
+	       text: "Trying to colonize a local population inevitably provokes violent resistance. It's recognized by international law & openly foreseen by the Zionism founders,notably Jabotinsky in his 1923 essay 'The Iron Wall'. History didn’t start Oct 7th",
 	       type: "image",
 	       src: p2,
         },
