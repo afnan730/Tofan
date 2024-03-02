@@ -2,7 +2,7 @@ import { createStore } from "vuex";
 
 import p1 from "./assets/static/p1.jpg";
 import p2 from "./assets/static/p2.jpg";
-import p3 from "./assets/static/p3.jpg";
+// import p3 from "./assets/static/p3.jpg";
 // import p4 from "./assets/static/p4.jpg";
 // import p5 from "./assets/static/p5.jpg";
 // import p6 from "./assets/static/p6.jpeg";
@@ -11,16 +11,16 @@ import v1 from "./assets/static/v1.mp4";
 import v2 from "./assets/static/v2.mp4";
 import v3 from "./assets/static/v3.mp4";
 import v4 from "./assets/static/v4.mp4";
-import v5 from "./assets/static/v5.mp4";
+// import v5 from "./assets/static/v5.mp4";
 import v6 from "./assets/static/v6.mp4";
 import v7 from "./assets/static/v7.mp4";
 import v8 from "./assets/static/v8.mp4";
 import v9 from "./assets/static/v9.mp4";
 import v10 from "./assets/static/v10.mp4";
-import v11 from "./assets/static/v11.mp4";
-import v12 from "./assets/static/v12.mp4";
-import v13 from "./assets/static/v13.mp4";
-import v14 from "./assets/static/v14.mp4";
+// import v11 from "./assets/static/v11.mp4";
+// import v12 from "./assets/static/v12.mp4";
+// import v13 from "./assets/static/v13.mp4";
+// import v14 from "./assets/static/v14.mp4";
 // import v11 from "./assets/static/v11.mp4";
 // import v12 from "./assets/static/v12.mp4";
 
@@ -36,9 +36,9 @@ const store = createStore({
 
     {
 
+      text: "This is one of the biggest crimes in the history of mankind euphorically caught on camera. They sent aid trucks to lure out the starving and then opened fire with machine guns and tanks while filming and making fun of it! What kind of society is this?!",
 
-	text: "حوار مع طفل فلسطيني فقد ذراعية جراء القصف الإسرائيلي المتواصل على قطاع غزة.",    
-      type: "video",
+	type: "video",
       src: v1,
     },
 
@@ -46,7 +46,7 @@ const store = createStore({
     {
 
 
-	    text: "US soldier speaking out against Palestine genocide and illegal occupation",
+      text: "When principles & morality get lost, it’s easy for a person to commit even the worst crimes. As the Israeli military play with soccerballs, Palestinian children who should be carefree, are starving to death! What a sick world we live in?!",
 type: "video",
       src: v2,
     },
@@ -56,7 +56,7 @@ type: "video",
     {
 	    
 
-	    text: "Before invading & occupying Palestine,the European Zionists considered establishing a Jewish state in East Africa. In 1903, the 'Uganda Scheme' was being mulled to carve out a Jewish country out of modern-day Kenya.",
+     text: "A YouTube channel called 'שמנמנים ונהנים' or 'Fatties Having Fun' posted videos showing Israeli soldiers starting fires inside Palestinian homes. Justifying such actions only fuel hatred & perpetuate cycle of violence",
 type: "video",
      src: v3,
     },
@@ -67,7 +67,7 @@ type: "video",
     {
 
 
-	    text : "US & British media controlled by Zionist lobby,omit the reason 4 the US soldier setting himself on fire in protest against Gaza aggression from headlines. These outlets R tools of brainwashing,hindering readers from grasping the situation's gravity",
+      text: "An Israeli soldier from the Givati brigade shared a threatening message to Gazans, calling them cheap,homeless, vowing to make their lives miserable,& wishing to burn them alive,causing suffering  & death.",
 	    type: "video",
       src: v4,
       },
@@ -77,26 +77,26 @@ type: "video",
      {
 
 
-	     text: "Can you imagine how terrible it is for them to strip our women naked in front of us without any respect?! A horrifying testimony from a recently released detainee about Israel's treatment of Palestinian women in detention.",
+      text: "كيف عرض الإعلام الغربي خبر حرق الجندي لنفسه رفضا للعدوان؟ فقط  'جندي أمريكي أحرق نفسه..' كثير  من القراء لن يكلف نفسه أن يقرأ التفاصيل، ولن تهيج مشاعره ضد الكيان المجرم بهكذا عنوان.   إنها وسائل تضليل وغسيل أدمغة، لا وسائل 'إعلام'!",
 	     type: "video",
-       src: v5,
+       src: v6,
      },
 
     //   //6
     {
 
-	    text: "Folke Bernadotte personally saved 31,000 Jews from the Nazis. He was shot dead by Zionists after reporting on devastated Palestinian villages he saw. The murder was ordered by future Prime Minister of Israel, Yitzhak Yezernitsky.",
+      text: "Horrible transformation! The toll of deliberate starvation is devastating for innocent lives. Yazan Al-Kafarna,suffering from poor health conditions,is at risk of death at any moment due to the absence of food.",
 	    type: "video",
-      src: v6,
+      src: v7,
     },
     
     
     //  7
  
        {
-	       text: "It’s been weeks & people from every stripe of Israeli society are still working tirelessly to starve 1.3 million children & babies to death. To. Death.  What kind of society is this?!",
+         text:  "This soldier, in 'The Most Moral Army in the World,'  celebrated his wife's birthday by blowing up a whole & crowded neighborhood!",
 	       type: "video",
-	       src: v7,
+	       src: v8,
         },
 
 	       // 8
@@ -104,25 +104,25 @@ type: "video",
     {
 
 
-	    text: "The same people telling you Aaron Bushnell 'who burned himself' was mentally ill will tell you these guys are perfectly sane!",
+        text: "Isreali soldiers don't just torture & humiliate elderly people, they also steal their money. No wonder they do so if they're stealing their own land!",
 	    type: "video",
-      src: v8,
+      src: v9,
     },
     
     //	9
 
       {
-	      text: "Genocide. Ethnic cleansing. Collective punishment. These are the western values Israel shares.",
-	      type: "video",
-           src: v9,
+      text: "Western standards of heroism are those that condone their actions of murder and genocide, while any act that exposes them is ignored, and they strive to conceal it.",
+	      type: "image",
+           src: p1,
        },
     
 
     //10
 
     {
-	    text: "During the Holocaust, international law wasn't legislated in its current form, but the Holocaust in Gaza was committed in the presence of Int'l law, & with the protection of western democratic governments, which we thought they would be the protectors of Int'l law.",
-	    type: "image",
+      text: "There is no safe inch in Gaza. All government and health sectors, even the desert, are considered threatening and dangerous areas for those who seek refuge in them, as occupation missiles track every gathering and tent.",
+	    type: "video",
       src: v10,
     },
 
@@ -131,71 +131,11 @@ type: "video",
     {
 
 
-	    text: "When will the world realize that Israel is a terrorist state?!",
-	    type: "video",
+     text: "In 1944 Näzis starved Jëws to death. In 2024 Ziønists starve Palestinians to death.  How you act now is how you would have acted then.",
+	    type: "image",
       src: v11,
     },
     
-    
-    //  12
- 
-       {
-
-	       text: "This is how Israel exploited the Holocaust and anti-Semitism.",
-	       type: "video",
-	       src: v12,
-        },
-
-
-	          //   //13
-    {
-
-
-	    text: "This is what Palestine looked like in 1938, before it was occupied by Israel, its people were killed, displaced, and later was called Israel.",
-	    type: "video",
-      src: v13,
-    },
-    
-    
-    //  14
- 
-       {
-
-	       text: "A message from the descendants of Holocaust survivors.",
-	       type: "video",
-	       src: v14,
-        },
-
-	
-	          //   //15
-    {
-
-
-
-
-	    text: "Israeli terrorist Eido Levi shared a photo on Instagram inside a child's bed in Khan Yunis. Did he kill the child & family before occupying the bed, or did residents evacuate fearing to be killed?",
-	    type: "image",
-      src: p1,
-    },
-    
-    
-    //  16
- 
-       {
-
-	       text: "Trying to colonize a local population inevitably provokes violent resistance. It's recognized by international law & openly foreseen by the Zionism founders,notably Jabotinsky in his 1923 essay 'The Iron Wall'. History didn’t start Oct 7th",
-	       type: "image",
-	       src: p2,
-        },
-
-	      
-	          //   //17
-    {
-
-	text: "Despite the assertion of being the epitome of ethical conduct, it's disconcerting to observe a regrettably juvenile demeanor from the military post-home demolitions in Gaza, particularly in handling such sensitive situations.",
-      type: "image",
-      src: p3,
-    },
     
     
 	      
