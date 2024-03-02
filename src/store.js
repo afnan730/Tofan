@@ -133,7 +133,7 @@ type: "video",
 
      text: "In 1944 Näzis starved Jëws to death. In 2024 Ziønists starve Palestinians to death.  How you act now is how you would have acted then.",
 	    type: "image",
-      src: v11,
+      src: p2,
     },
     
     
