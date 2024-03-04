@@ -2,13 +2,13 @@ import { createStore } from "vuex";
 
 import p1 from "./assets/static/p1.jpg";
 import p2 from "./assets/static/p2.jpg";
-// import p3 from "./assets/static/p3.jpg";
+import p3 from "./assets/static/p3.jpg";
 // import p4 from "./assets/static/p4.jpg";
 // import p5 from "./assets/static/p5.jpg";
 // import p6 from "./assets/static/p6.jpeg";
 
 import v1 from "./assets/static/v1.mp4";
-import v2 from "./assets/static/v2.mp4";
+// import v2 from "./assets/static/v2.mp4";
 import v3 from "./assets/static/v3.mp4";
 import v4 from "./assets/static/v4.mp4";
 // import v5 from "./assets/static/v5.mp4";
@@ -17,8 +17,8 @@ import v7 from "./assets/static/v7.mp4";
 import v8 from "./assets/static/v8.mp4";
 import v9 from "./assets/static/v9.mp4";
 import v10 from "./assets/static/v10.mp4";
-// import v11 from "./assets/static/v11.mp4";
-// import v12 from "./assets/static/v12.mp4";
+import v11 from "./assets/static/v11.mp4";
+import v12 from "./assets/static/v12.mp4";
 // import v13 from "./assets/static/v13.mp4";
 // import v14 from "./assets/static/v14.mp4";
 // import v11 from "./assets/static/v11.mp4";
@@ -35,9 +35,7 @@ const store = createStore({
     // 1
 
     {
-
-      text: "This is one of the biggest crimes in the history of mankind euphorically caught on camera. They sent aid trucks to lure out the starving and then opened fire with machine guns and tanks while filming and making fun of it! What kind of society is this?!",
-
+      text: "How can anyone find humor in such a tragic situation? Israeli soldiers sharing videos for blowing up an entire neighborhood in Khan Younis & joking about this, showing a complete disregard for the innocent lives.",
 	type: "video",
       src: v1,
     },
@@ -46,9 +44,9 @@ const store = createStore({
     {
 
 
-      text: "When principles & morality get lost, it’s easy for a person to commit even the worst crimes. As the Israeli military play with soccerballs, Palestinian children who should be carefree, are starving to death! What a sick world we live in?!",
+      text: "The Irish actor and UNICEF Goodwill Ambassador, Liam Neeson, called for an immediate humanitarian ceasefire in Gaza, emphasizing five urgent needs for the children in the region.",
 type: "video",
-      src: v2,
+      src: v3,
     },
 
     
@@ -56,47 +54,43 @@ type: "video",
     {
 	    
 
-     text: "A YouTube channel called 'שמנמנים ונהנים' or 'Fatties Having Fun' posted videos showing Israeli soldiers starting fires inside Palestinian homes. Justifying such actions only fuel hatred & perpetuate cycle of violence",
+     text: "Anyone familiar with apartheid and has lived among those who suffered from it, then knows what is called 'Israel,' would not have the slightest doubt or hesitation in recognizing them as practitioners of apartheid.", 
 type: "video",
-     src: v3,
+     src: v4,
     },
     
     
     // 4
     
     {
-
-
-      text: "An Israeli soldier from the Givati brigade shared a threatening message to Gazans, calling them cheap,homeless, vowing to make their lives miserable,& wishing to burn them alive,causing suffering  & death.",
+      text: "Recent history shows a deliberate effort to erase Palestine, from past crises like the Nakba to current events in Gaza and even cultural erasure, such as Canada removing Palestine from its recognized nations.", 
 	    type: "video",
-      src: v4,
+      src: v6,
       },
     
     //5
 
      {
-
-
-      text: "كيف عرض الإعلام الغربي خبر حرق الجندي لنفسه رفضا للعدوان؟ فقط  'جندي أمريكي أحرق نفسه..' كثير  من القراء لن يكلف نفسه أن يقرأ التفاصيل، ولن تهيج مشاعره ضد الكيان المجرم بهكذا عنوان.   إنها وسائل تضليل وغسيل أدمغة، لا وسائل 'إعلام'!",
+      text: "The Israeli occupation army films a shocking clip in which two men are targeted: one riding his bicycle and the other carrying a bag of flour. They depict the bicycle as a weapon to mask their direct and terrifying bombing of civilians.",
 	     type: "video",
-       src: v6,
+       src: v7,
      },
 
     //   //6
     {
 
-      text: "Horrible transformation! The toll of deliberate starvation is devastating for innocent lives. Yazan Al-Kafarna,suffering from poor health conditions,is at risk of death at any moment due to the absence of food.",
+      text: "The Israeli apartheid regime persists in killings across all of Palestine. The recent incident occurred in Qalandia refugee camp near Jerusalem, where a Palestinian child named Mustafa was brutally executed by the occupation forces in front of his family",
 	    type: "video",
-      src: v7,
+      src: v8,
     },
     
     
     //  7
  
        {
-         text:  "This soldier, in 'The Most Moral Army in the World,'  celebrated his wife's birthday by blowing up a whole & crowded neighborhood!",
-	       type: "video",
-	       src: v8,
+         text: "Israeli Ynet reports that Israel's military kidnapped 1200 people from Khan Yunis, 85 of whom were kidnapped while evacuating Hamad City according to Israeli orders, and distributed food as 'Ramadan gifts' to some citizens.",
+	       type: "image",
+	       src: p1,
         },
 
 	       // 8
@@ -104,26 +98,26 @@ type: "video",
     {
 
 
-        text: "Isreali soldiers don't just torture & humiliate elderly people, they also steal their money. No wonder they do so if they're stealing their own land!",
-	    type: "video",
-      src: v9,
+        text: "'There is no life after you, O light of my eye. You were dearer than everything in the world for me.'  A letter was found on the grave of a man in Gaza, written by his daughter.",
+	    type: "image",
+      src: p2,
     },
     
     //	9
 
       {
-      text: "Western standards of heroism are those that condone their actions of murder and genocide, while any act that exposes them is ignored, and they strive to conceal it.",
+      text: "'As part of the genocide in Gaza, Israel killed 13,430 children while there are 7000 missing persons, 70% of whom are women and children'. ",
 	      type: "image",
-           src: p1,
+           src: p3,
        },
     
 
     //10
 
     {
-      text: "There is no safe inch in Gaza. All government and health sectors, even the desert, are considered threatening and dangerous areas for those who seek refuge in them, as occupation missiles track every gathering and tent.",
+      text: "The silence of the world in the face of Israel's massacre and brutality continues as Israel persists in its atrocities by bombing the Jabalia refugee camp for displaced people in the northern Gaza Strip, leaving behind a large number of martyrs and casualties.",
 	    type: "video",
-      src: v10,
+      src: v9,
     },
 
    
@@ -131,11 +125,27 @@ type: "video",
     {
 
 
-     text: "In 1944 Näzis starved Jëws to death. In 2024 Ziønists starve Palestinians to death.  How you act now is how you would have acted then.",
-	    type: "image",
-      src: p2,
+     text: "It's just the IDF practicing their usual moral stuff.",
+	    type: "video",
+      src: v10,
     },
     
+       
+    //   //12
+    {
+
+
+      text: "Israeli settlers storm Al-Aqsa Mosque compounds in occupied Jerusalem under the protection of Israeli forces, while Palestinian Muslims face stringent restrictions on entry to the mosque, embodying the apartheid practiced by Israel.",
+	    type: "video",
+      src: v11,
+    },
+       
+    //   //13
+    {
+     text: "Leaked recording from Israeli detainees confirms they pleaded for help from the Israeli army but were killed instead, supporting earlier claims by the Gaza resistance that Israel's military has been responsible for the deaths of multiple detainees",
+	    type: "video",
+      src: v12,
+    },
     
     
 	      
