@@ -3,22 +3,22 @@ import { createStore } from "vuex";
 import p1 from "./assets/static/p1.jpg";
 import p2 from "./assets/static/p2.jpg";
 import p3 from "./assets/static/p3.jpg";
-// import p4 from "./assets/static/p4.jpg";
+import p4 from "./assets/static/p4.jpg";
 // import p5 from "./assets/static/p5.jpg";
 // import p6 from "./assets/static/p6.jpeg";
 
 import v1 from "./assets/static/v1.mp4";
-// import v2 from "./assets/static/v2.mp4";
+import v2 from "./assets/static/v2.mp4";
 import v3 from "./assets/static/v3.mp4";
 import v4 from "./assets/static/v4.mp4";
-// import v5 from "./assets/static/v5.mp4";
+import v5 from "./assets/static/v5.mp4";
 import v6 from "./assets/static/v6.mp4";
 import v7 from "./assets/static/v7.mp4";
 import v8 from "./assets/static/v8.mp4";
 import v9 from "./assets/static/v9.mp4";
 import v10 from "./assets/static/v10.mp4";
-import v11 from "./assets/static/v11.mp4";
-import v12 from "./assets/static/v12.mp4";
+// import v11 from "./assets/static/v11.mp4";
+// import v12 from "./assets/static/v12.mp4";
 // import v13 from "./assets/static/v13.mp4";
 // import v14 from "./assets/static/v14.mp4";
 // import v11 from "./assets/static/v11.mp4";
@@ -35,99 +35,92 @@ const store = createStore({
     // 1
 
     {
-      text: "How can anyone find humor in such a tragic situation? Israeli soldiers sharing videos for blowing up an entire neighborhood in Khan Younis & joking about this, showing a complete disregard for the innocent lives.",
-	type: "video",
-      src: v1,
+	  text:"Israeli soldiers are seen planting bombs inside UNRWA Beit Hanoun medical clinic. Israeli army did not claim to have found any evidence of militant presence or tunnels under or inside the clinic whatsoever.",
+	type: "image",
+      src: p1,
     },
 
     //2
     {
-
-
-      text: "The Irish actor and UNICEF Goodwill Ambassador, Liam Neeson, called for an immediate humanitarian ceasefire in Gaza, emphasizing five urgent needs for the children in the region.",
-type: "video",
-      src: v3,
+      text : "Israeli military officer Major. Yossi Amar from the Israeli 55 Brigade wrote the following weeks ago. The briagde operated in Gaza city & Khan Younis.",
+type: "image",
+      src: p2,
     },
 
     
     //   //	3
     {
-	    
+     text: "Biden & the EU supply Israel with extensive weapons,that they blow things up just for fun,treating it as a game & experimenting with explosives,leading to reckless acts. They R out-of-control individuals with deadly weapons", 
 
-     text: "Anyone familiar with apartheid and has lived among those who suffered from it, then knows what is called 'Israel,' would not have the slightest doubt or hesitation in recognizing them as practitioners of apartheid.", 
-type: "video",
-     src: v4,
+type: "image",
+     src: p3,
     },
     
     
     // 4
     
     {
-      text: "Recent history shows a deliberate effort to erase Palestine, from past crises like the Nakba to current events in Gaza and even cultural erasure, such as Canada removing Palestine from its recognized nations.", 
+      text: "She waited for 11 years and made every effort to conceive a child, then only for the occupation to come and kill them, along with their father, in a barbaric bombing of their home in Rafah.", 
 	    type: "video",
-      src: v6,
+      src: v1,
       },
     
     //5
 
      {
-      text: "The Israeli occupation army films a shocking clip in which two men are targeted: one riding his bicycle and the other carrying a bag of flour. They depict the bicycle as a weapon to mask their direct and terrifying bombing of civilians.",
+      text: "Rabbi David Mivasair, a member of the Independent Jewish Voices organization, said: 'I am here outside a Jewish synagogue in Toronto, where they are selling properties built on land stolen from Palestinians in the West Bank.'",
 	     type: "video",
-       src: v7,
+       src: v2,
      },
 
     //   //6
     {
 
-      text: "The Israeli apartheid regime persists in killings across all of Palestine. The recent incident occurred in Qalandia refugee camp near Jerusalem, where a Palestinian child named Mustafa was brutally executed by the occupation forces in front of his family",
+      text: "To erase a people, Israel targets education. Historian Manuel Marquez reveals deliberate killings, including 81 professors. Eliminating not just lives, but also the foundation of a community.",
 	    type: "video",
-      src: v8,
+      src: v3,
     },
     
     
     //  7
  
        {
-         text: "Israeli Ynet reports that Israel's military kidnapped 1200 people from Khan Yunis, 85 of whom were kidnapped while evacuating Hamad City according to Israeli orders, and distributed food as 'Ramadan gifts' to some citizens.",
-	       type: "image",
-	       src: p1,
+         text: "The largest genocide documented in modern history, involving the biggest countries in the world, most of which claim to uphold human rights. An important report to understand the ongoing genocide in Palestine, specifically Gaza today.",
+	       type: "video",
+	       src: v4,
         },
 
 	       // 8
 
     {
-
-
-        text: "'There is no life after you, O light of my eye. You were dearer than everything in the world for me.'  A letter was found on the grave of a man in Gaza, written by his daughter.",
-	    type: "image",
-      src: p2,
+        text: "The Israeli occupation army films a shocking clip in which two men are targeted: one riding his bicycle and the other carrying a bag of flour. They depict the bicycle as a weapon to mask their direct and terrifying bombing of civilians.",
+	    type: "video",
+      src: v5,
     },
     
     //	9
 
       {
-      text: "'As part of the genocide in Gaza, Israel killed 13,430 children while there are 7000 missing persons, 70% of whom are women and children'. ",
-	      type: "image",
-           src: p3,
+      text: "The blood cascades in the streets of Gaza foreshadow the ongoing massacre inflicted upon them by the Israeli occupation forces.",
+	      type: "video",
+           src: v6,
        },
     
 
     //10
 
     {
-      text: "The silence of the world in the face of Israel's massacre and brutality continues as Israel persists in its atrocities by bombing the Jabalia refugee camp for displaced people in the northern Gaza Strip, leaving behind a large number of martyrs and casualties.",
+      text: "An Israeli soldier named Liam Israel posted this montage on TikTok on 3 January and captioned it 'having fun also in the West Bank'. It includes footage of abducted Palestinians, and soldiers shooting and throwing stun grenades in a Palestinian town during nighttime.",
 	    type: "video",
-      src: v9,
+      src: v7,
     },
 
    
     //   //11
     {
-
-
-     text: "It's just the IDF practicing their usual moral stuff.",
+     text: "A Palestinian woman in North Gaza bursts into tears after seeing and tasting white bread for the first time in months amid the Israeli war of starvation.", 
 	    type: "video",
-      src: v10,
+      src: v8,
     },
     
        
@@ -135,18 +128,25 @@ type: "video",
     {
 
 
-      text: "Israeli settlers storm Al-Aqsa Mosque compounds in occupied Jerusalem under the protection of Israeli forces, while Palestinian Muslims face stringent restrictions on entry to the mosque, embodying the apartheid practiced by Israel.",
-	    type: "video",
-      src: v11,
+      text: "NY Times confirms Israel's role in the Feb 29 aid convoy attack, leaving 100+ casualties. Will the U.S. halt its involvement? Calls for justice at the International Court rise. The global community's conscience must act to stop this atrocity.",
+	    type: "image",
+      src: p4,
     },
        
     //   //13
     {
-     text: "Leaked recording from Israeli detainees confirms they pleaded for help from the Israeli army but were killed instead, supporting earlier claims by the Gaza resistance that Israel's military has been responsible for the deaths of multiple detainees",
+     text: "As a way of promoting IDF's morality to the world: an Israeli soldier at the military checkpoint along Gaza's coastal road films himself verbally abusing and cursing a Palestinian woman who is holding a white flag.", 
 	    type: "video",
-      src: v12,
+      src: v9,
     },
-    
+
+
+	        //   //14
+    {
+     text: "Daily life for Palestinian children under the Israeli Apartheid Occupation. It didn't start on October 7th.", 
+	    type: "video",
+      src: v10,
+    },
     
 	      
 
