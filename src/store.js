@@ -35,119 +35,89 @@ const store = createStore({
     // 1
 
     {
-	  text:"Israeli soldiers are seen planting bombs inside UNRWA Beit Hanoun medical clinic. Israeli army did not claim to have found any evidence of militant presence or tunnels under or inside the clinic whatsoever.",
+	  text:"BREAKING: Biden will build a port in Gaza for Israel to export the gas located on the coast of Gaza. He will claim it’s for aid. But it’s not. Its to steal, as they always do.",      
 	type: "image",
       src: p1,
     },
 
     //2
     {
-      text : "Israeli military officer Major. Yossi Amar from the Israeli 55 Brigade wrote the following weeks ago. The briagde operated in Gaza city & Khan Younis.",
-type: "image",
-      src: p2,
+     text: "Daily life for Palestinian children under the Israeli Apartheid Occupation. It didn't start on October 7th.", 
+type: "video",
+      src: v10,
     },
 
     
     //   //	3
     {
-     text: "Biden & the EU supply Israel with extensive weapons,that they blow things up just for fun,treating it as a game & experimenting with explosives,leading to reckless acts. They R out-of-control individuals with deadly weapons", 
+     text: "A glimpse into apartheid Israel: soldiers abusing older Palestinian women at checkpoints likely not being allowed to go pray or visit. This is daily life at the hand of their racist occupiers. Who can tolerate this?!", 
 
-type: "image",
-     src: p3,
+type: "video",
+     src: v1,
     },
     
     
     // 4
     
     {
-      text: "She waited for 11 years and made every effort to conceive a child, then only for the occupation to come and kill them, along with their father, in a barbaric bombing of their home in Rafah.", 
+      text: "(1) 'Palestine, from its north to its south, is targeted.' As Israel continues to expand its illegal occupation of Palestine, here’s a glimpse into how it seizes land & enforces a system of apartheid upon Palestinians in Huwara in southern Nablus.", 
 	    type: "video",
-      src: v1,
+      src: v2,
       },
     
     //5
 
      {
-      text: "Rabbi David Mivasair, a member of the Independent Jewish Voices organization, said: 'I am here outside a Jewish synagogue in Toronto, where they are selling properties built on land stolen from Palestinians in the West Bank.'",
+      text: "(2) 'Palestine, from its north to its south, is targeted.' As Israel continues to expand its illegal occupation of Palestine, here’s a glimpse into how it seizes land & enforces a system of apartheid upon Palestinians in Huwara in southern Nablus.",
 	     type: "video",
-       src: v2,
+       src: v3,
      },
 
     //   //6
     {
 
-      text: "To erase a people, Israel targets education. Historian Manuel Marquez reveals deliberate killings, including 81 professors. Eliminating not just lives, but also the foundation of a community.",
+      text: "(3) 'Palestine, from its north to its south, is targeted.' As Israel continues to expand its illegal occupation of Palestine, here’s a glimpse into how it seizes land & enforces a system of apartheid upon Palestinians in Huwara in southern Nablus.",
 	    type: "video",
-      src: v3,
+      src: v4,
     },
     
     
     //  7
  
        {
-         text: "The largest genocide documented in modern history, involving the biggest countries in the world, most of which claim to uphold human rights. An important report to understand the ongoing genocide in Palestine, specifically Gaza today.",
+         text: "(4) 'Palestine, from its north to its south, is targeted.' As Israel continues to expand its illegal occupation of Palestine, here’s a glimpse into how it seizes land & enforces a system of apartheid upon Palestinians in Huwara in southern Nablus.",
 	       type: "video",
-	       src: v4,
+	       src: v5,
         },
 
 	       // 8
 
     {
-        text: "The Israeli occupation army films a shocking clip in which two men are targeted: one riding his bicycle and the other carrying a bag of flour. They depict the bicycle as a weapon to mask their direct and terrifying bombing of civilians.",
+        text: "'The question used to be about Israel's right to exist. Now, much of the world questions if Israel deserves to exist.' Ex-US ambassador Chas Freeman condemns Israel, likening it actions to a 'mass lynching in Gaza'.",
 	    type: "video",
-      src: v5,
+      src: v6,
     },
     
     //	9
 
       {
-      text: "The blood cascades in the streets of Gaza foreshadow the ongoing massacre inflicted upon them by the Israeli occupation forces.",
+      text: "An Israeli soldier named Liam Israel posted this montage on TikTok on 3 January and captioned it 'having fun also in the West Bank'. It includes footage of abducted Palestinians, and soldiers shooting and throwing stun grenades in a Palestinian town during nighttime.",
 	      type: "video",
-           src: v6,
+           src: v7,
        },
     
 
     //10
 
     {
-      text: "An Israeli soldier named Liam Israel posted this montage on TikTok on 3 January and captioned it 'having fun also in the West Bank'. It includes footage of abducted Palestinians, and soldiers shooting and throwing stun grenades in a Palestinian town during nighttime.",
-	    type: "video",
-      src: v7,
-    },
-
-   
-    //   //11
-    {
      text: "A Palestinian woman in North Gaza bursts into tears after seeing and tasting white bread for the first time in months amid the Israeli war of starvation.", 
 	    type: "video",
       src: v8,
     },
-    
-       
-    //   //12
-    {
 
 
-      text: "NY Times confirms Israel's role in the Feb 29 aid convoy attack, leaving 100+ casualties. Will the U.S. halt its involvement? Calls for justice at the International Court rise. The global community's conscience must act to stop this atrocity.",
-	    type: "image",
-      src: p4,
-    },
-       
-    //   //13
-    {
-     text: "As a way of promoting IDF's morality to the world: an Israeli soldier at the military checkpoint along Gaza's coastal road films himself verbally abusing and cursing a Palestinian woman who is holding a white flag.", 
-	    type: "video",
-      src: v9,
-    },
 
 
-	        //   //14
-    {
-     text: "Daily life for Palestinian children under the Israeli Apartheid Occupation. It didn't start on October 7th.", 
-	    type: "video",
-      src: v10,
-    },
-    
 	      
 
         
