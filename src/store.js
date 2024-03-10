@@ -35,86 +35,78 @@ const store = createStore({
     // 1
 
     {
-	  text:"BREAKING: Biden will build a port in Gaza for Israel to export the gas located on the coast of Gaza. He will claim it’s for aid. But it’s not. Its to steal, as they always do.",      
-	type: "image",
-      src: p1,
+      text: "Graphic content: Israeli military-affiliated accounts celebrate feeding dogs with the remains of Palestinians in Gaza.",
+	type: "video",
+      src: v1,
     },
 
     //2
     {
-     text: "Daily life for Palestinian children under the Israeli Apartheid Occupation. It didn't start on October 7th.", 
+     text: "Israel openly commits & admits its crimes,films soldiers boasting about many. Despite global institutions,laws remain elusive for everyone. Efforts to prove Gazans' suffering persist,yet trials favor the perpetrator over the victim.", 
 type: "video",
-      src: v10,
+      src: v2,
     },
 
     
     //   //	3
     {
-     text: "A glimpse into apartheid Israel: soldiers abusing older Palestinian women at checkpoints likely not being allowed to go pray or visit. This is daily life at the hand of their racist occupiers. Who can tolerate this?!", 
-
-type: "video",
-     src: v1,
+     text: "He was killed by the Israeli terrorist army while getting a bag of flour from the top of the truck in northern Gaza.", 
+	type: "image",
+     src: p1,
     },
     
     
     // 4
     
     {
-      text: "(1) 'Palestine, from its north to its south, is targeted.' As Israel continues to expand its illegal occupation of Palestine, here’s a glimpse into how it seizes land & enforces a system of apartheid upon Palestinians in Huwara in southern Nablus.", 
+     text: "They dehumanize Palestinians as animals,but the truth is that the occupying soldiers R the ones behaving like animals,demolishing everything they encounter! This isn't self-defense;it's a complete ethnic cleansing", 
 	    type: "video",
-      src: v2,
+      src: v6,
       },
     
     //5
 
      {
-      text: "(2) 'Palestine, from its north to its south, is targeted.' As Israel continues to expand its illegal occupation of Palestine, here’s a glimpse into how it seizes land & enforces a system of apartheid upon Palestinians in Huwara in southern Nablus.",
+      text: "Israeli bulldozers are demolishing homes and infrastructure during the ongoing raid in Tulkarm refugee camp, West Bank.",
 	     type: "video",
-       src: v3,
+       src: v7,
      },
 
     //   //6
     {
 
-      text: "(3) 'Palestine, from its north to its south, is targeted.' As Israel continues to expand its illegal occupation of Palestine, here’s a glimpse into how it seizes land & enforces a system of apartheid upon Palestinians in Huwara in southern Nablus.",
-	    type: "video",
-      src: v4,
+      text:"Zionist forces arrest,humiliate,& kill the innocents then steal their organs. These citizens resist leaving their homes for 2 reasons: they have no place to go, & they oppose forced displacement in any form.",
+	    type: "image",
+      src: p2,
     },
     
     
     //  7
  
        {
-         text: "(4) 'Palestine, from its north to its south, is targeted.' As Israel continues to expand its illegal occupation of Palestine, here’s a glimpse into how it seizes land & enforces a system of apartheid upon Palestinians in Huwara in southern Nablus.",
+      text: "In the West Bank town of Qabatya, Jenin: Israeli occupation forces are kidnapping a 7-year-old child.",
 	       type: "video",
-	       src: v5,
+	       src: v8,
         },
 
 	       // 8
 
     {
-        text: "'The question used to be about Israel's right to exist. Now, much of the world questions if Israel deserves to exist.' Ex-US ambassador Chas Freeman condemns Israel, likening it actions to a 'mass lynching in Gaza'.",
+      text: "Settlement leaders are among the most inciters for starving and displacing the people of Gaza.",
 	    type: "video",
-      src: v6,
+      src: v9,
     },
     
-    //	9
+    // //	9
 
-      {
-      text: "An Israeli soldier named Liam Israel posted this montage on TikTok on 3 January and captioned it 'having fun also in the West Bank'. It includes footage of abducted Palestinians, and soldiers shooting and throwing stun grenades in a Palestinian town during nighttime.",
-	      type: "video",
-           src: v7,
-       },
+    //   {
+    //      text: "It is very important to follow the dialogue to refute the lies and claims of the occupation.",
+	   //    type: "video",
+    //        src: v10,
+    //    },
     
 
-    //10
-
-    {
-     text: "A Palestinian woman in North Gaza bursts into tears after seeing and tasting white bread for the first time in months amid the Israeli war of starvation.", 
-	    type: "video",
-      src: v8,
-    },
-
+  
 
 
 
