@@ -1,6 +1,6 @@
 import { createStore } from "vuex";
 
-import p1 from "./assets/static/p1.jpeg";
+import p1 from "./assets/static/p1.jpg";
 // import p2 from "./assets/static/p2.jpg";
 // import p3 from "./assets/static/p3.jpg";
 // import p4 from "./assets/static/p4.jpg";
@@ -14,8 +14,8 @@ import v4 from "./assets/static/v4.mp4";
 import v5 from "./assets/static/v5.mp4";
 import v6 from "./assets/static/v6.mp4";
 import v7 from "./assets/static/v7.mp4";
-// import v8 from "./assets/static/v8.mp4";
-// import v9 from "./assets/static/v9.mp4";
+import v8 from "./assets/static/v8.mp4";
+import v9 from "./assets/static/v9.mp4";
 // import v10 from "./assets/static/v10.mp4";
 // import v11 from "./assets/static/v11.mp4";
 // import v12 from "./assets/static/v12.mp4";
@@ -31,54 +31,67 @@ const store = createStore({
         // 1
 
         {
-          text: "This is what those in power have decided will be the new normal!",
-          type: "image",
-          src: p1,
-        },
-
-        //2
-        {
-          text: "Speaking of double standards! When it's Ukraine, the world opens its eyes, but when it's Gaza, everyone seems to have turned blind.",
+          text: "If this is only a war against Hamas, then why is Israel destroying market stalls in the West Bank?",
           type: "video",
           src: v1,
+        },
+        {
+          text: "'Our logic in this war is clear, don't leave any soul alive'Jewish Rabbi Eliyahu Mali. The distorted instructions in the Torah among Jews dictate the necessity to kill every individual in Gaza,even if they R children, elderly women or men",
+          type: "video",
+          src: v5,
+        },
+        {
+          text: "Israeli occupiers aim to expel all from Gaza to seize control. Despite being American,I remain,resisting their takeover of Gaza.Their agenda includes genocide, intimidation, aided by international systems until all of Palestine is under their control.",
+          type: "video",
+          src: v9,
+        },
+        {
+          text: "The Israeli military published a drone video of their strike on 2 civilians, claiming one of which was carrying an 'RPG'. After that, they admitted that it was actually a bicycle not RPG.",
+          type: "video",
+          src: v6,
+        },
+        //2
+        {
+          text: "Their own words, this was always their plan to ethnically cleanse the population without return.",
+          type: "video",
+          src: v2,
         },
 
         //	3
         {
-          text: "Helicopter footage reveals extensive destruction, highlighting that this is more of a genocide than the claimed 'self-defense.'",
+          text: "This ethnic cleansing, which Western leaders called self-defense.",
           type: "video",
-          src: v2,
+          src: v3,
         },
 
         // 4
 
         {
-          text: "The occupation has not stopped targeting homes and neighborhoods, so do not believe the lies about the cessation of the barbaric bombardment carried out by the occupation day and night on Gaza.",
-          type: "video",
-          src: v3,
-        },
-
-        //5
-
-        {
-          text: "The occupation continues its campaigns of arrests and raids without any justifiable reasons.",
+          text: "'All the Israeli villages in the country were built above Palestinian villages' A truth said by an Israeli citizen,so after this,is it rational for Palestinians to live in peace & safety with the occupation?.",
           type: "video",
           src: v4,
         },
 
+        //5
+        {
+          text: "Israeli jets strike a location in Rafah (SAFE ZONE) near the border crossing.",
+          type: "video",
+          src: v7,
+        },
+
         //   //6
         {
-          text: "This is the life of the people of Jerusalem 'alquds' throughout the occupation. Israeli occupation police officers in occupied Jerusalem restrain 6 Palestinians together and humiliate them as they are led away.",
+          text: "In the West Bank, life starkly contrasts with limitations, iron barriers, and meticulous surveillance, depicting the oppressive reality of occupation, curtailing lives and asserting control.",
           type: "video",
-          src: v5,
+          src: v6,
         },
 
         //  7
 
         {
-          text: "'Yes, these R difficult scenes 4 viewers'. These martyrs were pulled out from the Nasser Medical Complex courtyard in Khan Younis after the graves were excavated & the bodies of the martyrs were desecrated by the occupying army",
-          type: "video",
-          src: v6,
+          text: "This map was issued by National Geographic in 1947, one year before the Nakba, there was no such thing called “Israel”.",
+          type: "image",
+          src: p1,
         },
 
         // 8
@@ -91,11 +104,11 @@ const store = createStore({
 
         // //	9
 
-        //   {
-        //      text: "It is very important to follow the dialogue to refute the lies and claims of the occupation.",
-        //    type: "video",
-        //        src: v10,
-        //    },
+        {
+          text: "The difference between a victim and an Occupier. So clearly What the occupation is doing is committing more crimes alongside the crime of occupation!",
+          type: "video",
+          src: v8,
+        },
       ],
       arabic: {
         header: "🔻طُـوفَـان الـحَـقِـيـقَـة",
