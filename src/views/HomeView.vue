@@ -20,7 +20,7 @@
                   > {{content.clickHere}}</a
                 >   -->
                  <a
-                  href="https://youtu.be/ljJyZh-u2a4"
+                  href="https://youtu.be/79azCgVkjpg"
                   target="_blank"
                   class="fw-semibold"
                   > {{content.clickHere}}</a
