@@ -2,8 +2,8 @@ import { createStore } from "vuex";
 
 import p1 from "./assets/static/p1.jpg";
 import p2 from "./assets/static/p2.jpg";
-// import p3 from "./assets/static/p3.jpg";
-// import p4 from "./assets/static/p4.jpg";
+import p3 from "./assets/static/p3.jpg";
+import p4 from "./assets/static/p4.jpg";
 // import p5 from "./assets/static/p5.jpg";
 // import p6 from "./assets/static/p6.jpeg";
 
@@ -11,8 +11,8 @@ import v1 from "./assets/static/v1.mp4";
 import v2 from "./assets/static/v2.mp4";
 import v3 from "./assets/static/v3.mp4";
 import v4 from "./assets/static/v4.mp4";
-import v5 from "./assets/static/v5.mp4";
-import v6 from "./assets/static/v6.mp4";
+// import v5 from "./assets/static/v5.mp4";
+// import v6 from "./assets/static/v6.mp4";
 // import v7 from "./assets/static/v7.mp4";
 // import v8 from "./assets/static/v8.mp4";
 // import v9 from "./assets/static/v9.mp4";
@@ -30,51 +30,57 @@ const store = createStore({
       tweets: [
         // 1
         {
-          text: "'The occupation aims to expel Palestinians from their land. I remain to resist their efforts and protect our homeland.' They seek genocide, intimidation, and displacement with international support, aiming to occupy all Palestinian territories.",
+          text: "Yuval Diskin,former head of the Shin Bet:'If I were Palestinian,I would do everything in my power to fight Israel for my freedom.They R fighting for freedom.We control lives of millions of Palestinians.Smotrich & Ben-Gvir R terrorists.'",
           type: "video",
           src: v1,
         },
         //2
         {
-          text: "Israeli airstrikes obliterated an entire residential tower in Gaza before October 7th.",
-          type: "video",
-          src: v2,
+          text: "The influence of Talmudic theology in Zionism is the missing link to comprehending Israeli mass murder and racism.  https://twitter.com/Haqiqatjou/status/1717685255388237903?t=GEpBHeGgQgmM3PW7gvjH4A&s=19 ",
+          type: "text",
         },
         //3
         {
-          text: "This girl is crying because she lost her legs due to injuries sustained in the occupation's airstrikes on the Gaza Strip, where various types of rockets and ammunition are used, targeting children.",
+          text: "This Rabbi let the whole world see how utterly evil israel demons are. Over 75 yrs of abuse of the Palestinians, Israel've created the problem with their illegal behavior. If these're their religious leaders, imagine how provoked will be followers of this monster!",
           type: "video",
-          src: v3,
+          src: v2,
         },
         //4
         {
-          text: "The occupation's targets: 'the children of Gaza.'",
+          text: "'Israel is a murderous gang!', and will stop only when United States stops providing them with the munition.",
           type: "image",
-          src: p1,
+          src: v3,
         },
         //5
         {
-          text: "Boycott is the simplest and most important humanitarian duty on the conscience of every honorable person who condemns the criminal occupation's genocide.",
-          type: "video",
-          src: v4,
+          text: "How is it possible that here in Brazil, spreading hate against Jews can result in an 18-year prison sentence (murder gets you >12 years), while it is completely fine to advocate for the annihilation of the entire Palestinian people?!",
+          type: "image",
+          src: p1,
         },
         //	6
-        {
-          text: "Scenes of AlQuds Open University in Khan Yunis, Gaza after being destroyed by Israel's army.",
-          type: "video",
-          src: v5,
-        },
-        // 7
-        {
-          text: "Israeli occupation forces raid Hebron city, south of West Bank.",
+          {
+          text: "NEVER STOP BOYCOTTING.",
           type: "image",
           src: p2,
         },
+        // 7
+        {
+         text: "A daughter helps her father outside of Al-Najjar hospital in Rafah.  No child should ever have to endure such trauma.",
+          type: "image",
+          src: p3,
+        },
         //8
         {
-          text: "Palestinians perform funeral prayer to nearly 40 martyrs killed in an Israeli massacre last night in Nusseirat refugee camp in central Gaza.",
+          text: "THERE IS NO WORD IN HEBREW FOR ACCOUNTABILITY. 'It was not needed in our culture'  -Ehud Barak, Former PM Israel",
           type: "video",
-          src: v6,
+          src: v4,
+        },
+
+          //9
+        {
+          text: "Gilad Atzmon: 'Jewish power is the unique capacity to stop us from discussing or even contemplating Jewish power. It is the capacity to determine the boundaries of the political discourse and criticism in particular.'",
+          type: "image",
+          src: p4,
         },
 
   
