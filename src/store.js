@@ -1,9 +1,9 @@
 import { createStore } from "vuex";
 
-import p1 from "./assets/static/p1.jpg";
-import p2 from "./assets/static/p2.jpg";
-import p3 from "./assets/static/p3.jpg";
-import p4 from "./assets/static/p4.jpg";
+import p1 from "./assets/static/p1.jpeg";
+import p2 from "./assets/static/p2.jpeg";
+import p3 from "./assets/static/p3.jpeg";
+import p4 from "./assets/static/p4.jpeg";
 // import p5 from "./assets/static/p5.jpg";
 // import p6 from "./assets/static/p6.jpeg";
 
@@ -11,7 +11,7 @@ import v1 from "./assets/static/v1.mp4";
 import v2 from "./assets/static/v2.mp4";
 import v3 from "./assets/static/v3.mp4";
 import v4 from "./assets/static/v4.mp4";
-// import v5 from "./assets/static/v5.mp4";
+import v5 from "./assets/static/v5.mp4";
 // import v6 from "./assets/static/v6.mp4";
 // import v7 from "./assets/static/v7.mp4";
 // import v8 from "./assets/static/v8.mp4";
@@ -30,60 +30,59 @@ const store = createStore({
       tweets: [
         // 1
         {
-          text: "Yuval Diskin,former head of the Shin Bet:'If I were Palestinian,I would do everything in my power to fight Israel for my freedom.They R fighting for freedom.We control lives of millions of Palestinians.Smotrich & Ben-Gvir R terrorists.'",
-          type: "video",
-          src: v1,
-        },
-        //2
-        {
-          text: "The influence of Talmudic theology in Zionism is the missing link to comprehending Israeli mass murder and racism.  https://twitter.com/Haqiqatjou/status/1717685255388237903?t=GEpBHeGgQgmM3PW7gvjH4A&s=19 ",
-          type: "text",
-        },
-        //3
-        {
-          text: "This Rabbi let the whole world see how utterly evil israel demons are. Over 75 yrs of abuse of the Palestinians, Israel've created the problem with their illegal behavior. If these're their religious leaders, imagine how provoked will be followers of this monster!",
+          text: "A video filmed by a French soldier in the occupation army shows Palestinian prisoners abducted from Gaza. He points out one prisoner's back,tortured by his Israeli colleagues. The video contains insulting remarks towards prisoners",
           type: "video",
           src: v2,
         },
-        //4
+        //2
         {
-          text: "'Israel is a murderous gang!', and will stop only when United States stops providing them with the munition.",
-          type: "image",
-          src: v3,
-        },
-        //5
-        {
-          text: "How is it possible that here in Brazil, spreading hate against Jews can result in an 18-year prison sentence (murder gets you >12 years), while it is completely fine to advocate for the annihilation of the entire Palestinian people?!",
+          text: "Israeli occupation forces kidnapped dozens of civilians from Al-Shifa hospital in #Gaza city and they officially admitted the execution of 20 Palestinian men inside Shifa hospital",
           type: "image",
           src: p1,
         },
-        //	6
-          {
-          text: "NEVER STOP BOYCOTTING.",
+        //3
+        {
+          text: "Israeli soldiers carve star of David with a knife on Palestinian's back in South Gaza. It's appalling that such atrocities continue to occur with unlimited impunity.",
           type: "image",
           src: p2,
         },
-        // 7
+        //4
         {
-         text: "A daughter helps her father outside of Al-Najjar hospital in Rafah.  No child should ever have to endure such trauma.",
+          text: "Israel has killed +13,000 children in Gaza since last October, according to UNICEF. Meanwhile,tens of thousands suffer severe malnutrition due to deliberate starvation & siege imposed on Gaza by Israel, US & its allies.",
           type: "image",
           src: p3,
         },
-        //8
+        //5
         {
-          text: "THERE IS NO WORD IN HEBREW FOR ACCOUNTABILITY. 'It was not needed in our culture'  -Ehud Barak, Former PM Israel",
+          text: "Israeli settler militias attack the Palestinian village of Madama, north of the occupied West Bank.",
           type: "video",
-          src: v4,
+          src: v1,
         },
-
-          //9
+        //	6
         {
-          text: "Gilad Atzmon: 'Jewish power is the unique capacity to stop us from discussing or even contemplating Jewish power. It is the capacity to determine the boundaries of the political discourse and criticism in particular.'",
+          text: "Official statistics show that the number of children killed in Gaza surpasses those killed in the last 5 years of global wars. How can anyone resume normal life after such tragedies?",
           type: "image",
           src: p4,
         },
+        // 7
+        {
+          text: "A little Palestinian girl cries her eyes out over her father, killed in an Israeli airstrike in Gaza's Al Zaytoun neighborhood.",
+          type: "video",
+          src: v4,
+        },
+        //8
+        {
+          text: "Israeli forces invaded AlShifa hospital,expelling 4-year-old Saja & other patients with Many displaced individuals forcing them to walk to Deir elBalah despite receiving treatment for injuries from an Israeli airstrike.",
+          type: "video",
+          src: v5,
+        },
 
-  
+        //9
+        // {
+        //   text: "Gilad Atzmon: 'Jewish power is the unique capacity to stop us from discussing or even contemplating Jewish power. It is the capacity to determine the boundaries of the political discourse and criticism in particular.'",
+        //   type: "image",
+        //   src: p4,
+        // },
       ],
       arabic: {
         header: "🔻طُـوفَـان الـحَـقِـيـقَـة",
