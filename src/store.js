@@ -30,59 +30,59 @@ const store = createStore({
       tweets: [
         // 1
         {
-          text: "A video filmed by a French soldier in the occupation army shows Palestinian prisoners abducted from Gaza. He points out one prisoner's back,tortured by his Israeli colleagues. The video contains insulting remarks towards prisoners",
-          type: "video",
-          src: v2,
-        },
-        //2
-        {
-          text: "Israeli occupation forces kidnapped dozens of civilians from Al-Shifa hospital in #Gaza city and they officially admitted the execution of 20 Palestinian men inside Shifa hospital",
-          type: "image",
-          src: p1,
-        },
-        //3
-        {
-          text: "Israeli soldiers carve star of David with a knife on Palestinian's back in South Gaza. It's appalling that such atrocities continue to occur with unlimited impunity.",
-          type: "image",
-          src: p2,
-        },
-        //4
-        {
-          text: "Israel has killed +13,000 children in Gaza since last October, according to UNICEF. Meanwhile,tens of thousands suffer severe malnutrition due to deliberate starvation & siege imposed on Gaza by Israel, US & its allies.",
-          type: "image",
-          src: p3,
-        },
-        //5
-        {
-          text: "Israeli settler militias attack the Palestinian village of Madama, north of the occupied West Bank.",
+          text: "A British surgeon who treated the wounded in Gaza tells how Israeli occupation forces burn children alive all the way to the bone.",
           type: "video",
           src: v1,
         },
-        //	6
+        //2
         {
-          text: "Official statistics show that the number of children killed in Gaza surpasses those killed in the last 5 years of global wars. How can anyone resume normal life after such tragedies?",
-          type: "image",
-          src: p4,
+           text: "Their lies are evident yet again as they falsely claim there were military barracks inside Al-Shifa Hospital after their raid.",
+          type: "video",
+          src: v2,
         },
-        // 7
+        //3
         {
-          text: "A little Palestinian girl cries her eyes out over her father, killed in an Israeli airstrike in Gaza's Al Zaytoun neighborhood.",
+          text: "'Constructing this port aims to displace Palestinians from Gaza, a grave act of ethnic cleansing.' British MP George Galloway condemns UK government's silence on occupation's intentions.",
+          type: "video",
+          src: v3,
+        },
+        //4
+        {
+          text: "Jared Kushner's plan of excavating the Negev, establishing a safe zone, evacuating civilians from Gaza, then entering and completing the mission, is a clear and explicit strategy for ethnic cleansing and displacing people from their land.",
           type: "video",
           src: v4,
         },
-        //8
+        //5
         {
-          text: "Israeli forces invaded AlShifa hospital,expelling 4-year-old Saja & other patients with Many displaced individuals forcing them to walk to Deir elBalah despite receiving treatment for injuries from an Israeli airstrike.",
+          text: "The international community is increasingly aware of Israel's use of famine as a weapon of war in Gaza, achieved through the blockade preventing aid from reaching the region.",
           type: "video",
           src: v5,
         },
+        //	6
+        {
+        text: "October 7th was not the beginning of the Palestinian Genocide.",
+          type: "video",
+          src: v6,
+        },
+        // 7
+        {
+          text: "'Israel now ranks among the world's worst, committing unprecedented crimes.' - British Jewish journalist David Hearst",
+          type: "video",
+          src: v7,
+        },
+        //8
+        {
+          text: "Apartheid Israeli occupation forces assault Palestinians trying to reach Al-Aqsa mosque in occupied Jerusalem.",
+          type: "video",
+          src: v8,
+        },
 
         //9
-        // {
-        //   text: "Gilad Atzmon: 'Jewish power is the unique capacity to stop us from discussing or even contemplating Jewish power. It is the capacity to determine the boundaries of the political discourse and criticism in particular.'",
-        //   type: "image",
-        //   src: p4,
-        // },
+        {
+          text: "The head of an Israeli settlement in the northern West Bank calls for the erasure of Palestinian villages and cities in the West Bank, as seen in Gaza.",
+          type: "video",
+          src: v9,
+        },
       ],
       arabic: {
         header: "🔻طُـوفَـان الـحَـقِـيـقَـة",
