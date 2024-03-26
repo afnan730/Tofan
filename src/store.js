@@ -30,71 +30,61 @@ const store = createStore({
       tweets: [
         // 1
         {
-          text: "Horrifying testimonies have been coming out in the last 6 days of executions, rape, & torture at Al-Shifa Hospital and the vicinity of the medical complex",
-          type: "video",
-          src: v3,
-        },
-        //2
-        {
-          text: "[Our logic in this war is clear: don't leave any soul alive.] These are the instructions of their rabbis and distorted Jews.",
+          text: "The Geneva-based Euro-Med Human Rights Monitor says it has documented cases of Israeli occupation soldiers using sick and wounded people and displaced civilians in Al-Shifa Hospital in Gaza City as human shields.",
           type: "image",
           src: p1,
         },
-        //3
+        //2
         {
-          text: "The occupation tries to hide the clear truth that 75 years of killing, displacement, settlement, and siege preceded the events of Oct 7th",
-          type: "video",
-          src: v4,
-        },
-        //4
-        {
-          text: "Is digging up graves part of self-defense, or is it the reality of the Zionist culture based on genocide & the elimination of the indigenous people?!",
-          type: "video",
-          src: v2,
-        },
-        //5
-        {
-          text: "142 sick, injured & others R trapped inside Al-Shifa Hospital, & the United Nations institutions didn't take any action, as if the people of Gaza R nothing!",
+          text: "An Israeli soldier has shared this video on social media that shows him and fellow soldiers proudly destroying a shop in Gaza City for fun.",
           type: "video",
           src: v1,
         },
+        //3
+        {
+          text: "How did Israel respond to the UN Security Council's resolution calling for an immediate ceasefire in Gaza? Here is journalist Sami Barhoum's answer.",
+          type: "video",
+          src: v2,
+        },
+        //4
+        {
+          text: "An Israeli soldier has shared this video on an Instagram showing the blowing up of an entire residential square in Gaza, leaving six families homeless.",
+          type: "video",
+          src: v3,
+        },
+        //5
+        {
+          text: "Footage documenting the execution by an Israeli soldier of an elderly man near the Gush Etzion settlement bloc, south of Bethlehem, a few days ago.",
+          type: "video",
+          src: v4,
+        },
         //	6
         {
-          text: "Little girl at Kamal Adwan Hospital in northern Gaza suffers from dehydration and malnutrition amidst the ongoing Israeli siege warfare.",
+          text: "Israeli media reports soldiers using images in military gear as a dating strategy,alongside Gaza ruins & boasts about Palestinian detainees. Polls suggest success,with one reservist noting increased attention since starting reserve duty.",
           type: "image",
           src: p2,
         },
         // 7
         {
-          text: "The prisoner Anas Mashal Al-Barghouti from the town of Kobar, north of Ramallah, has lost his memory due to severe torture inflicted by the Israeli occupation forces.",
-          type: "image",
-          src: p4,
+          text: "When an individual or entity commits acts of genocide, they cannot justify or absolve themselves with any excuse or rationale, leaving them unable to respond.",
+          type: "video",
+          src: v5,
         },
         //8
         {
-          text: "The devastating Israeli bombardment of Gaza would not have been possible without tens of thousands of guided bombs and munitions sent by the United States since October 7",
-          type: "image",
-          src: p3,
+          text: "In addition to killing innocent civilians, they also document it for the world to witness the genocide they are committing.",
+          type: "video",
+          src: v6,
         },
 
         //9
         {
-          text: "The occupation forces forced two children to undress as they passed from Gaza to its center, and on the way, saying that there were dozens of corpses killed by the Israeli occupation along their way",
+          text: "Is this the ethical and peaceful people they describe?!! Settlers dance and sing while carrying alcohol in the streets of the occupied Old City of Jerusalem today.",
           type: "video",
-          src: v5,
+          src: v7,
         },
-        //10
-        {
-          text: "The annual crime has begun in Jerusalem, from beating and assaulting the people of Jerusalem and visitors of the Al-Aqsa Mosque.",
-          type: "video",
-          src: v6,
-        },
-        //11
-        {
-          text: "The Rabbi Eliyahu Mali and the Torah Genocide War: He advocates for the principle of killing everyone, including men, women, and children.",
-          type: "video",
-          src: v8,
-        },
+      
+      
       ],
       arabic: {
         header: "🔻طُـوفَـان الـحَـقِـيـقَـة",
