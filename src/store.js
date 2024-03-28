@@ -1,6 +1,6 @@
 import { createStore } from "vuex";
 
-import p1 from "./assets/static/p1.jpg";
+import p1 from "./assets/static/p1.jpeg";
 import p2 from "./assets/static/p2.jpg";
 // import p3 from "./assets/static/p3.jpg";
 // import p4 from "./assets/static/p4.jpg";
@@ -30,13 +30,13 @@ const store = createStore({
       tweets: [
         // 1
         {
-          text: "The Geneva-based Euro-Med Human Rights Monitor says it has documented cases of Israeli occupation soldiers using sick and wounded people and displaced civilians in Al-Shifa Hospital in Gaza City as human shields.",
+          text: "In Gaza, the massacre of journalists was committed by Israel and the international community remained silent about it!.",
           type: "image",
           src: p1,
         },
         //2
         {
-          text: "An Israeli soldier has shared this video on social media that shows him and fellow soldiers proudly destroying a shop in Gaza City for fun.",
+          text: "For those with short memories. There was no state called Israel, only Palestine. Listen to the former Prime Minister of Israel",
           type: "video",
           src: v1,
         },
@@ -83,8 +83,6 @@ const store = createStore({
           type: "video",
           src: v7,
         },
-      
-      
       ],
       arabic: {
         header: "🔻طُـوفَـان الـحَـقِـيـقَـة",
