@@ -1,11 +1,11 @@
 import { createStore } from "vuex";
 
 import p1 from "./assets/static/p1.jpeg";
-import p2 from "./assets/static/p2.jpg";
-// import p3 from "./assets/static/p3.jpg";
-// import p4 from "./assets/static/p4.jpg";
-// import p5 from "./assets/static/p5.jpg";
-// import p6 from "./assets/static/p6.jpeg";
+import p2 from "./assets/static/p2.jpeg";
+import p3 from "./assets/static/p3.jpeg";
+import p4 from "./assets/static/p4.jpeg";
+import p5 from "./assets/static/p5.jpeg";
+import p6 from "./assets/static/p6.jpeg";
 
 import v1 from "./assets/static/v1.mp4";
 import v2 from "./assets/static/v2.mp4";
@@ -42,44 +42,67 @@ const store = createStore({
         },
         //3
         {
-          text: "How did Israel respond to the UN Security Council's resolution calling for an immediate ceasefire in Gaza? Here is journalist Sami Barhoum's answer.",
+          text: "US politicians are trying to stop Palestinians from taking Israel to the International Criminal Court to prove their crimes. It’s the equivalent of trying to stop the Nuremberg Trials",
           type: "video",
           src: v2,
         },
         //4
         {
-          text: "An Israeli soldier has shared this video on an Instagram showing the blowing up of an entire residential square in Gaza, leaving six families homeless.",
+          text: "After killing and displacing people, they record the moment of detonating civilians on social media platforms!.",
           type: "video",
           src: v3,
         },
         //5
         {
-          text: "Footage documenting the execution by an Israeli soldier of an elderly man near the Gush Etzion settlement bloc, south of Bethlehem, a few days ago.",
-          type: "video",
-          src: v4,
-        },
-        //	6
-        {
-          text: "Israeli media reports soldiers using images in military gear as a dating strategy,alongside Gaza ruins & boasts about Palestinian detainees. Polls suggest success,with one reservist noting increased attention since starting reserve duty.",
+          text: "Israel's reputation is the result of its actions, & it doesn't need anyone to tarnish its reputation b/c its soldiers and politicians do it well. Rather, they document and photograph their crimes & then publish them on social media.",
           type: "image",
           src: p2,
         },
+        //	6
+        {
+          text: "'Best time to kill Rafah residents is during Ramadan as they're all fasting and tired.' This was a statement by Knesset member Almog Cohen from the Jewish Power Party, openly advocating violence and destruction.",
+          type: "video",
+          src: v4,
+        },
         // 7
         {
-          text: "When an individual or entity commits acts of genocide, they cannot justify or absolve themselves with any excuse or rationale, leaving them unable to respond.",
-          type: "video",
-          src: v5,
+          text: "Israel propaganda strategy:",
+          type: "image",
+          src: p3,
         },
         //8
         {
-          text: "In addition to killing innocent civilians, they also document it for the world to witness the genocide they are committing.",
+          text: "Dr. Mads Gilbert, who just recently came back from volunteering at Al-Shifa Hospital, said on an interview with @democracynow  that he is extremely disturbed from what he saw and that the only explanation is that this is rooted from a deep form of racism",
           type: "video",
           src: v6,
         },
 
         //9
         {
-          text: "Is this the ethical and peaceful people they describe?!! Settlers dance and sing while carrying alcohol in the streets of the occupied Old City of Jerusalem today.",
+          text: "This Zionist soldier humiliated and abused a Palestinian child, hitting him & dragging him by his clothes for no reason other than to satisfy his sick pride!",
+          type: "video",
+          src: v5,
+        },
+        {
+          text: "This is how a young Palestinian man left an Israeli prison in occupied Jerusalem. The occupation has been escalating the torture and abuse of Palestinian prisoners since October 7th",
+          type: "image",
+          src: p4,
+        },
+        //8
+        {
+          text: "Israeli soldiers have posted this picture on social media that shows them openly taking Gazans as human shields to protect their tanks.",
+          type: "image",
+          src: p5,
+        },
+        {
+          text: "The Israeli occupation army detains and abuses women, even resorting to raping a pregnant woman in her fifth month. Yet, you turn a blind eye to these atrocities!",
+          type: "image",
+          src: p6,
+        },
+
+        //9
+        {
+          text: "UNICEF spokesman James Elder says he's frustrated that so many aid trucks packed on the Egyptian side of the border with Gaza are not allowed entry there for starving Palestinians in desperate need of them.",
           type: "video",
           src: v7,
         },
