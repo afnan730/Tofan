@@ -1,7 +1,7 @@
 import { createStore } from "vuex";
 
-import p1 from "./assets/static/p1.jpeg";
-import p2 from "./assets/static/p2.jpeg";
+import p1 from "./assets/static/p1.jpg";
+import p2 from "./assets/static/p2.jpg";
 // import p3 from "./assets/static/p3.jpeg";
 // import p4 from "./assets/static/p4.jpeg";
 // import p5 from "./assets/static/p5.jpeg";
