@@ -2,10 +2,10 @@ import { createStore } from "vuex";
 
 import p1 from "./assets/static/p1.jpeg";
 import p2 from "./assets/static/p2.jpeg";
-import p3 from "./assets/static/p3.jpeg";
-import p4 from "./assets/static/p4.jpeg";
-import p5 from "./assets/static/p5.jpeg";
-import p6 from "./assets/static/p6.jpeg";
+// import p3 from "./assets/static/p3.jpeg";
+// import p4 from "./assets/static/p4.jpeg";
+// import p5 from "./assets/static/p5.jpeg";
+// import p6 from "./assets/static/p6.jpeg";
 
 import v1 from "./assets/static/v1.mp4";
 import v2 from "./assets/static/v2.mp4";
@@ -30,59 +30,60 @@ const store = createStore({
       tweets: [
         // 1
         {
-          text: "In Gaza, the massacre of journalists was committed by Israel and the international community remained silent about it!.",
-          type: "image",
-          src: p1,
-        },
-        //2
-        {
-          text: "For those with short memories. There was no state called Israel, only Palestine. Listen to the former Prime Minister of Israel",
+          text: "Amidst the horror of a child's imminent death from starvation and dehydration in 2024, the silence of international law & bodies like the UN & Red Cross is deafening. The perpetrators, Israel, operate without consequences. We cannot ignore this.",
           type: "video",
           src: v1,
         },
-        //3
+        //2
         {
-          text: "US politicians are trying to stop Palestinians from taking Israel to the International Criminal Court to prove their crimes. It’s the equivalent of trying to stop the Nuremberg Trials",
+          text: "Paul Keeler, British thinker and lecturer at Cambridge University: ’The 7th of Oct fully exposed Israel. It has shown that Israel is deranged, It's not normal. If this were a person, they would be in a mental hospital.’",
           type: "video",
           src: v2,
         },
-        //4
+        //3
         {
-          text: "After killing and displacing people, they record the moment of detonating civilians on social media platforms!.",
+          text: "More than 10,000 dunams in just 3 months. The occupation takes advantage of the world's preoccupation with Isreali' crimes in Gaza to seize lands in the West Bank, executing the largest land grab operation in three decades.",
           type: "video",
           src: v3,
         },
-        //5
+        //4
         {
-          text: "Israel's reputation is the result of its actions, & it doesn't need anyone to tarnish its reputation b/c its soldiers and politicians do it well. Rather, they document and photograph their crimes & then publish them on social media.",
-          type: "image",
-          src: p2,
-        },
-        //	6
-        {
-          text: "'Best time to kill Rafah residents is during Ramadan as they're all fasting and tired.' This was a statement by Knesset member Almog Cohen from the Jewish Power Party, openly advocating violence and destruction.",
+          text: "Palestinians have taught the whole world the meaning of resilience, bravery, and heroism.",
           type: "video",
           src: v4,
         },
+        //5
+        {
+          text: "The world had never witnessed scenes like these except during the famines in Africa, but now we find ourselves living a bitter reality in Gaza due tl an oppressive entity & complicit entities that R no less injustice!",
+          type: "video",
+          src: v5,
+        },
+        //	6
+        {
+          text: "This is one of the detainees released by the Israeli occupation forces this morning & subsequently transported to a Hospital in Rafah. Medical sources reported that he suffered a stroke & lost his memory while in Israeli detention.",
+          type: "image",
+          src: p1,
+        },
         // 7
         {
-          text: "Israel propaganda strategy:",
-          type: "image",
-          src: p3,
+          text : "As part of the ongoing genocide, they're now murdering two civilians on the beach!",
+          type: "video",
+          src: v6,
         },
         //8
         {
-          text: "Dr. Mads Gilbert, who just recently came back from volunteering at Al-Shifa Hospital, said on an interview with @democracynow  that he is extremely disturbed from what he saw and that the only explanation is that this is rooted from a deep form of racism",
-          type: "video",
-          src: v6,
+          text: "The child Ibrahim Al-najjar lost his life this morning due to hunger and malnutrition at Kamal Adwan Hospital in the north of Gaza, which has been under a tight Israeli blockade for 6 months.",
+          type: "image",
+          src: p2,
         },
 
         //9
         {
-          text: "This Zionist soldier humiliated and abused a Palestinian child, hitting him & dragging him by his clothes for no reason other than to satisfy his sick pride!",
+          text: "Hear their voices.. hear their pain!",
           type: "video",
-          src: v5,
+          src: v7,
         },
+        /*
         {
           text: "This is how a young Palestinian man left an Israeli prison in occupied Jerusalem. The occupation has been escalating the torture and abuse of Palestinian prisoners since October 7th",
           type: "image",
@@ -106,6 +107,8 @@ const store = createStore({
           type: "video",
           src: v7,
         },
+        */
+        
       ],
       arabic: {
         header: "🔻طُـوفَـان الـحَـقِـيـقَـة",
