@@ -1,7 +1,7 @@
 import { createStore } from "vuex";
 
-import p1 from "./assets/static/p1.jpeg";
-import p2 from "./assets/static/p2.jpeg";
+import p1 from "./assets/static/p1.jpg";
+import p2 from "./assets/static/p2.jpg";
 // import p3 from "./assets/static/p3.jpeg";
 // import p4 from "./assets/static/p4.jpeg";
 // import p5 from "./assets/static/p5.jpeg";
@@ -14,8 +14,8 @@ import v4 from "./assets/static/v4.mp4";
 import v5 from "./assets/static/v5.mp4";
 import v6 from "./assets/static/v6.mp4";
 import v7 from "./assets/static/v7.mp4";
-// import v8 from "./assets/static/v8.mp4";
-// import v9 from "./assets/static/v9.mp4";
+import v8 from "./assets/static/v8.mp4";
+import v9 from "./assets/static/v9.mp4";
 // import v10 from "./assets/static/v10.mp4";
 // import v11 from "./assets/static/v11.mp4";
 // import v12 from "./assets/static/v12.mp4";
@@ -30,71 +30,76 @@ const store = createStore({
       tweets: [
         // 1
         {
-          text: "Amidst the horror of a child's imminent death from starvation and dehydration in 2024, the silence of international law & bodies like the UN & Red Cross is deafening. The perpetrators, Israel, operate without consequences. We cannot ignore this.",
-          type: "video",
-          src: v1,
-        },
-        //2
-        {
-          text: "Paul Keeler, British thinker and lecturer at Cambridge University: ’The 7th of Oct fully exposed Israel. It has shown that Israel is deranged, It's not normal. If this were a person, they would be in a mental hospital.’",
-          type: "video",
-          src: v2,
-        },
-        //3
-        {
-          text: "More than 10,000 dunams in just 3 months. The occupation takes advantage of the world's preoccupation with Isreali' crimes in Gaza to seize lands in the West Bank, executing the largest land grab operation in three decades.",
-          type: "video",
-          src: v3,
-        },
-        //4
-        {
-          text: "Palestinians have taught the whole world the meaning of resilience, bravery, and heroism.",
-          type: "video",
-          src: v4,
-        },
-        //5
-        {
-          text: "The world had never witnessed scenes like these except during the famines in Africa, but now we find ourselves living a bitter reality in Gaza due tl an oppressive entity & complicit entities that R no less injustice!",
-          type: "video",
-          src: v5,
-        },
-        //	6
-        {
-          text: "This is one of the detainees released by the Israeli occupation forces this morning & subsequently transported to a Hospital in Rafah. Medical sources reported that he suffered a stroke & lost his memory while in Israeli detention.",
+          text: "At the same time, American officials come out to express their 'concern' about civilian casualties if an invasion of Rafah occurs",
           type: "image",
           src: p1,
         },
+        //2
+        {
+          text: "Images posted by Israeli occupation soldiers depict Israeli forces utilizing schools in Gaza as military bases, where the buildings serve to shelter tanks & troops after displacing hundreds of Palestinians who had sought refuge there.",
+          type: "image",
+          src: p2,
+        },
+        //3
+        {
+          text: "The extensive destruction caused by Israeli airstrikes, with Israeli tanks subsequently invading al-Shuja'iyya neighborhood, east of Gaza City.",
+          type: "video",
+          src: v1,
+        },
+        //4
+        {
+          text: "Palestinian infants arrive daily at the hospital in Gaza in a severe state of malnutrition and drought due to the Israeli blockade on Gaza.",
+          type: "video",
+          src: v2,
+        },
+        //5
+        {
+          text: "Israeli occupation forces place barriers in the way of Muslim worshippers heading to Al-Aqsa Mosque in occupied Jerusalem to perform the prayers.",
+          type: "video",
+          src: v3,
+        },
+        //	6
+        {
+          text: "Israeli settlers try to impede access of worshippers to the Ibrahimi Mosque in the old city of Hebron, south of the occupied West Bank.",
+          type: "video",
+          src: v4,
+        },
         // 7
         {
-          text : "As part of the ongoing genocide, they're now murdering two civilians on the beach!",
+          text: "Israeli drones attacking Palestinians in tents near Al-Aqsa Martyrs Hospital in Deir al-Balah (The Safe Zone) , killing and wounding civilians and journalists.",
           type: "video",
-          src: v6,
+          src: v5,
         },
         //8
         {
-          text: "The child Ibrahim Al-najjar lost his life this morning due to hunger and malnutrition at Kamal Adwan Hospital in the north of Gaza, which has been under a tight Israeli blockade for 6 months.",
-          type: "image",
-          src: p2,
+          text: "Why would the Israelis think that there are going to be consequences for acts that they have been committing for 75 years?!",
+          type: "video",
+          src: v6,
         },
 
         //9
         {
-          text: "Hear their voices.. hear their pain!",
+          text: "Despite the rulings of the International Court of Justice requiring Israel to allow food into Gaza, it continues to refuse, and the children of Gaza continue to fall one after another!",
           type: "video",
           src: v7,
         },
+
+        //10
+        
+        {
+          text: "This is not self-defense, but ethnic cleansing.",
+          type: "video",
+          src: v8,
+        },
+        
+        //11
+        {
+          text: "United States of Israel.",
+          type: "video",
+          src: v9,
+        },
+        
         /*
-        {
-          text: "This is how a young Palestinian man left an Israeli prison in occupied Jerusalem. The occupation has been escalating the torture and abuse of Palestinian prisoners since October 7th",
-          type: "image",
-          src: p4,
-        },
-        //8
-        {
-          text: "Israeli soldiers have posted this picture on social media that shows them openly taking Gazans as human shields to protect their tanks.",
-          type: "image",
-          src: p5,
-        },
         {
           text: "The Israeli occupation army detains and abuses women, even resorting to raping a pregnant woman in her fifth month. Yet, you turn a blind eye to these atrocities!",
           type: "image",
