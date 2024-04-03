@@ -1,8 +1,8 @@
 import { createStore } from "vuex";
 
-import p1 from "./assets/static/p1.jpg";
-import p2 from "./assets/static/p2.jpg";
-// import p3 from "./assets/static/p3.jpeg";
+import p1 from "./assets/static/p1.jpeg";
+import p2 from "./assets/static/p2.jpeg";
+import p3 from "./assets/static/p3.jpeg";
 // import p4 from "./assets/static/p4.jpeg";
 // import p5 from "./assets/static/p5.jpeg";
 // import p6 from "./assets/static/p6.jpeg";
@@ -30,75 +30,74 @@ const store = createStore({
       tweets: [
         // 1
         {
-          text: "At the same time, American officials come out to express their 'concern' about civilian casualties if an invasion of Rafah occurs",
+          text: "This is what happened in Palestine.",
           type: "image",
           src: p1,
         },
         //2
         {
-          text: "Images posted by Israeli occupation soldiers depict Israeli forces utilizing schools in Gaza as military bases, where the buildings serve to shelter tanks & troops after displacing hundreds of Palestinians who had sought refuge there.",
-          type: "image",
-          src: p2,
-        },
-        //3
-        {
-          text: "The extensive destruction caused by Israeli airstrikes, with Israeli tanks subsequently invading al-Shuja'iyya neighborhood, east of Gaza City.",
-          type: "video",
-          src: v1,
-        },
-        //4
-        {
-          text: "Palestinian infants arrive daily at the hospital in Gaza in a severe state of malnutrition and drought due to the Israeli blockade on Gaza.",
+          text: "Blind support.",
           type: "video",
           src: v2,
         },
+        //3
+        {
+          text: "There is no need to create movies! It's a real crime.",
+          type: "video",
+          src: v3,
+        },
+        //4
+        {
+          text: "If your version of history is true..",
+          type: "video",
+          src: v1,
+        },
         //5
         {
-          text: "Israeli occupation forces place barriers in the way of Muslim worshippers heading to Al-Aqsa Mosque in occupied Jerusalem to perform the prayers.",
+          text: "Gaza's alShifa Hospital is now in ruins after Israeli forces withdrew from the complex on 1 Apr following a 2-week raid, during which they killed +400 Palestinians & demolished +1,050 homes in the surrounding area.",
           type: "video",
-          src: v,
+          src: v3,
         },
         //	6
         {
-          text: "Israeli settlers try to impede access of worshippers to the Ibrahimi Mosque in the old city of Hebron, south of the occupied West Bank.",
-          type: "video",
-          src: v4,
+          text: "In one day,Israel violated the Geneva Convention,the Vienna Convention,& the Rome Statute by attacking an embassy, killing 7 humanitarian aid volunteers. This follows the Holocaust crimes at AlShifa Hospital",
+          type: "image",
+          src: p3,
         },
         // 7
         {
-          text: "Israeli drones attacking Palestinians in tents near Al-Aqsa Martyrs Hospital in Deir al-Balah (The Safe Zone) , killing and wounding civilians and journalists.",
-          type: "video",
-          src: v5,
+          text: "Meet Zumi,worked at World Central Kitchen,serving meals to displaced people with a smile. She came From Australia to Gaza for humanitarian work. Israel killed Zumi with her colleagues, along with + 32,000 others.",
+          type: "image",
+          src: p2,
         },
         //8
         {
-          text: "Why would the Israelis think that there are going to be consequences for acts that they have been committing for 75 years?!",
-          type: "video",
-          src: v6,
+          text: "The atrocities in Al-Shifa Complex expose the true face of this fascist entity Israel,straying from humanity's values. Its genocidal wars against Gaza civilians & infrastructure persist,with unlimited support from US President Biden's administration,while the world remains silent",
+          type: "text",
         },
 
-        //9
-        {
-          text: "Despite the rulings of the International Court of Justice requiring Israel to allow food into Gaza, it continues to refuse, and the children of Gaza continue to fall one after another!",
-          type: "video",
-          src: v7,
-        },
+        // //9
+        // {
+        //   text: "Despite the rulings of the International Court of Justice requiring Israel to allow food into Gaza, it continues to refuse, and the children of Gaza continue to fall one after another!",
+        //   type: "video",
+        //   src: v7,
+        // },
 
-        //10
-        
-        {
-          text: "This is not self-defense, but ethnic cleansing.",
-          type: "video",
-          src: v8,
-        },
-        
-        //11
-        {
-          text: "United States of Israel.",
-          type: "video",
-          src: v9,
-        },
-        
+        // //10
+
+        // {
+        //   text: "This is not self-defense, but ethnic cleansing.",
+        //   type: "video",
+        //   src: v8,
+        // },
+
+        // //11
+        // {
+        //   text: "United States of Israel.",
+        //   type: "video",
+        //   src: v9,
+        // },
+
         /*
         {
           text: "The Israeli occupation army detains and abuses women, even resorting to raping a pregnant woman in her fifth month. Yet, you turn a blind eye to these atrocities!",
@@ -113,7 +112,6 @@ const store = createStore({
           src: v7,
         },
         */
-        
       ],
       arabic: {
         header: "🔻طُـوفَـان الـحَـقِـيـقَـة",
