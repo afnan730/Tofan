@@ -56,7 +56,7 @@ const store = createStore({
         {
           text: "Israeli occupation forces place barriers in the way of Muslim worshippers heading to Al-Aqsa Mosque in occupied Jerusalem to perform the prayers.",
           type: "video",
-          src: v3,
+          src: v,
         },
         //	6
         {
