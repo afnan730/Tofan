@@ -30,58 +30,59 @@ const store = createStore({
       tweets: [
         // 1
         {
-          text: "This is what happened in Palestine.",
-          type: "image",
-          src: p1,
+          text: "German Nazism = Israeli Zionism.",
+          type: "video",
+          src: v3,
         },
         //2
         {
-          text: "Blind support.",
+          text: "James Elder, spokesperson for UNICEF globally, stated:'This tragic narrative for children must come to an end; humanity must craft a new chapter for these vulnerable young lives.'",
           type: "video",
           src: v2,
         },
         //3
         {
-          text: "There is no need to create movies! It's a real crime.",
-          type: "video",
-          src: v3,
+          text: "Israel emptied El Shifa Hospital in Gaza, abandoning 400 bodies. Some were crushed by tanks, others buried alive. Burnt buildings and children under 13 were executed. This isn't war, it's genocide.",
+          type: "image",
+          src: p1,
         },
         //4
         {
-          text: "If your version of history is true..",
+          text: "Israel hasn't been held accountable nor compelled to pay compensation for 75 yrs, which has contributed to a sense of impunity, potentially leading to serious violations such as genocide & no sense of accountability for their actions!",
           type: "video",
           src: v1,
         },
         //5
         {
-          text: "Gaza's alShifa Hospital is now in ruins after Israeli forces withdrew from the complex on 1 Apr following a 2-week raid, during which they killed +400 Palestinians & demolished +1,050 homes in the surrounding area.",
+          text: "Owen Jones spoke truth to power about Gaza: 'It changed me forever. Moral clarity gives resilience. Despite attacks and abuse, I stand firm. I'll risk my career for what's right!'Every free human must undertake this action!",
           type: "video",
-          src: v3,
+          src: v5,
         },
         //	6
         {
-          text: "In one day,Israel violated the Geneva Convention,the Vienna Convention,& the Rome Statute by attacking an embassy, killing 7 humanitarian aid volunteers. This follows the Holocaust crimes at AlShifa Hospital",
-          type: "image",
-          src: p3,
+          text: "According to Arab Panorama News, a British individual took action against a factory supplying rockets & fighter jets to the Zionist army. A clear message to those profiting from Palestinian suffering: complicity in genocide won't go unchallenged.l",
+          type: "video",
+          src: v4,
         },
         // 7
         {
-          text: "Meet Zumi,worked at World Central Kitchen,serving meals to displaced people with a smile. She came From Australia to Gaza for humanitarian work. Israel killed Zumi with her colleagues, along with + 32,000 others.",
-          type: "image",
-          src: p2,
+          text: "Israeli forces push an ELDERLY MAN down the stairs, leaving his head SPLIT OPEN!",
+          type: "video",
+          src: v6,
         },
         //8
         {
-          text: "The atrocities in Al-Shifa Complex expose the true face of this fascist entity Israel,straying from humanity's values. Its genocidal wars against Gaza civilians & infrastructure persist,with unlimited support from US President Biden's administration,while the world remains silent",
-          type: "text",
+          text: "Israeli sniper records himself shooting a CIVILIAN for FUN! “Wow, someone was hit in the HEAD! What a LEGENDARY VIDEO!”",
+          type: "video",
+          src: v7,
         },
 
-        // //9
-        // {
-        //   text: "Despite the rulings of the International Court of Justice requiring Israel to allow food into Gaza, it continues to refuse, and the children of Gaza continue to fall one after another!",
-        //   type: "video",
-        //   src: v7,
-        // },
+        //9
+        {
+          text: "The genocide itself!",
+          type: "video",
+          src: v8,
+        },
 
         // //10
 
