@@ -1,8 +1,8 @@
 import { createStore } from "vuex";
 
-import p1 from "./assets/static/p1.jpeg";
-import p2 from "./assets/static/p2.jpeg";
-import p3 from "./assets/static/p3.jpeg";
+import p1 from "./assets/static/p1.jpg";
+// import p2 from "./assets/static/p2.jpeg";
+// import p3 from "./assets/static/p3.jpeg";
 // import p4 from "./assets/static/p4.jpeg";
 // import p5 from "./assets/static/p5.jpeg";
 // import p6 from "./assets/static/p6.jpeg";
@@ -30,67 +30,69 @@ const store = createStore({
       tweets: [
         // 1
         {
-          text: "German Nazism = Israeli Zionism.",
+                text: "203 days of suffering in Gaza: families torn apart, homes destroyed, lives lost. It's time for the free people worldwide to esclate their actions, standing firm against this injustice",
+
           type: "video",
-          src: v3,
+          src: v1,
         },
         //2
         {
-          text: "James Elder, spokesperson for UNICEF globally, stated:'This tragic narrative for children must come to an end; humanity must craft a new chapter for these vulnerable young lives.'",
+                text: "Dozens of lsraeli settlers open fires on Palestinian village A-Mughayyir near Ramallah, West Bank",
+
           type: "video",
           src: v2,
         },
         //3
         {
-          text: "Israel emptied El Shifa Hospital in Gaza, abandoning 400 bodies. Some were crushed by tanks, others buried alive. Burnt buildings and children under 13 were executed. This isn't war, it's genocide.",
-          type: "image",
-          src: p1,
+      text: "No cause justifies the deliberate killing and maiming of innocent civilians, especially in refugee camps. The international community must condemn these heinous acts and work towards a peaceful resolution",
+          type: "video",
+          src: v3,
         },
         //4
         {
-          text: "Israel hasn't been held accountable nor compelled to pay compensation for 75 yrs, which has contributed to a sense of impunity, potentially leading to serious violations such as genocide & no sense of accountability for their actions!",
-          type: "video",
-          src: v1,
+      text: "Since October 7th, the statistics of Israeli aggression on Gaza, supported by the UK, US, and various countries, reveal the devastating impact of war.",
+          type: "image",
+          src: p1,
         },
         //5
         {
-          text: "Owen Jones spoke truth to power about Gaza: 'It changed me forever. Moral clarity gives resilience. Despite attacks and abuse, I stand firm. I'll risk my career for what's right!'Every free human must undertake this action!",
-          type: "video",
-          src: v5,
-        },
-        //	6
-        {
-          text: "According to Arab Panorama News, a British individual took action against a factory supplying rockets & fighter jets to the Zionist army. A clear message to those profiting from Palestinian suffering: complicity in genocide won't go unchallenged.l",
+      text: "Israeli occupation soldiers block access of an ambulance into Bab Al-Zawiya neighborhood in the Old City of Hebron, south of the occupied West Bank, today",
           type: "video",
           src: v4,
         },
+        //	6
+        {
+      text: "These innocent children were killed in an Israeli airstrike targeting the Al-Jamal family home in Rafah Gzza last night",
+          type: "video",
+          src: v5,
+        },
         // 7
         {
-          text: "Israeli forces push an ELDERLY MAN down the stairs, leaving his head SPLIT OPEN!",
+      text: "Israeli occupation forces detain and harass Palestinian children on al-Tuffah Street in the city of Hebron, in the southern occupied West Bank.",
           type: "video",
           src: v6,
         },
         //8
         {
-          text: "Israeli sniper records himself shooting a CIVILIAN for FUN! “Wow, someone was hit in the HEAD! What a LEGENDARY VIDEO!”",
+      text: "Hundreds of Israeli settlers storm the Ibrahimi Mosque in the Old City of Hebron, south of the occupied West Bank, under the pretext of celebrating Passover, today",
           type: "video",
           src: v7,
         },
 
         //9
         {
-          text: "The genocide itself!",
+      text: "A Palestinian child recounts the horror she experienced while trapped under rubble alongside her brother's body following Israeli airstrikes on Gaza.",
           type: "video",
           src: v8,
         },
 
         // //10
 
-        // {
-        //   text: "This is not self-defense, but ethnic cleansing.",
-        //   type: "video",
-        //   src: v8,
-        // },
+        {
+      text: "Israeli occupation forces arrest Palestinian children near al-Jalazone refugee camp north of Ramallah.",
+          type: "video",
+          src: v9,
+        },
 
         // //11
         // {
