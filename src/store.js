@@ -13,9 +13,9 @@ import v3 from "./assets/static/v3.mp4";
 import v4 from "./assets/static/v4.mp4";
 import v5 from "./assets/static/v5.mp4";
 import v6 from "./assets/static/v6.mp4";
-import v7 from "./assets/static/v7.mp4";
-import v8 from "./assets/static/v8.mp4";
-import v9 from "./assets/static/v9.mp4";
+// import v7 from "./assets/static/v7.mp4";
+// import v8 from "./assets/static/v8.mp4";
+// import v9 from "./assets/static/v9.mp4";
 // import v10 from "./assets/static/v10.mp4";
 // import v11 from "./assets/static/v11.mp4";
 // import v12 from "./assets/static/v12.mp4";
@@ -30,91 +30,52 @@ const store = createStore({
       tweets: [
         // 1
         {
-                text: "203 days of suffering in Gaza: families torn apart, homes destroyed, lives lost. It's time for the free people worldwide to esclate their actions, standing firm against this injustice",
+      text: "The widespread protests at over 40 American universities unveil the deep-seated support & collaboration with Israel, raising questions about the influence of the Zionist lobby in shaping university policies & investments",
 
           type: "video",
           src: v1,
         },
         //2
         {
-                text: "Dozens of lsraeli settlers open fires on Palestinian village A-Mughayyir near Ramallah, West Bank",
+      text : "Scenes of protests in American universities demanding an end Gaza war,met with police's aggressive action, haven't been witnessed in the US since the late 1960s in Vietnam War. This highlights the huge influence of Zionists lobby in USA",
 
           type: "video",
           src: v2,
         },
         //3
         {
-      text: "No cause justifies the deliberate killing and maiming of innocent civilians, especially in refugee camps. The international community must condemn these heinous acts and work towards a peaceful resolution",
+      text: "The genocide in Gaza has exposed the hypocrisy and double standards of the so-called civilized world, where the lines between victims & aggressors are blurred, & moral values are disregarded!",
           type: "video",
           src: v3,
         },
         //4
         {
-      text: "Since October 7th, the statistics of Israeli aggression on Gaza, supported by the UK, US, and various countries, reveal the devastating impact of war.",
+                text : "Occupation soldiers are using 'explosive cans' to target Palestinians in Gaza. These lethal traps are part of a policy of starvation and siege, posing deadly risks in bombed-out homes. ",
+
           type: "image",
           src: p1,
         },
         //5
         {
-      text: "Israeli occupation soldiers block access of an ambulance into Bab Al-Zawiya neighborhood in the Old City of Hebron, south of the occupied West Bank, today",
+      text: "Pretending to be a victim is a culture rooted in the Zionist doctrine, as the well-known Israeli journalist points out.",
           type: "video",
           src: v4,
         },
         //	6
         {
-      text: "These innocent children were killed in an Israeli airstrike targeting the Al-Jamal family home in Rafah Gzza last night",
+      text: "There has never been a war in history where 80% of the country has been decimated, 100% of the population displaced, and 50% of the deaths were children! So keep protesting against GENOCIDE.",
           type: "video",
           src: v5,
         },
         // 7
         {
-      text: "Israeli occupation forces detain and harass Palestinian children on al-Tuffah Street in the city of Hebron, in the southern occupied West Bank.",
+      text: "This is what the world governments and mainstream media don’t want you to see: Thousands of Israelis calling for the immediate resignation and imprisonment of Netanyahu.",
           type: "video",
           src: v6,
         },
-        //8
-        {
-      text: "Hundreds of Israeli settlers storm the Ibrahimi Mosque in the Old City of Hebron, south of the occupied West Bank, under the pretext of celebrating Passover, today",
-          type: "video",
-          src: v7,
-        },
 
-        //9
-        {
-      text: "A Palestinian child recounts the horror she experienced while trapped under rubble alongside her brother's body following Israeli airstrikes on Gaza.",
-          type: "video",
-          src: v8,
-        },
-
-        // //10
-
-        {
-      text: "Israeli occupation forces arrest Palestinian children near al-Jalazone refugee camp north of Ramallah.",
-          type: "video",
-          src: v9,
-        },
-
-        // //11
-        // {
-        //   text: "United States of Israel.",
-        //   type: "video",
-        //   src: v9,
-        // },
-
-        /*
-        {
-          text: "The Israeli occupation army detains and abuses women, even resorting to raping a pregnant woman in her fifth month. Yet, you turn a blind eye to these atrocities!",
-          type: "image",
-          src: p6,
-        },
-
-        //9
-        {
-          text: "UNICEF spokesman James Elder says he's frustrated that so many aid trucks packed on the Egyptian side of the border with Gaza are not allowed entry there for starving Palestinians in desperate need of them.",
-          type: "video",
-          src: v7,
-        },
-        */
+        
+  
       ],
       arabic: {
         header: "🔻طُـوفَـان الـحَـقِـيـقَـة",
