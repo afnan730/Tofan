@@ -1,8 +1,8 @@
 import { createStore } from "vuex";
 
-import p1 from "./assets/static/p1.jpg";
-// import p2 from "./assets/static/p2.jpeg";
-// import p3 from "./assets/static/p3.jpeg";
+import p1 from "./assets/static/p1.jpeg";
+import p2 from "./assets/static/p2.jpeg";
+import p3 from "./assets/static/p3.jpeg";
 // import p4 from "./assets/static/p4.jpeg";
 // import p5 from "./assets/static/p5.jpeg";
 // import p6 from "./assets/static/p6.jpeg";
@@ -30,52 +30,49 @@ const store = createStore({
       tweets: [
         // 1
         {
-      text: "The widespread protests at over 40 American universities unveil the deep-seated support & collaboration with Israel, raising questions about the influence of the Zionist lobby in shaping university policies & investments",
+          text: "Mass graves keep being uncovered in Gaza, committed by Israel. This truth has become known to the whole world.",
 
           type: "video",
           src: v1,
         },
         //2
         {
-      text : "Scenes of protests in American universities demanding an end Gaza war,met with police's aggressive action, haven't been witnessed in the US since the late 1960s in Vietnam War. This highlights the huge influence of Zionists lobby in USA",
-
-          type: "video",
-          src: v2,
-        },
-        //3
-        {
-      text: "The genocide in Gaza has exposed the hypocrisy and double standards of the so-called civilized world, where the lines between victims & aggressors are blurred, & moral values are disregarded!",
-          type: "video",
-          src: v3,
-        },
-        //4
-        {
-                text : "Occupation soldiers are using 'explosive cans' to target Palestinians in Gaza. These lethal traps are part of a policy of starvation and siege, posing deadly risks in bombed-out homes. ",
+          text: "Starbucks stock extends its decline to -16% today hitting its lowest level since June 2022. The stock has now erased $35 billion in market cap since & globally saw 6% decline in customer traffic in Q1 2024 alone.Sources: Yahoo Finance, New York Post, The Kobeissi Letter",
 
           type: "image",
           src: p1,
         },
+        //3
+        {
+          text: "This secret footage exposes elements of American university protesters who support Zionism and its crimes, illustrating how they are financially supported with large sums to carry out demonstrations. The tape has been banned from being shown in America.",
+          type: "video",
+          src: v2,
+        },
+        //4
+        {
+          text: "An elderly from Gaza. The occupation bombed his house while he was inside, rubble fell on him When paramedics reached him They found him praying the Fajr prayer! ",
+
+          type: "video",
+          src: v3,
+        },
         //5
         {
-      text: "Pretending to be a victim is a culture rooted in the Zionist doctrine, as the well-known Israeli journalist points out.",
+          text: "While the occupation is bombing Gaza and its inhabitants, settlers are attacking aid trucks that were on their way to the Gaza Strip.",
           type: "video",
           src: v4,
         },
         //	6
         {
-      text: "There has never been a war in history where 80% of the country has been decimated, 100% of the population displaced, and 50% of the deaths were children! So keep protesting against GENOCIDE.",
-          type: "video",
-          src: v5,
+          text: "Palestinian Prisoners Club: The number of detainees in the West Bank has risen to 8,480 since October 7th",
+          type: "image",
+          src: p2,
         },
         // 7
         {
-      text: "This is what the world governments and mainstream media don’t want you to see: Thousands of Israelis calling for the immediate resignation and imprisonment of Netanyahu.",
-          type: "video",
-          src: v6,
+          text: "Palestinian Ministry of Health: In the West Bank Israel has killed more than 491 since the start of the war on #Gaza",
+          type: "image",
+          src: p3,
         },
-
-        
-  
       ],
       arabic: {
         header: "🔻طُـوفَـان الـحَـقِـيـقَـة",
