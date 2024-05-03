@@ -42,7 +42,7 @@ const store = createStore({
           type: "image",
           src: p1,
         },
-        //3
+
         {
           text: "This secret footage exposes elements of American university protesters who support Zionism and its crimes, illustrating how they are financially supported with large sums to carry out demonstrations. The tape has been banned from being shown in America.",
           type: "video",
