@@ -1,8 +1,8 @@
 import { createStore } from "vuex";
 
-import p1 from "./assets/static/p1.jpeg";
-import p2 from "./assets/static/p2.jpeg";
-import p3 from "./assets/static/p3.jpeg";
+import p1 from "./assets/static/p1.jpg";
+// import p2 from "./assets/static/p2.jpeg";
+// import p3 from "./assets/static/p3.jpeg";
 // import p4 from "./assets/static/p4.jpeg";
 // import p5 from "./assets/static/p5.jpeg";
 // import p6 from "./assets/static/p6.jpeg";
@@ -13,7 +13,7 @@ import v3 from "./assets/static/v3.mp4";
 import v4 from "./assets/static/v4.mp4";
 import v5 from "./assets/static/v5.mp4";
 import v6 from "./assets/static/v6.mp4";
-// import v7 from "./assets/static/v7.mp4";
+import v7 from "./assets/static/v7.mp4";
 // import v8 from "./assets/static/v8.mp4";
 // import v9 from "./assets/static/v9.mp4";
 // import v10 from "./assets/static/v10.mp4";
@@ -30,49 +30,58 @@ const store = createStore({
       tweets: [
         // 1
         {
-          text: "Mass graves keep being uncovered in Gaza, committed by Israel. This truth has become known to the whole world.",
-
+          text: "AIPAC plans to allocate an incredible $100 million in political contributions this year, which some consider unprecedented election interference. Those accepting these funds should be investigated for treason and face imprisonment. Credit @TrackAIPAC",
           type: "video",
           src: v1,
         },
         //2
         {
-          text: "Starbucks stock extends its decline to -16% today hitting its lowest level since June 2022. The stock has now erased $35 billion in market cap since & globally saw 6% decline in customer traffic in Q1 2024 alone.Sources: Yahoo Finance, New York Post, The Kobeissi Letter",
+          text: "Palestine is the only country on earth that has no right to resist occupation, land theft, ethnic cleansing and genocide!",
+          type: "video",
+          src: v2,
+        },
+        
+        //3
+        {
+          text: "Footage from an Israeli drone, downed in Gaza, documents Israeli army operations in the Shuja'iya neighbourhood, and the use of a Palestinian as a human shield!",
+          type: "video",
+          src: v3,
+        },
+        
+        //4
+        {
+          text: "This is how things are politically managed in the major countries, 'it is a dirty political system that is completely corrupted by money..'",
+          type: "video",
+          src: v4,
+        },
+        //5
+        {
+          text: "Your protest and boycott today aren't just for Gaza and Palestine, but for your own liberation. 'If you have come here to help me, you are wasting your time, but if you have come because your liberation is bound up with mine, then let us work together.'",
+          type: "video",
+          src: v5,
+        },
+        //	6
+        {
+          text: "Imagine you and your children in this situation. How would you view the world? How would you see the occupation? Would you live indifferent to what's happening? This is the occupation army continuing its war on children in the Gaza Strip, pledging to end their lives through various forms of killing.",
+          type: "video",
+          src: v6,
+        },
+        
+        // 7
+        {
+          text: "A prisoner detained by the occupation from Nasser Medical Complex in Khan Younis recounts harsh details of the torture he endured for two months.",
+          type: "video",
+          src: v7,
+        },
 
+        // 8
+        {
+          text: "A prisoner detained by the occupation from Nasser Medical Complex in Khan Younis recounts harsh details of the torture he endured for two months.",
           type: "image",
           src: p1,
         },
 
-        {
-          text: "This secret footage exposes elements of American university protesters who support Zionism and its crimes, illustrating how they are financially supported with large sums to carry out demonstrations. The tape has been banned from being shown in America.",
-          type: "video",
-          src: v2,
-        },
-        //4
-        {
-          text: "An elderly from Gaza. The occupation bombed his house while he was inside, rubble fell on him When paramedics reached him They found him praying the Fajr prayer! ",
-
-          type: "video",
-          src: v3,
-        },
-        //5
-        {
-          text: "While the occupation is bombing Gaza and its inhabitants, settlers are attacking aid trucks that were on their way to the Gaza Strip.",
-          type: "video",
-          src: v4,
-        },
-        //	6
-        {
-          text: "Palestinian Prisoners Club: The number of detainees in the West Bank has risen to 8,480 since October 7th",
-          type: "image",
-          src: p2,
-        },
-        // 7
-        {
-          text: "Palestinian Ministry of Health: In the West Bank Israel has killed more than 491 since the start of the war on #Gaza",
-          type: "image",
-          src: p3,
-        },
+        
       ],
       arabic: {
         header: "🔻طُـوفَـان الـحَـقِـيـقَـة",
