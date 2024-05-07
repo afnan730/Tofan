@@ -1,7 +1,7 @@
 import { createStore } from "vuex";
 
 import p1 from "./assets/static/p1.jpg";
-// import p2 from "./assets/static/p2.jpeg";
+import p2 from "./assets/static/p2.jpg";
 // import p3 from "./assets/static/p3.jpeg";
 // import p4 from "./assets/static/p4.jpeg";
 // import p5 from "./assets/static/p5.jpeg";
@@ -30,55 +30,62 @@ const store = createStore({
       tweets: [
         // 1
         {
-          text: "AIPAC plans to allocate an incredible $100 million in political contributions this year, which some consider unprecedented election interference. Those accepting these funds should be investigated for treason and face imprisonment. Credit @TrackAIPAC",
+      text: "The Rothschilds had the British Government sign the Balfour Declaration in Nov 1917 to transfer Palestine to the Zionist Federation, over 20 years before the holocaust. The holocaust was the excuse they would use to commit their own atrocities!",
           type: "video",
           src: v1,
         },
         //2
         {
-          text: "Palestine is the only country on earth that has no right to resist occupation, land theft, ethnic cleansing and genocide!",
+      text:"To eliminate any doubts, the primary goal was to ethnically cleanse Palestinians and grab the land.",
           type: "video",
           src: v2,
         },
         
         //3
         {
-          text: "Footage from an Israeli drone, downed in Gaza, documents Israeli army operations in the Shuja'iya neighbourhood, and the use of a Palestinian as a human shield!",
+      text: "The humanitarian aid zone had been updated to be no longer safe area, and Israel is dropping bombs on tents full of civilians in Rafah right now!",
           type: "video",
           src: v3,
         },
         
         //4
         {
-          text: "This is how things are politically managed in the major countries, 'it is a dirty political system that is completely corrupted by money..'",
+      text: "The invasion of Rafah by land will cause the last lifeline for the people of Gaza to be severed. This massacre is ongoing, in plain sight of the world!",
           type: "video",
           src: v4,
         },
         //5
         {
-          text: "Your protest and boycott today aren't just for Gaza and Palestine, but for your own liberation. 'If you have come here to help me, you are wasting your time, but if you have come because your liberation is bound up with mine, then let us work together.'",
+      text: "Shocking documentation obtained by [@AJENews] originating from an Israeli drone showing the use of a Palestinian civilian as a human shield in Shujjaia Neighborhood, East Gaza city last December to search after militants, the man is being monitored by drones the whole time",
           type: "video",
           src: v5,
         },
         //	6
         {
-          text: "Imagine you and your children in this situation. How would you view the world? How would you see the occupation? Would you live indifferent to what's happening? This is the occupation army continuing its war on children in the Gaza Strip, pledging to end their lives through various forms of killing.",
+      text: "Despite Ham.as announcing its acceptance of the ceasefire proposal, Israel launches a sudden ground assault on east of Rafah, accompanied by Israeli airstrikes!",
           type: "video",
           src: v6,
         },
         
         // 7
         {
-          text: "A prisoner detained by the occupation from Nasser Medical Complex in Khan Younis recounts harsh details of the torture he endured for two months.",
+      text: "Israeli soldier Ori Horowitz, from the Givati Brigade destroying a kitchen in Gaza for fun.",
           type: "video",
           src: v7,
         },
 
         // 8
         {
-          text: "A prisoner detained by the occupation from Nasser Medical Complex in Khan Younis recounts harsh details of the torture he endured for two months.",
+      text: "An Israeli soldier from the paratroopers brigade takes a souvenir picture of a Palestinian kidnapped partly stripped from his clothes, while blindfolded and handcuffed back in January. The soldier put this up on his Facebook account.",
           type: "image",
           src: p1,
+        },
+
+          // 9
+        {
+      text: "Hamas is hiding in a blue car",
+          type: "image",
+          src: p2,
         },
 
         
