@@ -1,7 +1,7 @@
 import { createStore } from "vuex";
 
-import p1 from "./assets/static/p1.jpg";
-import p2 from "./assets/static/p2.jpg";
+import p1 from "./assets/static/p1.jpeg";
+import p2 from "./assets/static/p2.jpeg";
 // import p3 from "./assets/static/p3.jpeg";
 // import p4 from "./assets/static/p4.jpeg";
 // import p5 from "./assets/static/p5.jpeg";
@@ -14,7 +14,7 @@ import v4 from "./assets/static/v4.mp4";
 import v5 from "./assets/static/v5.mp4";
 import v6 from "./assets/static/v6.mp4";
 import v7 from "./assets/static/v7.mp4";
-// import v8 from "./assets/static/v8.mp4";
+import v8 from "./assets/static/v8.mp4";
 // import v9 from "./assets/static/v9.mp4";
 // import v10 from "./assets/static/v10.mp4";
 // import v11 from "./assets/static/v11.mp4";
@@ -30,65 +30,68 @@ const store = createStore({
       tweets: [
         // 1
         {
-      text: "The Rothschilds had the British Government sign the Balfour Declaration in Nov 1917 to transfer Palestine to the Zionist Federation, over 20 years before the holocaust. The holocaust was the excuse they would use to commit their own atrocities!",
+          text: 'Where is the "safe zone"?! This is their plan.',
           type: "video",
           src: v1,
         },
         //2
         {
-      text:"To eliminate any doubts, the primary goal was to ethnically cleanse Palestinians and grab the land.",
-          type: "video",
-          src: v2,
-        },
-        
-        //3
-        {
-      text: "The humanitarian aid zone had been updated to be no longer safe area, and Israel is dropping bombs on tents full of civilians in Rafah right now!",
-          type: "video",
-          src: v3,
-        },
-        
-        //4
-        {
-      text: "The invasion of Rafah by land will cause the last lifeline for the people of Gaza to be severed. This massacre is ongoing, in plain sight of the world!",
-          type: "video",
-          src: v4,
-        },
-        //5
-        {
-      text: "Shocking documentation obtained by [@AJENews] originating from an Israeli drone showing the use of a Palestinian civilian as a human shield in Shujjaia Neighborhood, East Gaza city last December to search after militants, the man is being monitored by drones the whole time",
-          type: "video",
-          src: v5,
-        },
-        //	6
-        {
-      text: "Despite Ham.as announcing its acceptance of the ceasefire proposal, Israel launches a sudden ground assault on east of Rafah, accompanied by Israeli airstrikes!",
-          type: "video",
-          src: v6,
-        },
-        
-        // 7
-        {
-      text: "Israeli soldier Ori Horowitz, from the Givati Brigade destroying a kitchen in Gaza for fun.",
-          type: "video",
-          src: v7,
-        },
-
-        // 8
-        {
-      text: "An Israeli soldier from the paratroopers brigade takes a souvenir picture of a Palestinian kidnapped partly stripped from his clothes, while blindfolded and handcuffed back in January. The soldier put this up on his Facebook account.",
+          text: '12 US Senators threatened ICC prosecutor Karim Khan with severe sanctions if he issues an arrest warrant against Netanyahu, stating,"If you attack Israel, we\'ll attack you." Is this how international politics works?',
           type: "image",
           src: p1,
         },
 
-          // 9
+        //3
         {
-      text: "Hamas is hiding in a blue car",
+          text: "Israeli settlers attacked & destroyed humanitarian aid trucks bound for Gaza. It’s not just the Israeli government but also the Israeli people involved.They aren't innocent.",
+          type: "video",
+          src: v2,
+        },
+
+        //4
+        {
+          text: "It's time to acknowledge the reality & dispel the myth of Israeli innocence. Israeli nation actions reveal their true nature:perpetrating violence through attacks on civilians, property destruction,& even grave desecration",
+          type: "video",
+          src: v3,
+        },
+        //5
+        {
+          text: "It was never about hostages or October 7th; it was always about a land grab.",
+          type: "video",
+          src: v4,
+        },
+        //	6
+        {
+          text: "Here's why you should be wary when reading mainstream US news about Israel and Palestine:",
+          type: "video",
+          src: v5,
+        },
+
+        // 7
+        {
+          text: "Before judging people for how they react in Oct 7th, ask who have been the victims for the past 75 years? Who had their country colorized and their homes ethnically cleansed?!",
+          type: "video",
+          src: v6,
+        },
+
+        // 8
+        {
+          text: "A call for a global strike worldwide on Friday, the 10th of May.",
+          type: "video",
+          src: v7,
+        },
+        {
+          text: "This is the occupation's list of targets from Rafah city.If the world stops boycotting & protesting, the test of its endless crimes continues..",
+          type: "video",
+          src: v8,
+        },
+
+        // 9
+        {
+          text: "The plan has been clear from the beginning, which is to displace the people of Gaza to Sinai. Now they control the Rafah crossing and can open and close it whenever they want.",
           type: "image",
           src: p2,
         },
-
-        
       ],
       arabic: {
         header: "🔻طُـوفَـان الـحَـقِـيـقَـة",
