@@ -3,7 +3,7 @@ import { createStore } from "vuex";
 import p1 from "./assets/static/p1.jpg";
 import p2 from "./assets/static/p2.jpg";
 // import p3 from "./assets/static/p3.jpeg";
-// import p4 from "./assets/static/p4.jpeg";
+import p4 from "./assets/static/p4.jpeg";
 // import p5 from "./assets/static/p5.jpeg";
 import p6 from "./assets/static/p6.jpg";
 import p7 from "./assets/static/p7.jpg";
@@ -16,11 +16,11 @@ import v4 from "./assets/static/v4.mp4";
 // import v7 from "./assets/static/v7.mp4";
 // import v8 from "./assets/static/v8.mp4";
 // import v9 from "./assets/static/v9.mp4";
-// import v10 from "./assets/static/v10.mp4";
+import v10 from "./assets/static/v10.mp4";
 // import v11 from "./assets/static/v11.mp4";
 // import v12 from "./assets/static/v12.mp4";
-// import v13 from "./assets/static/v13.mp4";
-// import v14 from "./assets/static/v14.mp4";
+import v17 from "./assets/static/v17.mp4";
+import v14 from "./assets/static/v14.mp4";
 import v11 from "./assets/static/v11.mp4";
 import v12 from "./assets/static/v12.mp4";
 
@@ -28,6 +28,27 @@ const store = createStore({
   state() {
     return {
       tweets: [
+        {
+          text: "A before-and-after picture of Ahmed from Al-Jalazoun refugee camp in Ramallah, taken following his release today after spending 20 months in Israeli occupation prisons",
+          type: "image",
+          src: p1,
+        },
+
+        //3
+        {
+          text: "Watch the evidence of torture on Palestinian prisoners from the Gaza Strip released from Israeli occupation prisons days ago",
+          type: "video",
+          src: v10,
+        },
+
+        //4
+        {
+          text: "It never started on the 7th of October.Israel’s land grab and ethnic cleansing have been ongoing for more than 75 years.",
+          type: "video",
+          src: v14,
+        },
+        //5
+
         // 1
         {
           text: "The Criminal Israeli occupation army, supported by the US,UK and other European countries, is bombing the displaced Gazans in their tents.",
@@ -54,11 +75,16 @@ const store = createStore({
           type: "video",
           src: v11,
         },
+        {
+          text: "203 days of suffering in Gaza: families torn apart, homes destroyed, lives lost. It's time for the free people worldwide to esclate their actions, standing firm against this injustice",
+          type: "video",
+          src: v17,
+        },
         //2
         {
           text: "Gaza, the Open Massacre",
           type: "image",
-          src: p1,
+          src: p4,
         },
 
         //3
