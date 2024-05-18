@@ -154,7 +154,7 @@
           </div>
 
            <div class="text-center">
-            <!-- <router-link to="/tweets" class="btn btn-dark perview-btn my-1">{{content.perviewButton}}</router-link> -->
+            <router-link to="/tweets" class="btn btn-dark perview-btn my-1">{{content.perviewButton}}</router-link>
            
           </div> 
           
