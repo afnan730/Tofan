@@ -226,12 +226,16 @@ export default {
         //   this.message="تم النشر بحمد الله"
         //   return;
         // }
+        const errorMessage={
+          arabic:"يبدو أنه تم قفل حسابك مؤقتا. قم بفتح حسابك في تطبيق تويتر وتحقق منه أو قم بتغيير المعرفات الخاصة بك ",
+          english:"It seems that your account has been temporarily locked. Please open the Twitter app to check your account status or regenerate your API keys."
+        }
         if(this.$store.state.arabicTest){
 
-        this.error = e.response.data.arabic?e.response.data.arabic:e.response.data;
+        this.error = e.response.data.arabic?e.response.data.arabic:errorMessage.arabic;
         console.log(this.error)
         }else{
-          this.error = e.response.data.english? e.response.data.english:e.response.data;
+          this.error = e.response.data.english? e.response.data.english:errorMessage.english;
         }
 
         }).finally(() => {    
