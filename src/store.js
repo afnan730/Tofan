@@ -1,6 +1,6 @@
 import { createStore } from "vuex";
 
-import p1 from "./assets/static/p1.jpeg";
+import p1 from "./assets/static/p1.jpg";
 // import p2 from "./assets/static/p2.jpg";
 // // import p3 from "./assets/static/p3.jpeg";
 // import p4 from "./assets/static/p4.jpeg";
@@ -15,10 +15,10 @@ import v5 from "./assets/static/v5.mp4";
 import v6 from "./assets/static/v6.mp4";
 import v7 from "./assets/static/v7.mp4";
 import v8 from "./assets/static/v8.mp4";
-// import v9 from "./assets/static/v9.mp4";
-// import v10 from "./assets/static/v10.mp4";
-// import v11 from "./assets/static/v11.mp4";
-// import v12 from "./assets/static/v12.mp4";
+import v9 from "./assets/static/v9.mp4";
+import v10 from "./assets/static/v10.mp4";
+import v11 from "./assets/static/v11.mp4";
+import v12 from "./assets/static/v12.mp4";
 // import v17 from "./assets/static/v17.mp4";
 // import v14 from "./assets/static/v14.mp4";
 // import v11 from "./assets/static/v11.mp4";
@@ -28,58 +28,119 @@ const store = createStore({
   state() {
     return {
       tweets: [
+        //1
         {
-          text: "American surgeon Dr. Adam El-Hamwy:'I've worked in war &disaster zones for 20 years,but I've never seen anything like Gaza. I performed more amputations on children in 2 weeks in Gaza than in my entire career!'",
+       text:"This 87-second viral video captures Gaza's story, portraying its reality with deep humanity, stirring emotions everywhere. It shows Gaza's flesh, blood, pain, hope, patience, and sorrow. Salute to the storyteller.",
           type: "video",
           src: v1,
         },
 
-        //3
+        //2
         {
-          text: "An expert presents investigations with evidence of the brutality of the occupation at Al-Shifa Hospital in Gaza.",
+      text:"What distinguishes the 76th anniversary of the Nakba today is that the entire world knows about it and sees Israel as a racist, ethnic entity and a colonial apartheid state that practices genocide!",
           type: "video",
           src: v2,
         },
 
-        //4
+        //3
         {
-          text: "Everything you need to know about Rafah 'the-safe-zone'.",
+      text: "What is the appropriate response to 75 years of ethnic cleansing? ",
           type: "video",
           src: v3,
         },
-        //5
+        
 
-        // 1
+        // 4
         {
-          text: "ISRAEL TARGETS CHILDREN!",
+      text: "The attack by hamas in 7 oct  is a result of accumulations of occupation and oppression by the  Israeli government. Let's just take a look into the prisoners detained by Israel" ,
           type: "video",
           src: v4,
         },
+
+        //5
         {
-          text: "American influencer Guy Christensen:'Biden sent another billion dollars worth of weapons to Israel less than a week after saying he wouldn't send more weapons if Israel invaded Rafah. They keep lying & deceiving us!'",
+      text:"The  israeli occupation bulldozer destroys Palestinian cars during the raid on Jenin in northern  WestBank. #GazaWar",
           type: "video",
           src: v5,
         },
+
+        //6
         {
-          text: "This 92-year-old Nakba survivor says the genocide in Gaza today is “history repeating itself.”",
-          type: "video",
-          src: v6,
-        },
-        {
-          text: "THE NAKBA EXPLAINED",
-          type: "video",
-          src: v7,
-        },
-        {
-          text: "Israel has become the most dangerous place for Jews to live.",
-          type: "video",
-          src: v8,
-        },
-        {
-          text: "The Israeli military's action of publicly releasing a list of citizens, including minors, alleging them to be Hamas informants is appalling. This includes kids whose personal information has been disclosed.",
+      text: "In Gaza, 37 million tons of rubble tell a harrowing tale of destruction. This isn't just a cleanup job; it's a reminder of unspeakable evil & crimes etched in history's darkest corners. #ContinuousGenocide",
           type: "image",
           src: p1,
         },
+
+        //7
+        {
+      text: "Shocking satellite images reveal the destruction in eastern Rafah due to the ongoing Israeli invasion. ",
+          type: "video",
+          src: v6,
+        },
+
+        //8
+        {
+      text:"The targets of the occupation's airstrikes on Gaza ",
+          type: "video",
+          src: v7,
+        },
+
+        // 9
+        {
+      text: "Biden continues to manipulate and deny the genocide in Gaza, and there is no enforcement of international court decisions, which the world has realized are only applied when Biden desires and others with him",
+          type: "video",
+          src: v8,
+        },
+
+           //10
+        {
+      text: "Satellite images show massive destruction in Jabalia Camp, Blocks 2, 3, 4, and 5, Sika, Civil Administration, Riyadh Al-Salehin, the market, and schools. ",
+          type: "video",
+          src: v9,
+        },
+
+        //11
+        {
+      text:"They manipulate the law, and they are the legislators. Legislation and holding everyone accountable is their monopoly but no one’s business to hold them accountable! Because what they do is always right! This is how they used to see themselves! " ,
+          type: "video",
+          src: v10,
+        },
+
+        //12
+        {
+      text: "An Israeli soldier shared a video on his Instagram account showing him burning the Quran in Gaza Strip.",
+          type: "video",
+          src: v11,
+        },
+
+        // 13
+        {
+      text: "https://twitter.com/angeloinchina/status/1792922910748807495?s=19  ",
+          type: "text",
+    
+        },
+
+        
+        //14
+        {
+      text:"Join me in listening to @omarsuleiman504 as he describes the heart-wrenching history of modern-day Palestine, tracing back to the Nakba of 1948. https://youtu.be/_eI7IDXC8Es?si=tjEI21-Yf6y4OVVR  ",
+          type: "text",
+         
+        },
+
+        // 15
+        {
+      text: "ISRAEL IS DESTROYING HOMES IN BETHLEHEM. Netanyahu has ordered the demolition of +3,500 Palestinian homes that will be used for settlements. Bethlehem is a Palestinian town south of Jerusalem in the West Bank",
+          type: "video",
+          src: v12,
+        },
+
+
+
+
+
+
+        
       ],
       arabic: {
         header: "🔻طُـوفَـان الـحَـقِـيـقَـة",
