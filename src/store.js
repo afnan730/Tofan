@@ -2,9 +2,9 @@ import { createStore } from "vuex";
 
 import p1 from "./assets/static/p1.jpeg";
 import p2 from "./assets/static/p2.jpeg";
-// // import p3 from "./assets/static/p3.jpeg";
-// import p4 from "./assets/static/p4.jpeg";
-// // import p5 from "./assets/static/p5.jpeg";
+import p3 from "./assets/static/p3.jpeg";
+import p4 from "./assets/static/p4.jpeg";
+import p5 from "./assets/static/p5.jpeg";
 // import p6 from "./assets/static/p6.jpg";
 // import p7 from "./assets/static/p7.jpg";
 import v1 from "./assets/static/v1.mp4";
@@ -29,62 +29,76 @@ const store = createStore({
     return {
       tweets: [
         //1
-
+        {
+          text: '"وبعد أيها المسلمون؟هؤلاء إخوانكم، وتلك نساؤكم وأعراضكم، من لم يحركه حرق المسلمين، وتقطيع أطفالهم أشلاءً، وتمزيق أوصالهم أحياءً.. فلا خير فيه! ووالله، وبالله، وتالله، من لم يوقظه هذا، لن يستيقظ بعد ذلك إلا في قبره!"',
+          type: "video",
+          src: v3,
+        },
         //2
         {
-          text: "Occupation soldiers publish a photo of themselves setting fire to the library of Al-Aqsa University during their incursion into the university area in Gaza City. ",
-          type: "image",
-          src: p1,
-        },
-
-        //3
-        {
-          text: "It was always Ethnic Cleansing. It was ways a Genocide. It was always a Land Grab. It was never a WAR. ",
+          text: "Israeli & USA war against Children in Rafah. ",
           type: "video",
           src: v1,
         },
 
-        //4
+        //3
         {
-          text: "Aerial footage shows the Zionists have destroyed the whole of Gaza, this is ethnic cleansing on a scale we have never witnessed in our history. ",
+          text: "Israel's attempt to justify the burning +100 innocent Palestinians alive by claiming to target a resistance member is a blatant violation of international law & basic human decency. #Rafah_Massacre ",
           type: "video",
           src: v2,
         },
 
-        // 5
+        //4
         {
-          text: "This's a former Israeli spokesman saying that Israel’s borders will continue to expand until they take over and “purify Mecca.”,It was never about hostages. It was always about Ethnic Cleansing. ",
-          type: "video",
-          src: v3,
+          text: "Israel burned +100 Palestinians alive,mostly women & kids ,sparking outrage. Claiming targeting a resistance member,it evaded accountability. Media echoed the narrative,obscuring the truth. People's anger waned,forgetting the true massacre of 100! ",
+          type: "image",
+          src: p1,
         },
 
-        // 6
+        // 5
         {
-          text: "This is EVERYTHING Zionism has been secretly doing until YOU ALL have helped expose it.",
+          text: "Despite overwhelming evidence of Israel's atrocities,its narrative of 'precision strikes' continues to be parroted by international media, obscuring the truth of the Rafah massacre ",
           type: "image",
           src: p2,
         },
 
+        // 6
+        {
+          text: "Before u sleep,remember millions in Gaza don't wish food,cold drinks,or warm beds. All they wish is not to have their names among the charred bodies in tomorrow's or the day after's massacre committed by Israel",
+          type: "image",
+          src: p3,
+        },
+
         // 7
         {
-          text: "From under the rubble, a heart-wrenching response by a father in Gaza, who has just lost his children in an Israeli strike",
+          text: "US Secretary of Defense: We sent precision munitions to Israel in order to reduce the number of civilian deaths in Gaza and hit targets accurately.",
           type: "video",
-          src: v4,
+          src: v2,
         },
         {
-          link: "https://x.com/thetufan07/status/1794357981980786739 ",
+          text: "Yes, indeed, your missiles have accurately hit their targets.",
+          type: "image",
+          src: p4,
+        },
+        {
+          text: "A child martyr whose features were altered by the occupation's missiles on the displaced people's tents in Rafah yesterday.",
+          type: "image",
+          src: p5,
+        },
+        {
+          link: "https://x.com/thetufan07/status/1795111333249138871 ",
+          type: "text",
+        },
+        {
+          link: "https://x.com/thetufan07/status/1794826042835976368 ",
+          type: "text",
+        },
+        {
+          link: "https://x.com/DAlshmwsy/status/1794906615734218891 ",
           type: "text",
         },
         {
           link: "https://x.com/thetufan07/status/1794357369360842993 ",
-          type: "text",
-        },
-        {
-          link: "https://x.com/thetufan07/status/1794354909657301190",
-          type: "text",
-        },
-        {
-          link: "https://x.com/thetufan07/status/1794354644803797265 ",
           type: "text",
         },
       ],
