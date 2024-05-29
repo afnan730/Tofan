@@ -57,7 +57,7 @@ const store = createStore({
 
         // 5
         {
-      text: "Haaretz reports that Israel has kidnapped nearly 4000 citizens from Gaza since the start of the offensive on Gaza, only 1500 of whom have been freed while 2000 have been arrested." + random ,
+      text: "Haaretz reports that Israel has kidnapped nearly 4000 citizens from Gaza since the start of the offensive on Gaza, only 1500 of whom have been freed while 2000 have been arrested." ,
           type: "image",
           src: p2,
         },
