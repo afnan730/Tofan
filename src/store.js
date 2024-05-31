@@ -30,88 +30,88 @@ const store = createStore({
       tweets: [
         //1
         {
-       text: "Israel's celebration of murdering innocent men, women, and children is beyond demonic. It's reminiscent of the actions of a serial killer, yet it's an entire nation condoning such atrocities.",
+          text: "Israel's celebration of murdering innocent men, women, and children is beyond demonic. It's reminiscent of the actions of a serial killer, yet it's an entire nation condoning such atrocities.",
           type: "video",
           src: v1,
         },
         //2
         {
-      text: "This horror, this pure evil—this is Zionism. It's their agenda for every nation, every race, every man, woman, and child outside their cult. It's time to recognize: supporting Israel = supporting genocide.",
+          text: "This horror, this pure evil—this is Zionism. It's their agenda for every nation, every race, every man, woman, and child outside their cult. It's time to recognize: supporting Israel = supporting genocide.",
           type: "video",
           src: v2,
         },
 
         //3
         {
-      text: "The world must realize: Israel's terrorism won't stop until it's stopped. Bombing country after country, beheading child after child, they'll persist until the world stops them. #StopIsraelTerrorism" ,
+          text: "The world must realize: Israel's terrorism won't stop until it's stopped. Bombing country after country, beheading child after child, they'll persist until the world stops them. #StopIsraelTerrorism",
           type: "video",
           src: v3,
         },
 
         //4
         {
-      text:"Palestinian child in Rafah targeted by Israeli drones. Zionists won't stop this repetitive bloody expansionism & targeting children until the world makes significant actions to stop them",
+          text: "Palestinian child in Rafah targeted by Israeli drones. Zionists won't stop this repetitive bloody expansionism & targeting children until the world makes significant actions to stop them",
           type: "image",
           src: p1,
         },
 
         // 5
         {
-      text: "Haaretz reports that Israel has kidnapped nearly 4000 citizens from Gaza since the start of the offensive on Gaza, only 1500 of whom have been freed while 2000 have been arrested." ,
+          text: "Haaretz reports that Israel has kidnapped nearly 4000 citizens from Gaza since the start of the offensive on Gaza, only 1500 of whom have been freed while 2000 have been arrested.",
           type: "image",
           src: p2,
         },
 
         // 6
         {
-      text: "https://twitter.com/thetufan07/status/1795191366365905257?t=r7nEIEckcA6kGdpaILulXg&s=19 " ,
+          text: "https://twitter.com/thetufan07/status/1795191366365905257?t=r7nEIEckcA6kGdpaILulXg&s=19 ",
           type: "text",
         },
 
         // 7
         {
-      text: "Footage dating back to October 9, 2023, depicts the barbaric Israeli bombardment of civilian homes in northern Gaza, where some buildings still harbor thousands of bodies trapped under the rubble to this day",
+          text: "Footage dating back to October 9, 2023, depicts the barbaric Israeli bombardment of civilian homes in northern Gaza, where some buildings still harbor thousands of bodies trapped under the rubble to this day",
           type: "video",
           src: v4,
         },
 
         //8
         {
-       text: "Israeli occupation snipers shot dead Palestinian civilians in Jabalia refugee camp, northern Gaza.",
+          text: "Israeli occupation snipers shot dead Palestinian civilians in Jabalia refugee camp, northern Gaza.",
           type: "video",
           src: v5,
         },
 
         //9
         {
-      text: "Every child, every nation, every race is at risk if we don't resist. This is the start of a global catastrophe",
+          text: "Every child, every nation, every race is at risk if we don't resist. This is the start of a global catastrophe",
           type: "video",
           src: v6,
         },
 
         //10
         {
-       text: "Important and necessary to know: - Rafah doesn't have hospitals, emergency services, & even facilities for injuries. - Rafah doesn't have morgue refrigeration or intensive care units. - In Rafah, anyone who gets infected now doesn't survive." ,
+          text: "Important and necessary to know: - Rafah doesn't have hospitals,emergency services, & even facilities for injuries. - Rafah doesn't have morgue refrigeration or intensive care units. - In Rafah, anyone who gets infected now doesn't survive.",
           type: "image",
-          src:p3,
+          src: p3,
         },
 
         //11
         {
-      text: "https://twitter.com/fedaaadeen1/status/1795485186299244636?t=RnKA6EwxBvzWA9XLgXzc3g&s=19  ",
+          text: "https://twitter.com/fedaaadeen1/status/1795485186299244636?t=RnKA6EwxBvzWA9XLgXzc3g&s=19  ",
           type: "text",
         },
 
         //12
         {
-       text: "United States support Israel to behead children in Gaza",
+          text: "United States support Israel to behead children in Gaza",
           type: "text",
           src: p4,
         },
 
         //13
         {
-       text: "Mass exodus of a large number of citizens from areas that the occupation claimed were safe in Rafah, and despite that, it launched dozens of raids and committed horrific massacres, defying the international justice’s decision to stop its military operation in Rafah.",
+          text: "Mass exodus of a large number of citizens from areas that the occupation claimed were safe in Rafah, and despite that, it launched dozens of raids and committed horrific massacres, defying the international justice’s decision to stop its military operation in Rafah.",
           type: "text",
           src: p5,
         },
