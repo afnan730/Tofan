@@ -3,7 +3,7 @@ import { createStore } from "vuex";
 import p1 from "./assets/static/p1.jpeg";
 import p2 from "./assets/static/p2.jpeg";
 import p3 from "./assets/static/p3.jpeg";
-// import p4 from "./assets/static/p4.jpg";
+import p4 from "./assets/static/p4.jpeg";
 // import p5 from "./assets/static/p5.jpg";
 // import p6 from "./assets/static/p6.jpg";
 // import p7 from "./assets/static/p7.jpg";
@@ -31,46 +31,52 @@ const store = createStore({
         //1
 
         {
-          text: "They are not terrorists, they are resistance. Does the world expect them to behave passively while Israel kills, tortures & slaughters Palestinians ?",
+          text: "“Zionism was a scourge on Palestinians, unrelated to Israel’s establishment. The Nazi Holocaust was a European crime. Zionism made Arabs & Jews enemies. Palestinian resistance stems from occupation & injustice, not hostility to pacifism.",
           type: "video",
           src: v1,
+        },
+        {
+          text: "An Israeli occupation soldier has published a picture of himself in Gaza enjoying the burning of a Palestinian home after displacing its inhabitants.",
+          type: "image",
+          src: p4,
         },
 
         //11
         {
-          text: "A silent yet deadly scene. The videographer says that this child was walking alone among the rubble, not knowing where to go. ",
+          text: "Effects of the destruction caused by the Zionist aggression in the Al-Faluga area in the northern Gaza Strip ",
           type: "video",
           src: v2,
         },
+
         {
-          text: "Despite 240 days of genocide, the ICC has issued arrest warrants for only 2 war criminals from the Zionist entity.",
+          text: "Over 9,000 Palestinians have been arrested by Israeli occupation forces in the occupied West Bank since October 7, according to the Palestinian Prisoner's Society (PPS).",
           type: "image",
           src: p1,
         },
         {
-          text: "A total of 148 journalists have been killed since the start of the Israeli aggression on Gaza in October 2023",
-          type: "image",
-          src: p2,
+          text: "Following the withdrawal, the decomposed bodies of multiple Palestinians were found in the area after being mass executed by the Israeli army. Their bodies were left in the open for a long period. ",
+          type: "video",
+          src: v3,
         },
 
         //12
         {
-          text: "Did U know that you are the bullet? U raised the lowly to the sky, called him a star, didn't boycott products that profit the occupier, & stayed silent while the truth suffered alone. ",
-          type: "video",
-          src: v3,
+          text: "This isn't Gaza! This is Jaffa in 1948 after 3 months siege,where residents were starved, killed, & displaced by Israel. Despite no invasion by Palestinians or abducted soldiers,these atrocities occurred",
+          type: "image",
+          src: p2,
         },
         {
-          text: "More than 15,000 children in Gaza have been killed by Israel in the past 7 months. How much longer will the world stay silent?",
+          text: "The father requests the doctor to check for signs of life in his child. Despite the doctor's thorough examination, they couldn't find any. Israel killed her. She was merely a 3-month-old infant! ",
+          type: "video",
+          src: v4,
+        },
+        {
+          text: "+3,500 children in Gaza face the threat of death because of Israeli policies causing starvation,food scarcity,absence of nutritional supplements,& aid blockades.",
           type: "image",
           src: p3,
         },
 
         //13
-        {
-          text: "Israel burns people & children alive, calling it a mistake, while world governments stand by, still supporting them with weapons. Israel won't stop till it's really stopped by the world leading government",
-          type: "video",
-          src: v4,
-        },
       ],
       arabic: {
         header: "🔻طُـوفَـان الـحَـقِـيـقَـة",
